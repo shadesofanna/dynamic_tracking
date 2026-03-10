@@ -151,7 +151,7 @@ if (!defined('BASE_PATH')) {
                                             <p style="margin: 0; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9375rem;">
                                                 <span style="color: #64748b; font-weight: 500;">Unit Price:</span>
                                                 <span style="font-weight: 700; color: #3b82f6; font-size: 1rem;">
-                                                    $<?php echo number_format($item['price'], 2); ?>
+                                                    ₦<?php echo number_format($item['price'], 2); ?>
                                                 </span>
                                             </p>
                                         </div>
@@ -159,7 +159,7 @@ if (!defined('BASE_PATH')) {
                                     <div style="text-align: right;">
                                         <div style="font-size: 0.75rem; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.375rem;">Subtotal</div>
                                         <div style="font-size: 1.5rem; font-weight: 800; background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-                                            $<?php echo number_format($item['price'] * $item['quantity'], 2); ?>
+                                            ₦<?php echo number_format($item['price'] * $item['quantity'], 2); ?>
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@ if (!defined('BASE_PATH')) {
                         
                         <div class="order-footer" style="padding: 1.75rem 2rem; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-top: 2px solid #e2e8f0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem;">
                             <div style="display: flex; gap: 1rem;">
-                                <a href="<?php echo BASE_URL; ?>/buyer/order/<?php echo $order['id']; ?>" class="btn btn-secondary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                                <a href="<?php echo BASE_URL; ?>/buyer/order/<?php echo $order['order_id']; ?>" class="btn btn-secondary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <circle cx="12" cy="12" r="10"></circle>
                                         <polyline points="12 16 16 12 12 8"></polyline>
@@ -188,7 +188,7 @@ if (!defined('BASE_PATH')) {
                             <div class="order-total" style="display: flex; flex-direction: column; align-items: flex-end;">
                                 <span style="font-size: 0.875rem; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.375rem;">Order Total</span>
                                 <span style="font-size: 2rem; font-weight: 900; background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; letter-spacing: -0.5px;">
-                                    $<?php echo number_format($order['total_amount'], 2); ?>
+                                    ₦<?php echo number_format($order['total_amount'], 2); ?>
                                 </span>
                             </div>
                         </div>

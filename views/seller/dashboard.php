@@ -6,15 +6,19 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
 ?>
 
 <style>
+    @keyframes slideInDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
     @keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translateY(20px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInRight {
+        from { opacity: 0; transform: translateX(20px); }
+        to { opacity: 1; transform: translateX(0); }
     }
     
     @keyframes pulse {
@@ -25,23 +29,25 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
     .dashboard-header {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;
-        padding: 3rem 0;
-        margin: -2.5rem -1.5rem 3rem;
-        border-radius: 0 0 2rem 2rem;
+        padding: 2.5rem 1.5rem 3rem 1.5rem;
+        margin: 0 -1.5rem 2rem -1.5rem;
+        border-radius: 0;
         box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
         position: relative;
         overflow: hidden;
+        animation: slideInDown 0.6s ease;
     }
     
     .dashboard-header::before {
         content: '';
         position: absolute;
-        top: -50%;
+        top: 0;
         right: -10%;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
         border-radius: 50%;
+        animation: float 8s ease-in-out infinite;
     }
     
     .dashboard-header-content {
@@ -70,6 +76,8 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         justify-content: center;
         backdrop-filter: blur(10px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        font-size: 1.75rem;
+        animation: fadeInUp 0.6s ease 0.2s both;
     }
     
     .dashboard-title h1 {
@@ -77,6 +85,7 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         font-size: 2.5rem;
         font-weight: 900;
         letter-spacing: -0.5px;
+        animation: fadeInUp 0.6s ease 0.3s both;
     }
     
     .dashboard-subtitle {
@@ -84,12 +93,14 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         opacity: 0.95;
         font-weight: 500;
         margin-top: 0.25rem;
+        animation: fadeInUp 0.6s ease 0.4s both;
     }
     
     .dashboard-stats {
         display: flex;
         gap: 2rem;
         flex-wrap: wrap;
+        animation: slideInRight 0.6s ease 0.5s both;
     }
     
     .stat-item {

@@ -8,9 +8,15 @@ class Model {
     protected $table = '';
     protected $primaryKey = 'id';
     
-    public function __construct() {
-        $database = new Database();
-        $this->db = $database->getConnection();
+    public function __construct($dbConnection = null) {
+        if ($dbConnection !== null) {
+            // Use the provided database connection (for transaction sharing)
+            $this->db = $dbConnection;
+        } else {
+            // Create a new connection if none provided
+            $database = new Database();
+            $this->db = $database->getConnection();
+        }
     }
     
     // public function beginTransaction() {
@@ -81,9 +87,13 @@ class Model {
     }
     
     public function update($id, $data) {
+        error_log("Model::update - Table: " . $this->table . ", ID: " . $id . ", Data: " . print_r($data, true));
+        
         $sets = array_map(fn($k) => "$k = :$k", array_keys($data));
         $query = "UPDATE {$this->table} SET " . implode(',', $sets) . 
                  " WHERE {$this->primaryKey} = :id";
+        
+        error_log("Model::update - Query: " . $query);
         
         $stmt = $this->db->prepare($query);
         $stmt->bindValue(':id', $id);
@@ -92,7 +102,11 @@ class Model {
             $stmt->bindValue(":$key", $value);
         }
         
-        return $stmt->execute();
+        $result = $stmt->execute();
+        error_log("Model::update - Execute result: " . ($result ? 'TRUE' : 'FALSE'));
+        error_log("Model::update - Rows affected: " . $stmt->rowCount());
+        
+        return $result;
     }
     
     public function delete($id) {

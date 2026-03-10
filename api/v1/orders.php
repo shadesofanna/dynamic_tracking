@@ -2,8 +2,7 @@
 // api/v1/orders.php
 
 require_once __DIR__ . '/../../config/database.php';
-require_once __DIR__ . '/../../models/Order.php';
-require_once __DIR__ . '/../../models/OrderItem.php';
+require_once __DIR__ . '/../../controllers/OrderController.php';
 require_once __DIR__ . '/../../core/Session.php';
 require_once __DIR__ . '/../../utils/logger.php';
 
@@ -20,7 +19,7 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $parts = explode('/', trim($path, '/'));
 $orderId = $parts[3] ?? null;
 
-$orderModel = new Order();
+$orderController = new OrderController();
 
 try {
     if ($method === 'GET') {
@@ -29,27 +28,21 @@ try {
         }
         
         if ($orderId && is_numeric($orderId)) {
-            $order = $orderModel->find($orderId);
+            $order = $orderController->getOrderDetails($orderId);
             
             if (!$order) {
                 jsonResponse(['error' => 'Order not found'], 404);
             }
             
-            if ($order['buyer_id'] != Session::getUserId() && 
-                $order['seller_id'] != Session::getUserId()) {
-                jsonResponse(['error' => 'Unauthorized'], 401);
-            }
-            
             jsonResponse(['data' => $order]);
             
         } else {
-            $userId = Session::getUserId();
             $userType = Session::getUserType();
             
             if ($userType === 'seller') {
-                $orders = $orderModel->getOrdersBySeller($userId);
+                $orders = $orderController->getSellerOrders();
             } else {
-                $orders = $orderModel->getOrdersByBuyer($userId);
+                $orders = $orderController->getBuyerOrders();
             }
             
             jsonResponse(['data' => $orders, 'count' => count($orders)]);
@@ -62,23 +55,22 @@ try {
         
         $input = json_decode(file_get_contents('php://input'), true);
         
-        if (!isset($input['items'])) {
+        if (!isset($input['items']) || empty($input['items'])) {
             jsonResponse(['error' => 'Order items required'], 400);
         }
         
         $orderData = [
-            'buyer_id' => Session::getUserId(),
             'items' => $input['items'],
             'shipping_address' => $input['shipping_address'] ?? null,
             'notes' => $input['notes'] ?? null
         ];
         
-        $orderId = $orderModel->createOrder($orderData);
+        $orderId = $orderController->create($orderData);
         
         if ($orderId) {
             jsonResponse([
                 'success' => true,
-                'message' => 'Order created',
+                'message' => 'Order created successfully',
                 'order_id' => $orderId
             ], 201);
         } else {
@@ -94,18 +86,17 @@ try {
             jsonResponse(['error' => 'Unauthorized'], 401);
         }
         
-        $order = $orderModel->find($orderId);
-        
-        if (!$order) {
-            jsonResponse(['error' => 'Order not found'], 404);
-        }
-        
         $input = json_decode(file_get_contents('php://input'), true);
         
-        if ($orderModel->update($orderId, $input)) {
-            jsonResponse(['success' => true, 'message' => 'Order updated']);
+        if (isset($input['order_status'])) {
+            $result = $orderController->updateStatus($orderId, $input['order_status']);
+            if ($result) {
+                jsonResponse(['success' => true, 'message' => 'Order updated']);
+            } else {
+                jsonResponse(['error' => 'Failed to update order'], 500);
+            }
         } else {
-            jsonResponse(['error' => 'Failed to update order'], 500);
+            jsonResponse(['error' => 'order_status is required'], 400);
         }
         
     } else {

@@ -146,7 +146,7 @@
                     <div class="cart-item-info">
                         <h3 class="cart-item-name">${item.name}</h3>
                         <p class="product-category">${item.category || 'General'}</p>
-                        <p class="cart-item-price">$${item.price.toFixed(2)}</p>
+                        <p class="cart-item-price">₦${item.price.toFixed(2)}</p>
                         <div class="quantity-selector">
                             <label>Quantity:</label>
                             <div class="quantity-controls">
@@ -170,7 +170,7 @@
                     </div>
                     <div class="cart-item-actions">
                         <div class="item-total">
-                            <strong>$${(item.price * item.quantity).toFixed(2)}</strong>
+                            <strong>₦${(item.price * item.quantity).toFixed(2)}</strong>
                         </div>
                         <button class="btn btn-danger btn-sm" onclick="removeFromCart(${item.id})">
                             <span>Remove</span>
@@ -190,12 +190,12 @@
                     
                     <div class="cart-summary-row">
                         <span>Subtotal (${cartItems.reduce((sum, item) => sum + item.quantity, 0)} items)</span>
-                        <span>$${subtotal.toFixed(2)}</span>
+                        <span>₦${subtotal.toFixed(2)}</span>
                     </div>
                     
                     <div class="cart-summary-row">
                         <span>Tax (10%)</span>
-                        <span>$${tax.toFixed(2)}</span>
+                        <span>₦${tax.toFixed(2)}</span>
                     </div>
                     
                     <div class="cart-summary-row">
@@ -205,7 +205,7 @@
                     
                     <div class="cart-summary-row cart-summary-total">
                         <span>Total</span>
-                        <span>$${total.toFixed(2)}</span>
+                        <span>₦${total.toFixed(2)}</span>
                     </div>
                     
                     <button class="btn btn-primary btn-block btn-lg mt-3" 

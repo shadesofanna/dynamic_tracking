@@ -1,0 +1,488 @@
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+^CConnection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+
+Fatal error: Uncaught Error: Undefined constant "ADMIN_EMAIL" in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\cron\update_prices.php on line 105
+findWithInventory called with ID: 1
+findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 12,
+  'product_name' => 'Beans',
+  'product_description' => 'Cooked Beans from Teay Kitchen',
+  'category' => 'general',
+  'sku' => 'BRD',
+  'base_cost' => '1000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1100.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/68fe4b5a7746f_Gemini_Generated_Image_g2zhmsg2zhmsg2zh.png',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 17:40:03',
+  'created_at' => '2025-10-26 17:24:58',
+  'updated_at' => '2025-11-03 17:40:03',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 7,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 1
+findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 12,
+  'product_name' => 'Beans',
+  'product_description' => 'Cooked Beans from Teay Kitchen',
+  'category' => 'general',
+  'sku' => 'BRD',
+  'base_cost' => '1000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1100.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/68fe4b5a7746f_Gemini_Generated_Image_g2zhmsg2zhmsg2zh.png',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 17:40:03',
+  'created_at' => '2025-10-26 17:24:58',
+  'updated_at' => '2025-11-03 17:40:03',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 7,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 2
+findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 12,
+  'product_name' => 'Water',
+  'product_description' => 'water water water',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '90.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '99.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6902a18049637_download.png',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 17:41:34',
+  'created_at' => '2025-10-30 00:21:36',
+  'updated_at' => '2025-11-03 17:41:34',
+  'quantity_available' => 100,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 10,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 2
+findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 12,
+  'product_name' => 'Water',
+  'product_description' => 'water water water',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '90.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '99.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6902a18049637_download.png',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 17:41:34',
+  'created_at' => '2025-10-30 00:21:36',
+  'updated_at' => '2025-11-03 17:41:34',
+  'quantity_available' => 100,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 10,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 3
+findWithInventory result: array (
+  'product_id' => 3,
+  'seller_id' => 12,
+  'product_name' => 'Cello tApe',
+  'product_description' => 'Cello Tape to tape',
+  'category' => 'general',
+  'sku' => 'TAP-123',
+  'base_cost' => '100.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '110.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908db993f777_AYOMIDE_68a5dc664958e-removebg-preview.png',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 17:43:57',
+  'created_at' => '2025-11-03 17:43:05',
+  'updated_at' => '2025-11-03 17:43:57',
+  'quantity_available' => 40,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 3,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 4
+findWithInventory result: array (
+  'product_id' => 4,
+  'seller_id' => 12,
+  'product_name' => 'Maker',
+  'product_description' => 'White board Maker with ink pigment',
+  'category' => 'general',
+  'sku' => 'MRK-231',
+  'base_cost' => '100.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '110.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908df39eabf4_the art of a boy.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 18:00:43',
+  'created_at' => '2025-11-03 17:58:33',
+  'updated_at' => '2025-11-03 18:00:43',
+  'quantity_available' => 30,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 20,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 5
+findWithInventory result: array (
+  'product_id' => 5,
+  'seller_id' => 12,
+  'product_name' => 'Gaming Headset',
+  'product_description' => 'Gaming Haeadset Logitech',
+  'category' => 'general',
+  'sku' => 'Gmh121',
+  'base_cost' => '5000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '5500.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e04f0b41a_dbf29f46-639a-4abd-8dbd-2a6e420afceb.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 18:03:59',
+  'created_at' => '2025-11-03 18:03:11',
+  'updated_at' => '2025-11-03 18:03:59',
+  'quantity_available' => 150,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 15,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 5
+findWithInventory result: array (
+  'product_id' => 5,
+  'seller_id' => 12,
+  'product_name' => 'Gaming Headset',
+  'product_description' => 'Gaming Haeadset Logitech',
+  'category' => 'general',
+  'sku' => 'Gmh121',
+  'base_cost' => '5000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '5500.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e04f0b41a_dbf29f46-639a-4abd-8dbd-2a6e420afceb.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 18:03:59',
+  'created_at' => '2025-11-03 18:03:11',
+  'updated_at' => '2025-11-03 18:03:59',
+  'quantity_available' => 150,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 15,
+  'high_stock_threshold' => 100,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 6
+findWithInventory result: array (
+  'product_id' => 6,
+  'seller_id' => 12,
+  'product_name' => 'USB Cable',
+  'product_description' => 'Fast Type C charger for your mobile devices',
+  'category' => 'general',
+  'sku' => 'C2C12',
+  'base_cost' => '2500.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '2750.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e2f59902b_Ton regard malicieux, une boussole vers l’inconnu.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 18:15:53',
+  'created_at' => '2025-11-03 18:14:29',
+  'updated_at' => '2025-11-03 18:15:53',
+  'quantity_available' => 160,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 20,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 7
+findWithInventory result: array (
+  'product_id' => 7,
+  'seller_id' => 12,
+  'product_name' => 'Smart Watch',
+  'product_description' => 'Oraimo Watch 5 Lite',
+  'category' => 'general',
+  'sku' => 'SMG121',
+  'base_cost' => '10000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '11000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e4bb22e78_IMG-20251021-WA0022.jpg',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 18:32:34',
+  'created_at' => '2025-11-03 18:22:03',
+  'updated_at' => '2025-11-03 18:32:34',
+  'quantity_available' => 500,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 30,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 7
+findWithInventory result: array (
+  'product_id' => 7,
+  'seller_id' => 12,
+  'product_name' => 'Smart Watch',
+  'product_description' => 'Oraimo Watch 5 Lite',
+  'category' => 'general',
+  'sku' => 'SMG121',
+  'base_cost' => '10000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '11000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e4bb22e78_IMG-20251021-WA0022.jpg',
+  'is_active' => 1,
+  'last_price_update' => '2025-11-03 18:32:34',
+  'created_at' => '2025-11-03 18:22:03',
+  'updated_at' => '2025-11-03 18:32:34',
+  'quantity_available' => 500,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 30,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 8
+findWithInventory result: array (
+  'product_id' => 8,
+  'seller_id' => 12,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Bluetooth Speaker',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '4000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '12000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e79f6b22e_caacb037-c9cb-4fd3-a4fc-adbc195dcc51.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2025-12-15 10:36:57',
+  'created_at' => '2025-11-03 18:34:23',
+  'updated_at' => '2025-12-15 10:36:57',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 8
+findWithInventory result: array (
+  'product_id' => 8,
+  'seller_id' => 12,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Bluetooth Speaker',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '4000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '12000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/6908e79f6b22e_caacb037-c9cb-4fd3-a4fc-adbc195dcc51.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2025-12-15 10:36:57',
+  'created_at' => '2025-11-03 18:34:23',
+  'updated_at' => '2025-12-15 10:36:57',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+findWithInventory called with ID: 9
+findWithInventory result: array (
+  'product_id' => 9,
+  'seller_id' => 13,
+  'product_name' => 'Bluetooth speaker JBL',
+  'product_description' => 'Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.',
+  'category' => 'general',
+  'sku' => 'JBL-1234',
+  'base_cost' => '1500.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1794.75',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69aeef679b00b_WhatsApp Image 2026-03-06 at 5.37.45 PM.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-09 18:08:34',
+  'created_at' => '2026-03-09 17:03:51',
+  'updated_at' => '2026-03-09 18:08:34',
+  'quantity_available' => 1,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 20,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+findWithInventory called with ID: 9
+findWithInventory result: array (
+  'product_id' => 9,
+  'seller_id' => 13,
+  'product_name' => 'Bluetooth speaker JBL',
+  'product_description' => 'Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.',
+  'category' => 'general',
+  'sku' => 'JBL-1234',
+  'base_cost' => '1500.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1794.75',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69aeef679b00b_WhatsApp Image 2026-03-06 at 5.37.45 PM.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-09 18:08:34',
+  'created_at' => '2026-03-09 17:03:51',
+  'updated_at' => '2026-03-09 18:08:34',
+  'quantity_available' => 1,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 20,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+findWithInventory called with ID: 10
+findWithInventory result: array (
+  'product_id' => 10,
+  'seller_id' => 13,
+  'product_name' => 'Bread',
+  'product_description' => 'Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.',
+  'category' => 'general',
+  'sku' => 'Prod-134',
+  'base_cost' => '15000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '170000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69aeff8faa670_WhatsApp Image 2026-03-08 at 5.37.28 PM.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-09 18:31:11',
+  'created_at' => '2026-03-09 18:12:47',
+  'updated_at' => '2026-03-09 18:31:11',
+  'quantity_available' => 1000,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 15,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+findWithInventory called with ID: 10
+findWithInventory result: array (
+  'product_id' => 10,
+  'seller_id' => 13,
+  'product_name' => 'Bread',
+  'product_description' => 'Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.',
+  'category' => 'general',
+  'sku' => 'Prod-134',
+  'base_cost' => '15000.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '170000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69aeff8faa670_WhatsApp Image 2026-03-08 at 5.37.28 PM.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-09 18:31:11',
+  'created_at' => '2026-03-09 18:12:47',
+  'updated_at' => '2026-03-09 18:31:11',
+  'quantity_available' => 1000,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 15,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)

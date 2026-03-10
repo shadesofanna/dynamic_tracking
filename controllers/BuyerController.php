@@ -3,15 +3,18 @@
 
 require_once __DIR__ . '/../models/Product.php';
 require_once __DIR__ . '/../models/Order.php';
+require_once __DIR__ . '/../controllers/OrderController.php';
 require_once __DIR__ . '/../core/Session.php';
 
 class BuyerController {
     private $productModel;
     private $orderModel;
+    private $orderController;
     
     public function __construct() {
         $this->productModel = new Product();
         $this->orderModel = new Order();
+        $this->orderController = new OrderController();
     }
     
     /**
@@ -141,6 +144,42 @@ class BuyerController {
     }
 
     /**
+     * View a specific order
+     */
+    public function viewOrder($orderId) {
+        if (!Session::isLoggedIn()) {
+            redirect('/login');
+            return;
+        }
+
+        if (!$orderId) {
+            Session::setFlash('error', 'Order ID is required');
+            redirect('/buyer/orders');
+            exit;
+        }
+
+        // Get all buyer's orders to find and verify access
+        $userId = Session::getUserId();
+        $orders = $this->orderModel->getOrdersByBuyer($userId);
+        
+        $order = null;
+        foreach ($orders as $o) {
+            if ($o['order_id'] == $orderId) {
+                $order = $o;
+                break;
+            }
+        }
+
+        if (!$order) {
+            Session::setFlash('error', 'Order not found');
+            redirect('/buyer/orders');
+            exit;
+        }
+
+        require_once __DIR__ . '/../views/buyer/order-detail.php';
+    }
+
+    /**
      * Process checkout
      */
     public function checkout() {
@@ -157,9 +196,10 @@ class BuyerController {
                 return;
             }
             
-            $orderId = $this->orderModel->createOrder([
-                'buyer_id' => Session::getUserId(),
-                'items' => $input['items']
+            $orderId = $this->orderController->create([
+                'items' => $input['items'],
+                'shipping_address' => $input['shipping_address'] ?? null,
+                'notes' => $input['notes'] ?? null
             ]);
             
             if ($orderId) {

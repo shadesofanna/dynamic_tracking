@@ -117,47 +117,154 @@
     overflow-x: auto;
     border-radius: 0.75rem;
     box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+    background: white;
 }
 
 .table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
+    border-collapse: collapse;
     background: white;
+    margin-bottom: 0;
 }
 
 .table thead {
     background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-bottom: 3px solid #e2e8f0;
 }
 
 .table th {
-    padding: 1.25rem 1rem;
+    padding: 1.5rem 1.25rem;
     text-align: left;
     font-weight: 700;
     color: #0f172a;
     border-bottom: 2px solid #e2e8f0;
     text-transform: uppercase;
     font-size: 0.8125rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.75px;
+    white-space: nowrap;
 }
 
 .table td {
-    padding: 1.25rem 1rem;
+    padding: 1.25rem 1.25rem;
     border-bottom: 1px solid #f1f5f9;
     color: #475569;
+    font-size: 0.95rem;
 }
 
 .table tbody tr {
-    transition: all 0.2s ease;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.table tbody tr::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, transparent 0%, #3b82f6 100%);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.table tbody tr:hover::before {
+    opacity: 1;
 }
 
 .table tbody tr:hover {
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-    transform: scale(1.01);
+    background: linear-gradient(135deg, #f0f4ff 0%, #f1f5f9 100%);
+}
+
+.table tbody tr:hover td {
+    color: #1e293b;
 }
 
 .table tbody tr:last-child td {
     border-bottom: none;
+}
+
+/* Status Badges */
+.badge {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.badge-success {
+    background: linear-gradient(135deg, #d1fae5 0%, #c7f0d8 100%);
+    color: #065f46;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-danger {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    color: #7f1d1d;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.badge-warning {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    color: #7c2d12;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-info {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    color: #0c4a6e;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge-pending {
+    background: linear-gradient(135deg, #f3e8ff 0%, #ede9fe 100%);
+    color: #581c87;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+/* Action Buttons in Tables */
+.table .btn-group,
+.table .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.table .btn-sm {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.table .btn-sm:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Sections */
+.table-section-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.75rem 0.75rem 0 0;
+    margin-bottom: 0;
+}
+
+.table-section-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 /* Product List - Enhanced */
@@ -913,5 +1020,349 @@ textarea.form-control {
     
     .btn {
         width: 100%;
+    }
+}
+
+/* Order Management - Professional Enhancements */
+.order-stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.order-stat-box {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(226, 232, 240, 0.6);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.order-stat-box:hover {
+    box-shadow: 0 10px 15px rgba(15, 23, 42, 0.1);
+    transform: translateY(-2px);
+}
+
+.order-stat-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.order-stat-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.order-stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+/* Order Table Professional Styles */
+.order-table-container {
+    background: white;
+    border-radius: 1rem;
+    border: 1px solid rgba(226, 232, 240, 0.6);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(15, 23, 42, 0.07), 0 2px 4px rgba(15, 23, 42, 0.06);
+}
+
+.order-table-header {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-bottom: 2px solid rgba(226, 232, 240, 0.8);
+}
+
+.order-table-header h5 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--text-primary);
+}
+
+/* Status Update Form Enhancement */
+.status-update-form {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.status-update-form .form-control {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Order Summary Card */
+.order-summary-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    font-size: 0.9375rem;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.summary-item:last-child {
+    border-bottom: none;
+    padding-top: 0.75rem;
+    margin-top: 0.75rem;
+    border-top: 2px solid rgba(226, 232, 240, 0.8);
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: var(--primary);
+}
+
+.summary-label {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.summary-value {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* Sticky Header for Tables */
+.table thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Action Button Group */
+.action-button-group {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.action-button-group .btn {
+    min-width: 80px;
+}
+
+/* Icons with Color */
+.icon-success {
+    color: var(--success);
+}
+
+.icon-warning {
+    color: var(--warning);
+}
+
+.icon-danger {
+    color: var(--danger);
+}
+
+.icon-info {
+    color: var(--info);
+}
+
+/* Mobile Responsiveness Enhancements */
+@media (max-width: 1024px) {
+    .inventory-table {
+        font-size: 0.85rem;
+    }
+    
+    .inventory-table th,
+    .inventory-table td {
+        padding: 1.25rem;
+    }
+    
+    .pricing-table th,
+    .pricing-table td {
+        padding: 1.25rem;
+    }
+    
+    .orders-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .inventory-header,
+    .pricing-header,
+    .orders-header {
+        padding: 2rem 1rem;
+        margin: -2rem -1rem 2rem;
+    }
+    
+    .inventory-header-content,
+    .pricing-header-content,
+    .orders-header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .orders-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .inventory-stats,
+    .dashboard-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+    }
+    
+    .stat-item {
+        min-width: auto;
+    }
+    
+    .stat-card {
+        padding: 1.25rem;
+    }
+    
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .inventory-table th,
+    .inventory-table td,
+    .pricing-table th,
+    .pricing-table td,
+    .orders-table th,
+    .orders-table td {
+        padding: 0.75rem;
+        font-size: 0.75rem;
+    }
+    
+    .stock-bar {
+        min-width: 80px;
+    }
+    
+    .update-btn,
+    .update-price-btn,
+    .view-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    .action-buttons .btn {
+        width: 100%;
+    }
+    
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dashboard-card {
+        padding: 1.5rem;
+    }
+    
+    .actions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .quick-actions {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .inventory-header h1,
+    .pricing-header h1,
+    .orders-header h1,
+    .page-title {
+        font-size: 1.75rem;
+    }
+    
+    .inventory-icon,
+    .pricing-icon,
+    .orders-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .inventory-table th,
+    .inventory-table td,
+    .pricing-table th,
+    .pricing-table td,
+    .orders-table th,
+    .orders-table td {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+    
+    .product-name {
+        font-size: 0.85rem;
+    }
+    
+    .status-cell {
+        font-size: 0.7rem;
+    }
+    
+    .badge {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.65rem;
+    }
+    
+    .update-btn,
+    .update-price-btn,
+    .view-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.65rem;
+    }
+    
+    .orders-stats-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    .stat-card {
+        padding: 1rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.75rem;
+    }
+    
+    .card-content h5 {
+        font-size: 1.15rem;
+    }
+    
+    .card-content p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .inventory-header,
+    .pricing-header,
+    .orders-header,
+    .update-btn,
+    .update-price-btn,
+    .view-btn {
+        display: none;
+    }
+    
+    .table {
+        font-size: 10pt;
+        page-break-inside: avoid;
     }
 }

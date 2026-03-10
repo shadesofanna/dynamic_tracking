@@ -28,7 +28,7 @@ class Inventory extends Model {
             $inventory = $this->getByProductId($productId);
             
             if ($inventory) {
-                $oldQuantity = $inventory['quantity_available'];
+                $oldQuantity = $inventory['quantity_available'] ?? 0;
                 
                 $result = $this->update($inventory['inventory_id'], [
                     'quantity_available' => $quantity,
@@ -36,16 +36,17 @@ class Inventory extends Model {
                 ]);
                 
                 if ($result) {
-                    // Check if we need to update price based on new quantity
+                    // Commit the transaction
+                    $this->db->commit();
+                    
+                    // Check if we need to update price based on new quantity (after commit)
                     $this->checkAndUpdatePrice($productId, $oldQuantity, $quantity);
+                    
+                    return $result;
                 }
                 
-                $this->db->commit();
-                
-                // Trigger price update if needed
-                $this->checkAndUpdatePrice($productId, $oldQuantity, $quantity);
-                
-                return $result;
+                $this->db->rollBack();
+                return false;
             }
             
             $this->db->rollBack();

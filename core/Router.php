@@ -147,7 +147,13 @@ class Router {
             return $this->notFound();
         }
 
-        $controllerInstance = new $controllerClass();
+        try {
+            $controllerInstance = new $controllerClass();
+        } catch (Exception $e) {
+            error_log("Router: Error instantiating controller '{$controllerClass}': " . $e->getMessage());
+            error_log("Router: " . $e->getTraceAsString());
+            throw $e; // Re-throw so it's caught by index.php and can return JSON for API requests
+        }
         
         if (!method_exists($controllerInstance, $method)) {
             // Try namespaced version as fallback

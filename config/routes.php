@@ -24,6 +24,7 @@ return [
         '/buyer/cart' => 'BuyerController@viewCart',
         '/buyer/checkout' => 'BuyerController@checkout',
         '/buyer/orders' => 'BuyerController@myOrders',
+        '/buyer/order/{id}' => 'BuyerController@viewOrder',
 
         // Seller routes
         '/seller/dashboard' => 'SellerController@dashboard',
@@ -33,6 +34,7 @@ return [
         '/seller/inventory' => 'SellerController@inventory',
         '/seller/pricing' => 'SellerController@pricing',
         '/seller/orders' => 'SellerController@orders',
+        '/seller/order/{id}' => 'SellerController@viewOrder',
         '/seller/analytics' => 'SellerController@analytics',
         '/seller/settings' => 'SellerController@settings',
 
@@ -59,17 +61,20 @@ return [
         '/buyer/cart/update' => 'BuyerController@updateCart',
         '/buyer/cart/remove' => 'BuyerController@removeFromCart',
         '/buyer/order/create' => 'BuyerController@createOrder',
+        '/cart/validate' => 'CartController@validateCart',
         
         // Seller routes
         '/seller/product/store' => 'SellerController@storeProduct',
         '/seller/product/update/{id}' => 'SellerController@updateProduct',
+        '/seller/order/{id}/update-status' => 'SellerController@updateOrderStatus',
         '/seller/inventory/update' => 'SellerController@updateInventory',
         '/seller/pricing/update' => 'SellerController@updatePrice',
         '/seller/settings/update' => 'SellerController@updateSettings',
 
         // API Routes
         '/api/v1/cart' => 'api/v1/cart.php',
-        '/api/v1/orders' => 'api/v1/orders.php'
+        '/api/v1/orders' => 'api/v1/orders.php',
+        '/orders' => 'OrderController@createOrderApi'
     ],
     
     'DELETE' => [

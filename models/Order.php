@@ -8,8 +8,12 @@ class Order extends Model {
     protected $primaryKey = 'order_id';
     
     public function createOrder($data) {
+        // Get seller_id from first item if available, otherwise use 0 (for multi-seller orders)
+        $sellerId = isset($data['seller_id']) ? $data['seller_id'] : 0;
+        
         $orderData = [
             'buyer_id' => $data['buyer_id'],
+            'seller_id' => $sellerId,
             'order_number' => 'ORD-' . strtoupper(substr(uniqid(), -8)),
             'order_status' => 'pending',
             'payment_status' => 'pending',
@@ -20,19 +24,51 @@ class Order extends Model {
     }
     
     public function getOrdersByBuyer($buyerId) {
-        return $this->findAll(['buyer_id' => $buyerId], 'created_at DESC');
+        $orders = $this->findAll(['buyer_id' => $buyerId], 'created_at DESC');
+        
+        // Transform field names and load order items
+        foreach ($orders as &$order) {
+            // Map database field names to expected view names
+            $order['id'] = $order['order_id'];
+            $order['status'] = $order['order_status'];
+            $order['payment_method'] = $order['payment_method'] ?? 'Not specified';
+            
+            // Load order items
+            require_once __DIR__ . '/OrderItem.php';
+            $orderItemModel = new OrderItem($this->db);
+            $order['items'] = $orderItemModel->getByOrderId($order['order_id']);
+        }
+        
+        return $orders;
     }
     
     public function getOrdersBySeller($sellerId) {
-        $query = "SELECT DISTINCT o.*, u.full_name as buyer_name FROM {$this->table} o
+        $query = "SELECT DISTINCT o.*, u.full_name as buyer_name,
+                    SUM(oi.subtotal) as order_total
+                  FROM {$this->table} o
                   INNER JOIN order_items oi ON o.order_id = oi.order_id
                   INNER JOIN products p ON oi.product_id = p.product_id
                   INNER JOIN users u ON o.buyer_id = u.user_id
                   WHERE p.seller_id = :seller_id
+                  GROUP BY o.order_id
                   ORDER BY o.created_at DESC";
         $stmt = $this->db->prepare($query);
         $stmt->execute([':seller_id' => $sellerId]);
-        return $stmt->fetchAll();
+        $orders = $stmt->fetchAll();
+        
+        // Transform field names and load order items
+        foreach ($orders as &$order) {
+            $order['customer_name'] = $order['buyer_name'];
+            $order['status'] = $order['order_status'];
+            $order['total_amount'] = $order['order_total'] ?? 0;
+            
+            // Load order items - query already filters by seller_id so all items are this seller's
+            require_once __DIR__ . '/OrderItem.php';
+            $orderItemModel = new OrderItem($this->db);
+            $order['items'] = $orderItemModel->getByOrderId($order['order_id']);
+        }
+        
+        return $orders;
     }
     
     public function getRevenueStats($sellerId, $period = 'month') {

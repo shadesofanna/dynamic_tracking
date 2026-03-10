@@ -5,6 +5,11 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
 ?>
 
 <style>
+    @keyframes slideInDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
     @keyframes fadeInUp {
         from { opacity: 0; transform: translateY(20px); }
         to { opacity: 1; transform: translateY(0); }
@@ -28,21 +33,22 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
     .page-header {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;
-        padding: 3rem 2rem;
-        margin: -2.5rem -1.5rem 3rem;
-        border-radius: 0 0 2rem 2rem;
+        padding: 2.5rem 1.5rem 3rem 1.5rem;
+        margin: 0 -1.5rem 2rem -1.5rem;
+        border-radius: 0;
         box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
         position: relative;
         overflow: hidden;
+        animation: slideInDown 0.6s ease;
     }
     
     .page-header::before {
         content: '';
         position: absolute;
-        top: -50%;
+        top: 0;
         right: -10%;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
         border-radius: 50%;
         animation: float 8s ease-in-out infinite;
@@ -75,6 +81,7 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         backdrop-filter: blur(15px);
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
         border: 2px solid rgba(255, 255, 255, 0.3);
+        animation: fadeInUp 0.6s ease 0.2s both;
     }
     
     .page-title {
@@ -83,6 +90,7 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         margin: 0;
         letter-spacing: -1px;
         text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        animation: fadeInUp 0.6s ease 0.3s both;
     }
     
     .page-subtitle {
@@ -90,6 +98,7 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         opacity: 0.95;
         font-weight: 500;
         margin-top: 0.375rem;
+        animation: fadeInUp 0.6s ease 0.4s both;
     }
     
     .header-actions .btn {
@@ -102,6 +111,7 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
         display: inline-flex;
         align-items: center;
         gap: 0.75rem;
+        animation: slideInRight 0.6s ease 0.5s both;
     }
     
     .header-actions .btn:hover {
@@ -546,7 +556,7 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
                 </svg>
                 In Stock
             </div>
-            <div class="stat-value" data-count="<?php echo count(array_filter($products, function($p) { return ($product['quantity_available']  ?? 0) > 0; })); ?>">0</div>
+            <div class="stat-value" data-count="<?php echo count(array_filter($products, function($p) { return ($p['quantity_available'] ?? 0) > 0; })); ?>">0</div>
         </div>
         
         <div class="stat-card">

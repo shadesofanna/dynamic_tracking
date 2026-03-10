@@ -1,15 +1,17 @@
 <?php
 // config/config.php
 
-// Error reporting
+// Error reporting - production safe
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', getenv('APP_ENV') === 'production' ? 0 : 1);
+ini_set('log_errors', 1);
+ini_set('error_log', dirname(__DIR__) . '/logs/error.log');
 
 // Application settings
 define('APP_NAME', 'Dynamic Pricing System');
 define('APP_VERSION', '1.0.0');
-define('APP_ENV', 'development'); // development, production
-define('APP_DEBUG', true);
+define('APP_ENV', getenv('APP_ENV') ?: 'development'); // development, production
+define('APP_DEBUG', getenv('APP_DEBUG') === 'true' ? true : false);
 
 // Base paths - for filesystem operations
 define('ROOT_PATH', dirname(__DIR__));
@@ -68,16 +70,16 @@ define('DEFAULT_CURRENCY', 'NGN');
 define('SUPPORTED_CURRENCIES', ['NGN', 'USD', 'EUR', 'GBP']);
 
 // Pricing
-define('MIN_PROFIT_MARGIN', 0.10); // 10%
-define('MAX_PRICE_INCREASE', 0.50); // 50%
-define('MAX_PRICE_DECREASE', 0.30); // 30%
+define('MIN_PROFIT_MARGIN', 0.01); // 1%
+define('MAX_PRICE_INCREASE', 0.05); // 5%
+define('MAX_PRICE_DECREASE', 0.03); // 3%
 
-// Email (SMTP)
-define('SMTP_HOST', 'localhost');
-define('SMTP_PORT', 587);
-define('SMTP_USERNAME', '');
-define('SMTP_PASSWORD', '');
-define('SMTP_FROM_EMAIL', 'noreply@dynamicpricing.com');
+// Email (SMTP) - load from environment
+define('SMTP_HOST', getenv('SMTP_HOST') ?: 'smtp.gmail.com');
+define('SMTP_PORT', getenv('SMTP_PORT') ?: 587);
+define('SMTP_USERNAME', getenv('SMTP_USERNAME'));
+define('SMTP_PASSWORD', getenv('SMTP_PASSWORD'));
+define('SMTP_FROM_EMAIL', getenv('SMTP_FROM_EMAIL') ?: 'noreply@dynamicpricing.com');
 define('SMTP_FROM_NAME', APP_NAME);
 
 // Notification settings
@@ -91,10 +93,11 @@ define('API_RATE_LIMIT', 100); // requests per hour
 // Timezone
 date_default_timezone_set('Africa/Lagos');
 
-// Session configuration
+// Session configuration - production secure
 ini_set('session.cookie_httponly', 1);
 ini_set('session.use_only_cookies', 1);
 ini_set('session.cookie_secure', APP_ENV === 'production' ? 1 : 0);
+ini_set('session.cookie_samesite', 'Strict');
 
 // Load helpers
 require_once ROOT_PATH . '/utils/helpers.php';

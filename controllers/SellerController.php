@@ -445,7 +445,7 @@ class SellerController {
         }
 
         $pageTitle = APP_NAME . ' - Edit Product';
-        $isEdit = true; // Flag to indicate this is an edit form
+        $isEditing = true; // Flag to indicate this is an edit form
         require_once __DIR__ . '/../views/seller/product_form.php';
     }
 
@@ -455,6 +455,128 @@ class SellerController {
     public function orders() {
         $orders = $this->getOrders();
         require_once __DIR__ . '/../views/seller/orders.php';
+    }
+
+    /**
+     * View a specific order
+     */
+    public function viewOrder($orderId) {
+        error_log("viewOrder - START - Order ID: " . $orderId);
+        
+        if (!$orderId) {
+            Session::setFlash('error', 'Order ID is required');
+            redirect('/seller/orders');
+            exit;
+        }
+        
+        // Get order details
+        $order = $this->orderModel->find($orderId);
+        error_log("viewOrder - Order from find(): " . print_r($order, true));
+        
+        if (!$order) {
+            Session::setFlash('error', 'Order not found');
+            redirect('/seller/orders');
+            exit;
+        }
+        
+        // Verify seller has access to this order (order contains their products)
+        $orders = $this->getOrders();
+        error_log("viewOrder - Total seller orders: " . count($orders));
+        
+        $hasAccess = false;
+        foreach ($orders as $sellerOrder) {
+            if ($sellerOrder['order_id'] == $orderId) {
+                $hasAccess = true;
+                error_log("viewOrder - Found matching order: " . print_r($sellerOrder, true));
+                $order = $sellerOrder;
+                break;
+            }
+        }
+        
+        if (!$hasAccess) {
+            error_log("viewOrder - ERROR: No access to order " . $orderId);
+            Session::setFlash('error', 'You do not have access to this order');
+            redirect('/seller/orders');
+            exit;
+        }
+        
+        error_log("viewOrder - FINAL order data: " . print_r($order, true));
+        
+        // Get buyer info
+        require_once __DIR__ . '/../models/User.php';
+        $userModel = new User();
+        $buyer = $userModel->find($order['buyer_id']);
+        error_log("viewOrder - Buyer: " . ($buyer ? $buyer['full_name'] : 'NOT FOUND'));
+        
+        require_once __DIR__ . '/../views/seller/order-detail.php';
+    }
+
+    /**
+     * Update order status
+     */
+    public function updateOrderStatus($orderId) {
+        error_log("updateOrderStatus - START - Order ID: " . $orderId);
+        error_log("updateOrderStatus - REQUEST METHOD: " . $_SERVER['REQUEST_METHOD']);
+        error_log("updateOrderStatus - POST DATA: " . print_r($_POST, true));
+        
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            error_log("updateOrderStatus - ERROR: Not a POST request");
+            redirect('/seller/orders');
+            exit;
+        }
+
+        $status = $_POST['status'] ?? null;
+        error_log("updateOrderStatus - Status from POST: " . $status);
+        
+        // Allow: pending, confirmed, processing, shipped, delivered, cancelled
+        $validStatuses = ['pending', 'confirmed', 'processing', 'shipped', 'delivered', 'cancelled'];
+        if (!$status || !in_array($status, $validStatuses)) {
+            error_log("updateOrderStatus - ERROR: Invalid status: " . $status . ". Valid: " . implode(', ', $validStatuses));
+            Session::setFlash('error', 'Invalid status');
+            redirect('/seller/order/' . $orderId);
+            exit;
+        }
+
+        // Verify seller has access to this order
+        $order = $this->orderModel->find($orderId);
+        if (!$order) {
+            error_log("updateOrderStatus - ERROR: Order not found with ID: " . $orderId);
+            Session::setFlash('error', 'Order not found');
+            redirect('/seller/orders');
+            exit;
+        }
+        
+        error_log("updateOrderStatus - Order found: " . print_r($order, true));
+
+        $orders = $this->getOrders();
+        error_log("updateOrderStatus - Seller orders count: " . count($orders));
+        
+        $hasAccess = false;
+        foreach ($orders as $sellerOrder) {
+            if ($sellerOrder['order_id'] == $orderId) {
+                $hasAccess = true;
+                break;
+            }
+        }
+
+        if (!$hasAccess) {
+            error_log("updateOrderStatus - ERROR: Seller does not have access to order: " . $orderId);
+            Session::setFlash('error', 'You do not have access to this order');
+            redirect('/seller/orders');
+            exit;
+        }
+
+        // Update the order status
+        $updateData = ['order_status' => $status];
+        error_log("updateOrderStatus - Updating order with data: " . print_r($updateData, true));
+        
+        $updateResult = $this->orderModel->update($orderId, $updateData);
+        error_log("updateOrderStatus - Update result: " . print_r($updateResult, true));
+
+        Session::setFlash('success', 'Order status updated successfully');
+        error_log("updateOrderStatus - SUCCESS: Redirecting to /seller/order/" . $orderId);
+        redirect('/seller/order/' . $orderId);
+        exit;
     }
 
     /**
@@ -480,20 +602,37 @@ class SellerController {
             echo json_encode(['success' => false, 'error' => 'Invalid request method']);
             exit;
         }
+        
+        // Check if user is logged in and is a seller
+        if (!Session::isLoggedIn() || Session::getUserType() !== 'seller') {
+            echo json_encode(['success' => false, 'error' => 'Unauthorized']);
+            exit;
+        }
+        
         $input = json_decode(file_get_contents('php://input'), true);
         $productId = $input['product_id'] ?? null;
         $stock = $input['stock_quantity'] ?? null;
-        if (!$productId || !is_numeric($stock)) {
+        
+        if (!$productId || $stock === null || !is_numeric($stock)) {
             echo json_encode(['success' => false, 'error' => 'Missing or invalid parameters']);
             exit;
         }
+        
+        // Verify product belongs to this seller
+        $product = $this->productModel->find($productId);
+        if (!$product || $product['seller_id'] != $this->getSellerId()) {
+            echo json_encode(['success' => false, 'error' => 'Product not found or unauthorized']);
+            exit;
+        }
+        
         $inventory = $this->inventoryModel->getByProductId($productId);
         if (!$inventory) {
             echo json_encode(['success' => false, 'error' => 'Inventory record not found']);
             exit;
         }
+        
         $result = $this->inventoryModel->updateStock($productId, (int)$stock);
-        echo json_encode(['success' => (bool)$result]);
+        echo json_encode(['success' => (bool)$result, 'message' => $result ? 'Stock updated successfully' : 'Failed to update stock']);
         exit;
     }
 
@@ -522,8 +661,14 @@ class SellerController {
      * Show inventory page
      */
     public function inventory() {
-        $products = $this->getProducts();
-        $lowStock = $this->getLowStockProducts();
+        $sellerId = $this->getSellerId();
+        if (!$sellerId) {
+            Session::setFlash('error', 'Seller profile not found');
+            redirect('/seller/dashboard');
+            exit;
+        }
+        $products = $this->productModel->getProductsWithInventory($sellerId);
+        $lowStock = $this->productModel->getLowStockProducts($sellerId);
         require_once __DIR__ . '/../views/seller/inventory.php';
     }
 
@@ -531,7 +676,13 @@ class SellerController {
      * Show pricing page
      */
     public function pricing() {
-        $products = $this->getProducts();
+        $sellerId = $this->getSellerId();
+        if (!$sellerId) {
+            Session::setFlash('error', 'Seller profile not found');
+            redirect('/seller/dashboard');
+            exit;
+        }
+        $products = $this->productModel->getProductsWithInventory($sellerId);
         require_once __DIR__ . '/../views/seller/pricing.php';
     }
 

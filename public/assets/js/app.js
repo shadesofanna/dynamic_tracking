@@ -1,12 +1,32 @@
 // public/assets/js/app.js
 
 // Global configuration
-const BASE_URL = document.querySelector('meta[name="base-url"]')?.content || '';
+const BASE_URL_FULL = document.querySelector('meta[name="base-url"]')?.content || window.BASE_URL || '';
+
+// Extract just the pathname from the full URL
+function getBasePath() {
+    if (!BASE_URL_FULL) return '/';
+    
+    try {
+        // If it looks like a full URL, extract the pathname
+        if (BASE_URL_FULL.includes('://')) {
+            const url = new URL(BASE_URL_FULL);
+            return url.pathname;
+        }
+        // Otherwise, assume it's already a path
+        return BASE_URL_FULL;
+    } catch (e) {
+        console.error('Error parsing BASE_URL:', e);
+        return '/';
+    }
+}
+
+const BASE_URL = getBasePath();
 
 // Initialize global features
 document.addEventListener('DOMContentLoaded', () => {
     // Cart initialization is now handled in cart.js module
-    console.log('App initialized');
+    console.log('App initialized with BASE_URL:', BASE_URL);
 });
 
 /**

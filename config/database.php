@@ -2,11 +2,19 @@
 // config/database.php
 
 class Database {
-    private $host = 'localhost';
-    private $db_name = 'dynamic_pricing_db';
-    private $username = 'root';
-    private $password = '';
+    private $host;
+    private $db_name;
+    private $username;
+    private $password;
     private $conn;
+
+    public function __construct() {
+        // Initialize dynamic values in the constructor
+        $this->host = getenv('DB_HOST') ?: 'localhost';
+        $this->db_name = getenv('DB_NAME') ?: 'dynamic_pricing_db';
+        $this->username = getenv('DB_USER') ?: 'root';
+        $this->password = getenv('DB_PASSWORD') ?: '';
+    }
     
     public function getConnection() {
         $this->conn = null;

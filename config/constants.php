@@ -5,6 +5,9 @@
 define('BASE_PATH', '/dynamic/dynamic_pricing/public');
 define('APP_NAME', 'Dynamic Pricing');
 
+// Currency Configuration
+define('DEFAULT_CURRENCY', 'NGN');
+
 // User Types
 define('USER_TYPE_BUYER', 'buyer');
 define('USER_TYPE_SELLER', 'seller');

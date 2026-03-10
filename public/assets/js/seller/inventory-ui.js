@@ -51,6 +51,18 @@
                 }
             });
 
+            // Close button
+            const closeBtn = document.querySelector('.stock-modal-close');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => this.closeModal());
+            }
+
+            // Cancel button
+            const cancelBtn = document.querySelector('.stock-btn-cancel');
+            if (cancelBtn) {
+                cancelBtn.addEventListener('click', () => this.closeModal());
+            }
+
             // Update quantity preview on operation change
             const operationSelect = document.getElementById('stock-operation');
             const quantityInput = document.getElementById('stock-quantity');
@@ -154,7 +166,7 @@
 
             try {
                 // Make API call to update stock
-                const response = await fetch(`${this.baseUrl}/api/v1/inventory/update`, {
+                const response = await fetch('/dynamic/dynamic_pricing/public/seller/inventory/update', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -162,9 +174,8 @@
                     },
                     body: JSON.stringify({
                         product_id: productId,
+                        stock_quantity: newStock,
                         operation: operation,
-                        quantity: quantity,
-                        new_stock: newStock,
                         reason: reason || null
                     })
                 });
@@ -180,7 +191,7 @@
                         window.location.reload();
                     }, 1000);
                 } else {
-                    throw new Error(result.message || 'Failed to update stock');
+                    throw new Error(result.message || result.error || 'Failed to update stock');
                 }
             } catch (error) {
                 console.error('Error updating stock:', error);

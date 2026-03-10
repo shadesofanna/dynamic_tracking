@@ -1,6 +1,10 @@
 <?php
 // public/index.php
 
+// Load environment variables FIRST
+require_once __DIR__ . '/../core/EnvLoader.php';
+EnvLoader::load();
+
 require_once __DIR__ . '/../config/config.php';
 require_once __DIR__ . '/../core/Router.php';
 require_once __DIR__ . '/../core/Session.php';
@@ -83,9 +87,19 @@ try {
     $msg = sprintf("[%s] Router Exception: %s in %s on line %d\nStack: %s\n", date('Y-m-d H:i:s'), $e->getMessage(), $e->getFile(), $e->getLine(), $e->getTraceAsString());
     error_log($msg, 3, $appLog);
 
-    // Show error page
-    http_response_code(500);
-    require __DIR__ . '/../views/errors/500.php';
+    // Check if this is an API request - if so, return JSON
+    if (strpos($relativePath, '/api/') === 0 || strpos($relativePath, '/orders') === 0) {
+        header('Content-Type: application/json');
+        http_response_code(500);
+        echo json_encode([
+            'error' => 'Server error',
+            'message' => defined('APP_DEBUG') && APP_DEBUG ? $e->getMessage() : 'An error occurred',
+        ]);
+    } else {
+        // Show error page for non-API requests
+        http_response_code(500);
+        require __DIR__ . '/../views/errors/500.php';
+    }
     exit;
 }?>
 

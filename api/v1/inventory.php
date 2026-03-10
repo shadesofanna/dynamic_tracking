@@ -5,6 +5,7 @@ require_once __DIR__ . '/../../config/database.php';
 require_once __DIR__ . '/../../models/Inventory.php';
 require_once __DIR__ . '/../../models/Product.php';
 require_once __DIR__ . '/../../core/Session.php';
+require_once __DIR__ . '/../../utils/logger.php';
 
 function jsonResponse($data, $statusCode = 200) {
     http_response_code($statusCode);

@@ -85,29 +85,36 @@ class CartController extends Controller {
             $errors = [];
             
             foreach ($input['items'] as $item) {
-                if (!isset($item['id']) || !isset($item['quantity'])) {
+                // Accept both 'id' and 'product_id' field names
+                $productId = $item['id'] ?? $item['product_id'] ?? null;
+                $quantity = $item['quantity'] ?? null;
+                
+                if (!$productId || !$quantity) {
                     $errors[] = 'Invalid item format';
                     continue;
                 }
                 
-                $product = $this->productModel->findWithInventory($item['id']);
+                $product = $this->productModel->findWithInventory($productId);
                 
                 if (!$product) {
-                    $errors[] = "Product {$item['id']} not found";
+                    $errors[] = "Product {$productId} not found";
                     continue;
                 }
                 
-                if ($product['quantity_available'] < $item['quantity']) {
+                if ($product['quantity_available'] < $quantity) {
                     $errors[] = "Insufficient inventory for {$product['product_name']}";
                     continue;
                 }
                 
                 $validatedItems[] = [
                     'id' => (int)$product['product_id'],
+                    'product_id' => (int)$product['product_id'],
                     'name' => $product['product_name'],
                     'current_price' => (float)$product['current_price'],
-                    'quantity' => (int)$item['quantity'],
-                    'quantity_available' => (int)$product['quantity_available']
+                    'quantity' => (int)$quantity,
+                    'quantity_available' => (int)$product['quantity_available'],
+                    'sku' => $product['sku'] ?? '',
+                    'seller_name' => $product['business_name'] ?? ''
                 ];
             }
             

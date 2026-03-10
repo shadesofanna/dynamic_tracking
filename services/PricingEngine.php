@@ -11,9 +11,9 @@ require_once __DIR__ . '/../utils/logger.php';
 
 class PricingEngine {
     // Price adjustment constants
-    const MAX_PRICE_INCREASE = 0.20; // Maximum 20% increase
-    const MAX_PRICE_DECREASE = 0.15; // Maximum 15% decrease
-    const MIN_PROFIT_MARGIN = 0.10; // Minimum 10% profit margin
+    const MAX_PRICE_INCREASE = 0.05; // Maximum 5% increase
+    const MAX_PRICE_DECREASE = 0.03; // Maximum 3% decrease
+    const MIN_PROFIT_MARGIN = 0.01; // Minimum 1% profit margin
     
     private $db;
     private $productModel;
@@ -47,8 +47,11 @@ class PricingEngine {
                 throw new Exception("Product not found");
             }
 
-            $basePrice = floatval($product['base_cost']);
-            $currentPrice = floatval($product['current_price']);
+            $basePrice = floatval($product['base_cost'] ?? 0);
+            $currentPrice = floatval($product['current_price'] ?? $basePrice);
+            $currentStock = intval($product['quantity_available'] ?? 0);
+            $lowThreshold = intval($product['low_stock_threshold'] ?? 20);
+            $highThreshold = intval($product['high_stock_threshold'] ?? 100);
             
             // Start with the base cost - FIXED: was starting with currentPrice
             $newPrice = $basePrice;
@@ -73,9 +76,9 @@ class PricingEngine {
 
             // 2. Apply inventory-based pricing
             $inventoryAdjustment = $this->calculateInventoryAdjustment(
-                $product['quantity_available'],
-                $product['low_stock_threshold'],
-                $product['high_stock_threshold']
+                $currentStock,
+                $lowThreshold,
+                $highThreshold
             );
             $newPrice *= (1 + $inventoryAdjustment);
 
@@ -103,15 +106,15 @@ class PricingEngine {
             Logger::info("Base cost: {$basePrice}");
             Logger::info("Current price: {$currentPrice}");
             Logger::info("New price (before adjust): {$newPrice}");
-            Logger::info("Stock level: " . $product['quantity_available'] . " of " . $product['low_stock_threshold']);
+            Logger::info("Stock level: {$currentStock} of {$lowThreshold}");
 
             // Calculate price change percentage
             $priceChange = ($newPrice - $currentPrice) / $currentPrice;
             $percentChange = round($priceChange * 100, 2);
             
             // Determine price update criteria
-            $isLowStock = $product['quantity_available'] < $product['low_stock_threshold'];
-            $isHighStock = $product['quantity_available'] >= $product['high_stock_threshold'];
+            $isLowStock = $currentStock <= $lowThreshold;
+            $isHighStock = $currentStock >= $highThreshold;
             $isSignificantChange = abs($percentChange) >= 0.5; // Change to use percentChange and 1% threshold
             $isPriceIncrease = $newPrice > $currentPrice;
             
@@ -140,8 +143,8 @@ class PricingEngine {
             Logger::info("- Current price: {$currentPrice}");
             Logger::info("- New price: {$newPrice}");
             Logger::info("- Change: {$percentChange}%");
-            Logger::info("- Stock level: {$product['quantity_available']} units");
-            Logger::info("- Low threshold: {$product['low_stock_threshold']} units");
+            Logger::info("- Stock level: {$currentStock} units");
+            Logger::info("- Low threshold: {$lowThreshold} units");
             Logger::info("- Stock status: " . ($isLowStock ? "LOW" : "Normal") . 
                         ($isHighStock ? " (High stock)" : ""));
             
@@ -174,6 +177,38 @@ class PricingEngine {
             return $currentPrice; // Return current price if calculation fails
         }
     }
+    
+    /**
+     * Check if price needs update based on inventory and trigger recalculation if needed
+     */
+    public function checkAndUpdatePrice($productId) {
+        try {
+            $product = $this->productModel->findWithInventory($productId);
+            if (!$product) {
+                Logger::error("Product not found for price check: {$productId}");
+                return false;
+            }
+            
+            $currentStock = intval($product['quantity_available'] ?? 0);
+            $lowThreshold = intval($product['low_stock_threshold'] ?? 20);
+            $highThreshold = intval($product['high_stock_threshold'] ?? 100);
+            
+            // Check if stock level requires price update
+            $isLowStock = $currentStock <= $lowThreshold;
+            $isHighStock = $currentStock >= $highThreshold;
+            
+            if ($isLowStock || $isHighStock) {
+                Logger::info("Stock level requires price check - Product: {$productId}, Stock: {$currentStock}, Low: {$lowThreshold}, High: {$highThreshold}");
+                $newPrice = $this->calculateOptimalPrice($productId);
+                return $newPrice;
+            }
+            
+            return $product['current_price'];
+        } catch (Exception $e) {
+            Logger::error("checkAndUpdatePrice failed for product {$productId}: " . $e->getMessage());
+            return false;
+        }
+    }
 
     /**
      * Calculate inventory-based price adjustment
@@ -181,6 +216,11 @@ class PricingEngine {
      * HIGH INVENTORY = LOWER PRICES (clearance discount)
      */
     private function calculateInventoryAdjustment($currentStock, $lowThreshold, $highThreshold) {
+        // Ensure values are numeric and have defaults
+        $currentStock = (int)($currentStock ?? 0);
+        $lowThreshold = (int)($lowThreshold ?? 0);
+        $highThreshold = (int)($highThreshold ?? 0);
+        
         // No adjustment if thresholds are not set
         if (!$lowThreshold || !$highThreshold) {
             return 0;
@@ -370,9 +410,12 @@ class PricingEngine {
             
             // Get inventory status for change reason
             $product = $this->productModel->findWithInventory($productId);
+            $currentStock = (int)($product['quantity_available'] ?? 0);
+            $lowThreshold = (int)($product['low_stock_threshold'] ?? 20);
+            $highThreshold = (int)($product['high_stock_threshold'] ?? 100);
  
-            $isLowStock = $product['quantity_available'] <= $product['low_stock_threshold'];
-            $isHighStock = $product['quantity_available'] >= $product['high_stock_threshold'];
+            $isLowStock = $currentStock <= $lowThreshold;
+            $isHighStock = $currentStock >= $highThreshold;
 
             // Get reason based on stock level and price change
             $percentChange = (($newPrice - $oldPrice) / $oldPrice) * 100;
@@ -380,8 +423,8 @@ class PricingEngine {
             if ($isLowStock) {
                 $reason = sprintf(
                     "Low stock adjustment (Stock: %d of %d units) - Price %s by %.1f%%",
-                    $product['quantity_available'],
-                    $product['low_stock_threshold'],
+                    $currentStock,
+                    $lowThreshold,
                     $newPrice > $oldPrice ? "increased" : "decreased",
                     abs($percentChange)
                 );
@@ -396,7 +439,7 @@ class PricingEngine {
             } else {
                 $reason = sprintf(
                     "Normal stock level adjustment (%d units) - Price %s by %.1f%%",
-                    $product['quantity_available'],
+                    $currentStock,
                     $newPrice > $oldPrice ? "increased" : "decreased",
                     abs($percentChange)
                 );
