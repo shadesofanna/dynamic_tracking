@@ -3,6 +3,40 @@
 $pageTitle = APP_NAME . ' - Seller Dashboard';
 require_once __DIR__ . '/../layouts/header.php';
 require_once __DIR__ . '/../layouts/seller_nav.php';
+
+require_once __DIR__ . '/../../config/config.php';
+require_once __DIR__ . '/../../config/database.php';
+require_once __DIR__ . '/../../core/Session.php';
+require_once __DIR__ . '/../../models/Product.php';
+require_once __DIR__ . '/../../models/Order.php';
+
+
+$userId = Session::getUserId();
+
+// Get seller ID
+$db = (new Database())->getConnection();
+$stmt = $db->prepare("SELECT seller_id, business_name FROM seller_profiles WHERE user_id = :user_id");
+$stmt->execute([':user_id' => $userId]);
+$seller = $stmt->fetch();
+$sellerId = $seller['seller_id'];
+
+// Get dashboard stats
+$productModel = new Product();
+$orderModel = new Order();
+
+$totalProducts = $productModel->count(['seller_id' => $sellerId, 'is_active' => 1]);
+$lowStockProducts = $productModel->getLowStockProducts($sellerId);
+$lowStockCount = count($lowStockProducts);
+
+// Get revenue stats
+$revenueStats = $orderModel->getRevenueStats($sellerId);
+$totalRevenue = $revenueStats['total_revenue'] ?? 0;
+$totalOrders = $revenueStats['total_orders'] ?? 0;
+
+// Get recent orders
+$recentOrders = $orderModel->getOrdersBySeller($sellerId);
+$recentOrders = array_slice($recentOrders, 0, 5);
+
 ?>
 
 <style>
@@ -312,15 +346,15 @@ require_once __DIR__ . '/../layouts/seller_nav.php';
             
             <div class="dashboard-stats">
                 <div class="stat-item">
-                    <div class="stat-value">24</div>
+                    <div class="stat-value"><?php echo $totalProducts; ?></div>
                     <div class="stat-label">Products</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">156</div>
+                    <div class="stat-value"><?php echo $totalOrders; ?></div>
                     <div class="stat-label">Orders</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">₦125K</div>
+                    <div class="stat-value">₦<?php echo number_format($totalRevenue, 2); ?></div>
                     <div class="stat-label">Revenue</div>
                 </div>
             </div>

@@ -53,12 +53,13 @@ class PricingEngine {
             $lowThreshold = intval($product['low_stock_threshold'] ?? 20);
             $highThreshold = intval($product['high_stock_threshold'] ?? 100);
             
-            // Start with the base cost - FIXED: was starting with currentPrice
-            $newPrice = $basePrice;
+            // Start with the current price - price changes should be based on current price
+            $newPrice = $currentPrice;
             
             // Ensure minimum price is at least the base cost
             if ($currentPrice < $basePrice) {
                 $currentPrice = $basePrice;
+                $newPrice = $currentPrice;
             }
         
             // 1. Apply currency conversion if needed
@@ -80,15 +81,21 @@ class PricingEngine {
                 $lowThreshold,
                 $highThreshold
             );
-            $newPrice *= (1 + $inventoryAdjustment);
+            $priceAfterInventory = $newPrice * (1 + $inventoryAdjustment);
+            Logger::info("After inventory adjustment: {$newPrice} -> {$priceAfterInventory} (adjustment: {$inventoryAdjustment})");
+            $newPrice = $priceAfterInventory;
 
             // 3. Apply time-based adjustments
             $timeAdjustment = $this->calculateTimeBasedAdjustment($product['seller_id']);
-            $newPrice *= (1 + $timeAdjustment);
+            $priceAfterTime = $newPrice * (1 + $timeAdjustment);
+            Logger::info("After time adjustment: {$newPrice} -> {$priceAfterTime} (adjustment: {$timeAdjustment})");
+            $newPrice = $priceAfterTime;
 
             // 4. Apply demand-based pricing
             $demandAdjustment = $this->calculateDemandAdjustment($productId);
-            $newPrice *= (1 + $demandAdjustment);
+            $priceAfterDemand = $newPrice * (1 + $demandAdjustment);
+            Logger::info("After demand adjustment: {$newPrice} -> {$priceAfterDemand} (adjustment: {$demandAdjustment})");
+            $newPrice = $priceAfterDemand;
 
             // 5. Apply seller's custom pricing rules
             $rules = $this->pricingRuleModel->getActiveRules($product['seller_id'], $productId);
@@ -97,7 +104,7 @@ class PricingEngine {
             }
 
             // 6. Ensure price stays within allowed limits
-            $newPrice = $this->enforcePriceLimits($newPrice, $basePrice);
+            $newPrice = $this->enforcePriceLimits($newPrice, $basePrice, $currentPrice);
 
             // Round to 2 decimal places
             $newPrice = round($newPrice, 2);
@@ -306,7 +313,7 @@ class PricingEngine {
             } elseif ($orderCount > 5) {
                 return 0.08; // Medium demand: +8%
             } elseif ($orderCount < 1) {
-                return -0.05; // Low demand: -5%
+                return 0;  // Low demand: No adjustment (don't penalize with price decrease)
             }
             
             return 0;
@@ -343,17 +350,20 @@ class PricingEngine {
     /**
      * Enforce minimum and maximum price limits
      */
-    private function enforcePriceLimits($price, $baseCost) {
-        // Ensure minimum profit margin
+    private function enforcePriceLimits($price, $baseCost, $currentPrice = null) {
+        // Use current price for limits if provided, otherwise use base cost
+        $referencePrice = $currentPrice ?? $baseCost;
+        
+        // Ensure minimum profit margin based on base cost
         $minPrice = $baseCost * (1 + self::MIN_PROFIT_MARGIN);
         
-        // Ensure maximum markup
-        $maxPrice = $baseCost * (1 + self::MAX_PRICE_INCREASE);
+        // Ensure maximum change is based on current price
+        $maxPrice = $referencePrice * (1 + self::MAX_PRICE_INCREASE);
         
         Logger::info("Price limits:");
         Logger::info("- Original price: {$price}");
-        Logger::info("- Min price (10% margin): {$minPrice}");
-        Logger::info("- Max price (20% increase): {$maxPrice}");
+        Logger::info("- Min price (based on base cost with margin): {$minPrice}");
+        Logger::info("- Max price (based on current price + max increase): {$maxPrice}");
         
         $finalPrice = max(min($price, $maxPrice), $minPrice);
         Logger::info("- Final price after limits: {$finalPrice}");
@@ -587,8 +597,12 @@ class PricingEngine {
         }
         
         $basePrice = $product['base_cost'];
+        $currentPrice = $product['current_price'];
+        
+        // Minimum price based on base cost with profit margin
         $minPrice = $basePrice * (1 + MIN_PROFIT_MARGIN);
-        $maxPrice = $basePrice * (1 + MAX_PRICE_INCREASE);
+        // Maximum price based on current price with max increase allowed
+        $maxPrice = $currentPrice * (1 + MAX_PRICE_INCREASE);
         
         return $price >= $minPrice && $price <= $maxPrice;
     }

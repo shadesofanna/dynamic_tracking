@@ -94,8 +94,6 @@ if (!isset($userType)) {
             border: 1px solid #fecaca;
         }
     </style>
-</head>
-<body>
     <div class="auth-container">
         <h1 class="auth-title">Create Account</h1>
         
@@ -155,5 +153,3 @@ if (!isset($userType)) {
             </div>
         </form>
     </div>
-</body>
-</html>

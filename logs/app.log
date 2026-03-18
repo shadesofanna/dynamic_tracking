@@ -1,0 +1,2882 @@
+[2025-10-30 09:31:08] [INFO] Stock level change triggered price check for product 1: Old qty: 11, New qty: 5, Threshold: 7
+[2025-10-30 09:31:09] [INFO] Price limits:
+[2025-10-30 09:31:09] [INFO] - Original price: 1036.8279569892
+[2025-10-30 09:31:09] [INFO] - Min price (10% margin): 1100
+[2025-10-30 09:31:09] [INFO] - Max price (20% increase): 1200
+[2025-10-30 09:31:09] [INFO] - Final price after limits: 1100
+[2025-10-30 09:31:09] [INFO] 
+Detailed price calculation:
+[2025-10-30 09:31:09] [INFO] Base cost: 1000
+[2025-10-30 09:31:09] [INFO] Current price: 1100
+[2025-10-30 09:31:09] [INFO] New price (before adjust): 1100
+[2025-10-30 09:31:09] [INFO] Stock level: 11 of 7
+[2025-10-30 09:31:09] [INFO] 
+Update criteria:
+[2025-10-30 09:31:09] [INFO] - Low stock? No
+[2025-10-30 09:31:09] [INFO] - Price increasing? No
+[2025-10-30 09:31:09] [INFO] - Significant change? No
+[2025-10-30 09:31:09] [INFO] - Price change: 0%
+[2025-10-30 09:31:09] [INFO] - Current: 1100, New: 1100
+[2025-10-30 09:31:09] [INFO] Should update? No
+[2025-10-30 09:31:09] [INFO] 
+Price calculation details:
+[2025-10-30 09:31:09] [INFO] - Current price: 1100
+[2025-10-30 09:31:09] [INFO] - New price: 1100
+[2025-10-30 09:31:09] [INFO] - Change: 0%
+[2025-10-30 09:31:09] [INFO] - Stock level: 11 units
+[2025-10-30 09:31:09] [INFO] - Low threshold: 7 units
+[2025-10-30 09:31:09] [INFO] - Stock status: Normal
+[2025-10-30 09:31:09] [INFO] - Update conditions: None
+[2025-10-30 09:31:09] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2025-10-30 09:31:09] [INFO] Stock level change triggered price check for product 1: Old qty: 11, New qty: 5, Threshold: 7
+[2025-10-30 09:31:09] [INFO] Price limits:
+[2025-10-30 09:31:09] [INFO] - Original price: 1043.0612244898
+[2025-10-30 09:31:09] [INFO] - Min price (10% margin): 1100
+[2025-10-30 09:31:09] [INFO] - Max price (20% increase): 1200
+[2025-10-30 09:31:09] [INFO] - Final price after limits: 1100
+[2025-10-30 09:31:09] [INFO] 
+Detailed price calculation:
+[2025-10-30 09:31:09] [INFO] Base cost: 1000
+[2025-10-30 09:31:09] [INFO] Current price: 1100
+[2025-10-30 09:31:09] [INFO] New price (before adjust): 1100
+[2025-10-30 09:31:09] [INFO] Stock level: 5 of 7
+[2025-10-30 09:31:09] [INFO] 
+Update criteria:
+[2025-10-30 09:31:09] [INFO] - Low stock? Yes
+[2025-10-30 09:31:09] [INFO] - Price increasing? No
+[2025-10-30 09:31:09] [INFO] - Significant change? No
+[2025-10-30 09:31:09] [INFO] - Price change: 0%
+[2025-10-30 09:31:09] [INFO] - Current: 1100, New: 1100
+[2025-10-30 09:31:09] [INFO] Should update? Yes
+[2025-10-30 09:31:09] [INFO] Update reason: Significant price change (0%)
+[2025-10-30 09:31:09] [INFO] 
+Price calculation details:
+[2025-10-30 09:31:09] [INFO] - Current price: 1100
+[2025-10-30 09:31:09] [INFO] - New price: 1100
+[2025-10-30 09:31:09] [INFO] - Change: 0%
+[2025-10-30 09:31:09] [INFO] - Stock level: 5 units
+[2025-10-30 09:31:09] [INFO] - Low threshold: 7 units
+[2025-10-30 09:31:09] [INFO] - Stock status: LOW
+[2025-10-30 09:31:09] [INFO] - Update conditions: Low stock
+[2025-10-30 09:31:09] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-10-30 09:31:09] [INFO] Starting price update transaction for product 1
+[2025-10-30 09:31:09] [INFO] Current price: 1100, New price: 1100
+[2025-10-30 09:31:09] [INFO] Successfully updated price for product 1: 1100 -> 1100
+[2025-10-30 09:31:09] [INFO] Price successfully updated from 1100 to 1100 (0% change)
+[2025-10-30 09:31:37] [INFO] Stock level change triggered price check for product 1: Old qty: 5, New qty: 2, Threshold: 7
+[2025-10-30 09:31:37] [INFO] Price limits:
+[2025-10-30 09:31:37] [INFO] - Original price: 1043.0612244898
+[2025-10-30 09:31:37] [INFO] - Min price (10% margin): 1100
+[2025-10-30 09:31:37] [INFO] - Max price (20% increase): 1200
+[2025-10-30 09:31:37] [INFO] - Final price after limits: 1100
+[2025-10-30 09:31:37] [INFO] 
+Detailed price calculation:
+[2025-10-30 09:31:37] [INFO] Base cost: 1000
+[2025-10-30 09:31:37] [INFO] Current price: 1100
+[2025-10-30 09:31:37] [INFO] New price (before adjust): 1100
+[2025-10-30 09:31:37] [INFO] Stock level: 5 of 7
+[2025-10-30 09:31:37] [INFO] 
+Update criteria:
+[2025-10-30 09:31:37] [INFO] - Low stock? Yes
+[2025-10-30 09:31:37] [INFO] - Price increasing? No
+[2025-10-30 09:31:37] [INFO] - Significant change? No
+[2025-10-30 09:31:37] [INFO] - Price change: 0%
+[2025-10-30 09:31:37] [INFO] - Current: 1100, New: 1100
+[2025-10-30 09:31:37] [INFO] Should update? Yes
+[2025-10-30 09:31:37] [INFO] Update reason: Significant price change (0%)
+[2025-10-30 09:31:37] [INFO] 
+Price calculation details:
+[2025-10-30 09:31:37] [INFO] - Current price: 1100
+[2025-10-30 09:31:37] [INFO] - New price: 1100
+[2025-10-30 09:31:37] [INFO] - Change: 0%
+[2025-10-30 09:31:37] [INFO] - Stock level: 5 units
+[2025-10-30 09:31:37] [INFO] - Low threshold: 7 units
+[2025-10-30 09:31:37] [INFO] - Stock status: LOW
+[2025-10-30 09:31:37] [INFO] - Update conditions: Low stock
+[2025-10-30 09:31:37] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-10-30 09:31:37] [INFO] Starting price update transaction for product 1
+[2025-10-30 09:31:37] [INFO] Current price: 1100, New price: 1100
+[2025-10-30 09:31:37] [INFO] Successfully updated price for product 1: 1100 -> 1100
+[2025-10-30 09:31:37] [INFO] Price successfully updated from 1100 to 1100 (0% change)
+[2025-10-30 09:31:37] [INFO] Stock level change triggered price check for product 1: Old qty: 5, New qty: 2, Threshold: 7
+[2025-10-30 09:31:37] [INFO] Price limits:
+[2025-10-30 09:31:37] [INFO] - Original price: 1124.4897959184
+[2025-10-30 09:31:37] [INFO] - Min price (10% margin): 1100
+[2025-10-30 09:31:37] [INFO] - Max price (20% increase): 1200
+[2025-10-30 09:31:37] [INFO] - Final price after limits: 1124.4897959184
+[2025-10-30 09:31:37] [INFO] 
+Detailed price calculation:
+[2025-10-30 09:31:37] [INFO] Base cost: 1000
+[2025-10-30 09:31:37] [INFO] Current price: 1100
+[2025-10-30 09:31:37] [INFO] New price (before adjust): 1124.49
+[2025-10-30 09:31:37] [INFO] Stock level: 2 of 7
+[2025-10-30 09:31:37] [INFO] 
+Update criteria:
+[2025-10-30 09:31:37] [INFO] - Low stock? Yes
+[2025-10-30 09:31:37] [INFO] - Price increasing? Yes
+[2025-10-30 09:31:37] [INFO] - Significant change? Yes
+[2025-10-30 09:31:37] [INFO] - Price change: 2.23%
+[2025-10-30 09:31:37] [INFO] - Current: 1100, New: 1124.49
+[2025-10-30 09:31:37] [INFO] Should update? Yes
+[2025-10-30 09:31:37] [INFO] Update reason: Low stock and price increase
+[2025-10-30 09:31:37] [INFO] 
+Price calculation details:
+[2025-10-30 09:31:37] [INFO] - Current price: 1100
+[2025-10-30 09:31:37] [INFO] - New price: 1124.49
+[2025-10-30 09:31:37] [INFO] - Change: 2.23%
+[2025-10-30 09:31:37] [INFO] - Stock level: 2 units
+[2025-10-30 09:31:37] [INFO] - Low threshold: 7 units
+[2025-10-30 09:31:37] [INFO] - Stock status: LOW
+[2025-10-30 09:31:37] [INFO] - Update conditions: Low stock, Significant price change (2.23%)
+[2025-10-30 09:31:37] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-10-30 09:31:37] [INFO] Starting price update transaction for product 1
+[2025-10-30 09:31:37] [INFO] Current price: 1100, New price: 1124.49
+[2025-10-30 09:31:37] [INFO] Successfully updated price for product 1: 1100 -> 1124.49
+[2025-10-30 09:31:37] [INFO] Price successfully updated from 1100 to 1124.49 (2.23% change)
+[2025-11-03 17:33:28] [INFO] Stock level change triggered price check for product 1: Old qty: 2, New qty: 14, Threshold: 7
+[2025-11-03 17:33:28] [INFO] Price limits:
+[2025-11-03 17:33:28] [INFO] - Original price: 1124.4897959184
+[2025-11-03 17:33:28] [INFO] - Min price (10% margin): 1100
+[2025-11-03 17:33:28] [INFO] - Max price (20% increase): 1200
+[2025-11-03 17:33:28] [INFO] - Final price after limits: 1124.4897959184
+[2025-11-03 17:33:28] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:33:28] [INFO] Base cost: 1000
+[2025-11-03 17:33:28] [INFO] Current price: 1124.49
+[2025-11-03 17:33:28] [INFO] New price (before adjust): 1124.49
+[2025-11-03 17:33:28] [INFO] Stock level: 2 of 7
+[2025-11-03 17:33:28] [INFO] 
+Update criteria:
+[2025-11-03 17:33:28] [INFO] - Low stock? Yes
+[2025-11-03 17:33:28] [INFO] - Price increasing? No
+[2025-11-03 17:33:28] [INFO] - Significant change? No
+[2025-11-03 17:33:28] [INFO] - Price change: 0%
+[2025-11-03 17:33:28] [INFO] - Current: 1124.49, New: 1124.49
+[2025-11-03 17:33:28] [INFO] Should update? Yes
+[2025-11-03 17:33:28] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 17:33:28] [INFO] 
+Price calculation details:
+[2025-11-03 17:33:28] [INFO] - Current price: 1124.49
+[2025-11-03 17:33:28] [INFO] - New price: 1124.49
+[2025-11-03 17:33:28] [INFO] - Change: 0%
+[2025-11-03 17:33:28] [INFO] - Stock level: 2 units
+[2025-11-03 17:33:28] [INFO] - Low threshold: 7 units
+[2025-11-03 17:33:28] [INFO] - Stock status: LOW
+[2025-11-03 17:33:28] [INFO] - Update conditions: Low stock
+[2025-11-03 17:33:28] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:33:28] [INFO] Starting price update transaction for product 1
+[2025-11-03 17:33:28] [INFO] Current price: 1124.49, New price: 1124.49
+[2025-11-03 17:33:28] [INFO] Successfully updated price for product 1: 1124.49 -> 1124.49
+[2025-11-03 17:33:28] [INFO] Price successfully updated from 1124.49 to 1124.49 (0% change)
+[2025-11-03 17:33:28] [INFO] Stock level change triggered price check for product 1: Old qty: 2, New qty: 14, Threshold: 7
+[2025-11-03 17:33:28] [INFO] Price limits:
+[2025-11-03 17:33:28] [INFO] - Original price: 1030.6989247312
+[2025-11-03 17:33:28] [INFO] - Min price (10% margin): 1100
+[2025-11-03 17:33:28] [INFO] - Max price (20% increase): 1200
+[2025-11-03 17:33:28] [INFO] - Final price after limits: 1100
+[2025-11-03 17:33:28] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:33:28] [INFO] Base cost: 1000
+[2025-11-03 17:33:28] [INFO] Current price: 1124.49
+[2025-11-03 17:33:28] [INFO] New price (before adjust): 1100
+[2025-11-03 17:33:28] [INFO] Stock level: 14 of 7
+[2025-11-03 17:33:28] [INFO] 
+Update criteria:
+[2025-11-03 17:33:28] [INFO] - Low stock? No
+[2025-11-03 17:33:28] [INFO] - Price increasing? No
+[2025-11-03 17:33:28] [INFO] - Significant change? Yes
+[2025-11-03 17:33:28] [INFO] - Price change: -2.18%
+[2025-11-03 17:33:28] [INFO] - Current: 1124.49, New: 1100
+[2025-11-03 17:33:28] [INFO] Should update? Yes
+[2025-11-03 17:33:28] [INFO] Update reason: Significant price change (-2.18%)
+[2025-11-03 17:33:28] [INFO] 
+Price calculation details:
+[2025-11-03 17:33:28] [INFO] - Current price: 1124.49
+[2025-11-03 17:33:28] [INFO] - New price: 1100
+[2025-11-03 17:33:28] [INFO] - Change: -2.18%
+[2025-11-03 17:33:28] [INFO] - Stock level: 14 units
+[2025-11-03 17:33:28] [INFO] - Low threshold: 7 units
+[2025-11-03 17:33:28] [INFO] - Stock status: Normal
+[2025-11-03 17:33:28] [INFO] - Update conditions: Significant price change (-2.18%)
+[2025-11-03 17:33:28] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 17:33:28] [INFO] Starting price update transaction for product 1
+[2025-11-03 17:33:28] [INFO] Current price: 1124.49, New price: 1100
+[2025-11-03 17:33:28] [INFO] Successfully updated price for product 1: 1124.49 -> 1100
+[2025-11-03 17:33:28] [INFO] Price successfully updated from 1124.49 to 1100 (-2.18% change)
+[2025-11-03 17:39:26] [INFO] Stock level change triggered price check for product 1: Old qty: 14, New qty: 2, Threshold: 7
+[2025-11-03 17:39:26] [INFO] Price limits:
+[2025-11-03 17:39:26] [INFO] - Original price: 1030.6989247312
+[2025-11-03 17:39:26] [INFO] - Min price (10% margin): 1100
+[2025-11-03 17:39:26] [INFO] - Max price (20% increase): 1200
+[2025-11-03 17:39:26] [INFO] - Final price after limits: 1100
+[2025-11-03 17:39:26] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:39:26] [INFO] Base cost: 1000
+[2025-11-03 17:39:26] [INFO] Current price: 1100
+[2025-11-03 17:39:26] [INFO] New price (before adjust): 1100
+[2025-11-03 17:39:26] [INFO] Stock level: 14 of 7
+[2025-11-03 17:39:26] [INFO] 
+Update criteria:
+[2025-11-03 17:39:26] [INFO] - Low stock? No
+[2025-11-03 17:39:26] [INFO] - Price increasing? No
+[2025-11-03 17:39:26] [INFO] - Significant change? No
+[2025-11-03 17:39:26] [INFO] - Price change: 0%
+[2025-11-03 17:39:26] [INFO] - Current: 1100, New: 1100
+[2025-11-03 17:39:26] [INFO] Should update? No
+[2025-11-03 17:39:26] [INFO] 
+Price calculation details:
+[2025-11-03 17:39:26] [INFO] - Current price: 1100
+[2025-11-03 17:39:26] [INFO] - New price: 1100
+[2025-11-03 17:39:26] [INFO] - Change: 0%
+[2025-11-03 17:39:26] [INFO] - Stock level: 14 units
+[2025-11-03 17:39:26] [INFO] - Low threshold: 7 units
+[2025-11-03 17:39:26] [INFO] - Stock status: Normal
+[2025-11-03 17:39:26] [INFO] - Update conditions: None
+[2025-11-03 17:39:26] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2025-11-03 17:39:26] [INFO] Stock level change triggered price check for product 1: Old qty: 14, New qty: 2, Threshold: 7
+[2025-11-03 17:39:26] [INFO] Price limits:
+[2025-11-03 17:39:26] [INFO] - Original price: 1124.4897959184
+[2025-11-03 17:39:26] [INFO] - Min price (10% margin): 1100
+[2025-11-03 17:39:26] [INFO] - Max price (20% increase): 1200
+[2025-11-03 17:39:26] [INFO] - Final price after limits: 1124.4897959184
+[2025-11-03 17:39:26] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:39:26] [INFO] Base cost: 1000
+[2025-11-03 17:39:26] [INFO] Current price: 1100
+[2025-11-03 17:39:26] [INFO] New price (before adjust): 1124.49
+[2025-11-03 17:39:26] [INFO] Stock level: 2 of 7
+[2025-11-03 17:39:26] [INFO] 
+Update criteria:
+[2025-11-03 17:39:26] [INFO] - Low stock? Yes
+[2025-11-03 17:39:26] [INFO] - Price increasing? Yes
+[2025-11-03 17:39:26] [INFO] - Significant change? Yes
+[2025-11-03 17:39:26] [INFO] - Price change: 2.23%
+[2025-11-03 17:39:26] [INFO] - Current: 1100, New: 1124.49
+[2025-11-03 17:39:26] [INFO] Should update? Yes
+[2025-11-03 17:39:26] [INFO] Update reason: Low stock and price increase
+[2025-11-03 17:39:26] [INFO] 
+Price calculation details:
+[2025-11-03 17:39:26] [INFO] - Current price: 1100
+[2025-11-03 17:39:26] [INFO] - New price: 1124.49
+[2025-11-03 17:39:26] [INFO] - Change: 2.23%
+[2025-11-03 17:39:26] [INFO] - Stock level: 2 units
+[2025-11-03 17:39:26] [INFO] - Low threshold: 7 units
+[2025-11-03 17:39:26] [INFO] - Stock status: LOW
+[2025-11-03 17:39:26] [INFO] - Update conditions: Low stock, Significant price change (2.23%)
+[2025-11-03 17:39:26] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:39:26] [INFO] Starting price update transaction for product 1
+[2025-11-03 17:39:26] [INFO] Current price: 1100, New price: 1124.49
+[2025-11-03 17:39:26] [INFO] Successfully updated price for product 1: 1100 -> 1124.49
+[2025-11-03 17:39:26] [INFO] Price successfully updated from 1100 to 1124.49 (2.23% change)
+[2025-11-03 17:40:03] [INFO] Stock level change triggered price check for product 1: Old qty: 2, New qty: 200, Threshold: 7
+[2025-11-03 17:40:03] [INFO] Price limits:
+[2025-11-03 17:40:03] [INFO] - Original price: 1124.4897959184
+[2025-11-03 17:40:03] [INFO] - Min price (10% margin): 1100
+[2025-11-03 17:40:03] [INFO] - Max price (20% increase): 1200
+[2025-11-03 17:40:03] [INFO] - Final price after limits: 1124.4897959184
+[2025-11-03 17:40:03] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:40:03] [INFO] Base cost: 1000
+[2025-11-03 17:40:03] [INFO] Current price: 1124.49
+[2025-11-03 17:40:03] [INFO] New price (before adjust): 1124.49
+[2025-11-03 17:40:03] [INFO] Stock level: 2 of 7
+[2025-11-03 17:40:03] [INFO] 
+Update criteria:
+[2025-11-03 17:40:03] [INFO] - Low stock? Yes
+[2025-11-03 17:40:03] [INFO] - Price increasing? No
+[2025-11-03 17:40:03] [INFO] - Significant change? No
+[2025-11-03 17:40:03] [INFO] - Price change: 0%
+[2025-11-03 17:40:03] [INFO] - Current: 1124.49, New: 1124.49
+[2025-11-03 17:40:03] [INFO] Should update? Yes
+[2025-11-03 17:40:03] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 17:40:03] [INFO] 
+Price calculation details:
+[2025-11-03 17:40:03] [INFO] - Current price: 1124.49
+[2025-11-03 17:40:03] [INFO] - New price: 1124.49
+[2025-11-03 17:40:03] [INFO] - Change: 0%
+[2025-11-03 17:40:03] [INFO] - Stock level: 2 units
+[2025-11-03 17:40:03] [INFO] - Low threshold: 7 units
+[2025-11-03 17:40:03] [INFO] - Stock status: LOW
+[2025-11-03 17:40:03] [INFO] - Update conditions: Low stock
+[2025-11-03 17:40:03] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:40:03] [INFO] Starting price update transaction for product 1
+[2025-11-03 17:40:03] [INFO] Current price: 1124.49, New price: 1124.49
+[2025-11-03 17:40:03] [INFO] Successfully updated price for product 1: 1124.49 -> 1124.49
+[2025-11-03 17:40:03] [INFO] Price successfully updated from 1124.49 to 1124.49 (0% change)
+[2025-11-03 17:40:03] [INFO] Stock level change triggered price check for product 1: Old qty: 2, New qty: 200, Threshold: 7
+[2025-11-03 17:40:03] [INFO] Price limits:
+[2025-11-03 17:40:03] [INFO] - Original price: 807.5
+[2025-11-03 17:40:03] [INFO] - Min price (10% margin): 1100
+[2025-11-03 17:40:03] [INFO] - Max price (20% increase): 1200
+[2025-11-03 17:40:03] [INFO] - Final price after limits: 1100
+[2025-11-03 17:40:03] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:40:03] [INFO] Base cost: 1000
+[2025-11-03 17:40:03] [INFO] Current price: 1124.49
+[2025-11-03 17:40:03] [INFO] New price (before adjust): 1100
+[2025-11-03 17:40:03] [INFO] Stock level: 200 of 7
+[2025-11-03 17:40:03] [INFO] 
+Update criteria:
+[2025-11-03 17:40:03] [INFO] - Low stock? No
+[2025-11-03 17:40:03] [INFO] - Price increasing? No
+[2025-11-03 17:40:03] [INFO] - Significant change? Yes
+[2025-11-03 17:40:03] [INFO] - Price change: -2.18%
+[2025-11-03 17:40:03] [INFO] - Current: 1124.49, New: 1100
+[2025-11-03 17:40:03] [INFO] Should update? Yes
+[2025-11-03 17:40:03] [INFO] Update reason: Significant price change (-2.18%)
+[2025-11-03 17:40:03] [INFO] 
+Price calculation details:
+[2025-11-03 17:40:03] [INFO] - Current price: 1124.49
+[2025-11-03 17:40:03] [INFO] - New price: 1100
+[2025-11-03 17:40:03] [INFO] - Change: -2.18%
+[2025-11-03 17:40:03] [INFO] - Stock level: 200 units
+[2025-11-03 17:40:03] [INFO] - Low threshold: 7 units
+[2025-11-03 17:40:03] [INFO] - Stock status: Normal (High stock)
+[2025-11-03 17:40:03] [INFO] - Update conditions: Significant price change (-2.18%)
+[2025-11-03 17:40:03] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 17:40:03] [INFO] Starting price update transaction for product 1
+[2025-11-03 17:40:03] [INFO] Current price: 1124.49, New price: 1100
+[2025-11-03 17:40:03] [INFO] Successfully updated price for product 1: 1124.49 -> 1100
+[2025-11-03 17:40:03] [INFO] Price successfully updated from 1124.49 to 1100 (-2.18% change)
+[2025-11-03 17:41:14] [INFO] Stock level change triggered price check for product 2: Old qty: 40, New qty: 1, Threshold: 10
+[2025-11-03 17:41:14] [INFO] Price limits:
+[2025-11-03 17:41:14] [INFO] - Original price: 88.35
+[2025-11-03 17:41:14] [INFO] - Min price (10% margin): 99
+[2025-11-03 17:41:14] [INFO] - Max price (20% increase): 108
+[2025-11-03 17:41:14] [INFO] - Final price after limits: 99
+[2025-11-03 17:41:14] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:41:14] [INFO] Base cost: 90
+[2025-11-03 17:41:14] [INFO] Current price: 99
+[2025-11-03 17:41:14] [INFO] New price (before adjust): 99
+[2025-11-03 17:41:14] [INFO] Stock level: 40 of 10
+[2025-11-03 17:41:14] [INFO] 
+Update criteria:
+[2025-11-03 17:41:14] [INFO] - Low stock? No
+[2025-11-03 17:41:14] [INFO] - Price increasing? No
+[2025-11-03 17:41:14] [INFO] - Significant change? No
+[2025-11-03 17:41:14] [INFO] - Price change: 0%
+[2025-11-03 17:41:14] [INFO] - Current: 99, New: 99
+[2025-11-03 17:41:14] [INFO] Should update? No
+[2025-11-03 17:41:14] [INFO] 
+Price calculation details:
+[2025-11-03 17:41:14] [INFO] - Current price: 99
+[2025-11-03 17:41:14] [INFO] - New price: 99
+[2025-11-03 17:41:14] [INFO] - Change: 0%
+[2025-11-03 17:41:14] [INFO] - Stock level: 40 units
+[2025-11-03 17:41:14] [INFO] - Low threshold: 10 units
+[2025-11-03 17:41:14] [INFO] - Stock status: Normal
+[2025-11-03 17:41:14] [INFO] - Update conditions: None
+[2025-11-03 17:41:14] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2025-11-03 17:41:14] [INFO] Stock level change triggered price check for product 2: Old qty: 40, New qty: 1, Threshold: 10
+[2025-11-03 17:41:14] [INFO] Price limits:
+[2025-11-03 17:41:14] [INFO] - Original price: 102.429
+[2025-11-03 17:41:14] [INFO] - Min price (10% margin): 99
+[2025-11-03 17:41:14] [INFO] - Max price (20% increase): 108
+[2025-11-03 17:41:14] [INFO] - Final price after limits: 102.429
+[2025-11-03 17:41:14] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:41:14] [INFO] Base cost: 90
+[2025-11-03 17:41:14] [INFO] Current price: 99
+[2025-11-03 17:41:14] [INFO] New price (before adjust): 102.43
+[2025-11-03 17:41:14] [INFO] Stock level: 1 of 10
+[2025-11-03 17:41:14] [INFO] 
+Update criteria:
+[2025-11-03 17:41:14] [INFO] - Low stock? Yes
+[2025-11-03 17:41:14] [INFO] - Price increasing? Yes
+[2025-11-03 17:41:14] [INFO] - Significant change? Yes
+[2025-11-03 17:41:14] [INFO] - Price change: 3.46%
+[2025-11-03 17:41:14] [INFO] - Current: 99, New: 102.43
+[2025-11-03 17:41:14] [INFO] Should update? Yes
+[2025-11-03 17:41:14] [INFO] Update reason: Low stock and price increase
+[2025-11-03 17:41:14] [INFO] 
+Price calculation details:
+[2025-11-03 17:41:14] [INFO] - Current price: 99
+[2025-11-03 17:41:14] [INFO] - New price: 102.43
+[2025-11-03 17:41:14] [INFO] - Change: 3.46%
+[2025-11-03 17:41:14] [INFO] - Stock level: 1 units
+[2025-11-03 17:41:14] [INFO] - Low threshold: 10 units
+[2025-11-03 17:41:14] [INFO] - Stock status: LOW
+[2025-11-03 17:41:14] [INFO] - Update conditions: Low stock, Significant price change (3.46%)
+[2025-11-03 17:41:14] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:41:14] [INFO] Starting price update transaction for product 2
+[2025-11-03 17:41:14] [INFO] Current price: 99, New price: 102.43
+[2025-11-03 17:41:14] [INFO] Successfully updated price for product 2: 99 -> 102.43
+[2025-11-03 17:41:14] [INFO] Price successfully updated from 99 to 102.43 (3.46% change)
+[2025-11-03 17:41:34] [INFO] Stock level change triggered price check for product 2: Old qty: 1, New qty: 100, Threshold: 10
+[2025-11-03 17:41:34] [INFO] Price limits:
+[2025-11-03 17:41:34] [INFO] - Original price: 102.429
+[2025-11-03 17:41:34] [INFO] - Min price (10% margin): 99
+[2025-11-03 17:41:34] [INFO] - Max price (20% increase): 108
+[2025-11-03 17:41:34] [INFO] - Final price after limits: 102.429
+[2025-11-03 17:41:34] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:41:34] [INFO] Base cost: 90
+[2025-11-03 17:41:34] [INFO] Current price: 102.43
+[2025-11-03 17:41:34] [INFO] New price (before adjust): 102.43
+[2025-11-03 17:41:34] [INFO] Stock level: 1 of 10
+[2025-11-03 17:41:34] [INFO] 
+Update criteria:
+[2025-11-03 17:41:34] [INFO] - Low stock? Yes
+[2025-11-03 17:41:34] [INFO] - Price increasing? No
+[2025-11-03 17:41:34] [INFO] - Significant change? No
+[2025-11-03 17:41:34] [INFO] - Price change: 0%
+[2025-11-03 17:41:34] [INFO] - Current: 102.43, New: 102.43
+[2025-11-03 17:41:34] [INFO] Should update? Yes
+[2025-11-03 17:41:34] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 17:41:34] [INFO] 
+Price calculation details:
+[2025-11-03 17:41:34] [INFO] - Current price: 102.43
+[2025-11-03 17:41:34] [INFO] - New price: 102.43
+[2025-11-03 17:41:34] [INFO] - Change: 0%
+[2025-11-03 17:41:34] [INFO] - Stock level: 1 units
+[2025-11-03 17:41:34] [INFO] - Low threshold: 10 units
+[2025-11-03 17:41:34] [INFO] - Stock status: LOW
+[2025-11-03 17:41:34] [INFO] - Update conditions: Low stock
+[2025-11-03 17:41:34] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:41:34] [INFO] Starting price update transaction for product 2
+[2025-11-03 17:41:34] [INFO] Current price: 102.43, New price: 102.43
+[2025-11-03 17:41:34] [INFO] Successfully updated price for product 2: 102.43 -> 102.43
+[2025-11-03 17:41:34] [INFO] Price successfully updated from 102.43 to 102.43 (0% change)
+[2025-11-03 17:41:34] [INFO] Stock level change triggered price check for product 2: Old qty: 1, New qty: 100, Threshold: 10
+[2025-11-03 17:41:34] [INFO] Price limits:
+[2025-11-03 17:41:34] [INFO] - Original price: 85.5
+[2025-11-03 17:41:34] [INFO] - Min price (10% margin): 99
+[2025-11-03 17:41:34] [INFO] - Max price (20% increase): 108
+[2025-11-03 17:41:34] [INFO] - Final price after limits: 99
+[2025-11-03 17:41:34] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:41:34] [INFO] Base cost: 90
+[2025-11-03 17:41:34] [INFO] Current price: 102.43
+[2025-11-03 17:41:34] [INFO] New price (before adjust): 99
+[2025-11-03 17:41:34] [INFO] Stock level: 100 of 10
+[2025-11-03 17:41:34] [INFO] 
+Update criteria:
+[2025-11-03 17:41:34] [INFO] - Low stock? No
+[2025-11-03 17:41:34] [INFO] - Price increasing? No
+[2025-11-03 17:41:34] [INFO] - Significant change? Yes
+[2025-11-03 17:41:34] [INFO] - Price change: -3.35%
+[2025-11-03 17:41:34] [INFO] - Current: 102.43, New: 99
+[2025-11-03 17:41:34] [INFO] Should update? Yes
+[2025-11-03 17:41:34] [INFO] Update reason: Significant price change (-3.35%)
+[2025-11-03 17:41:34] [INFO] 
+Price calculation details:
+[2025-11-03 17:41:34] [INFO] - Current price: 102.43
+[2025-11-03 17:41:34] [INFO] - New price: 99
+[2025-11-03 17:41:34] [INFO] - Change: -3.35%
+[2025-11-03 17:41:34] [INFO] - Stock level: 100 units
+[2025-11-03 17:41:34] [INFO] - Low threshold: 10 units
+[2025-11-03 17:41:34] [INFO] - Stock status: Normal (High stock)
+[2025-11-03 17:41:34] [INFO] - Update conditions: Significant price change (-3.35%)
+[2025-11-03 17:41:34] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 17:41:34] [INFO] Starting price update transaction for product 2
+[2025-11-03 17:41:34] [INFO] Current price: 102.43, New price: 99
+[2025-11-03 17:41:34] [INFO] Successfully updated price for product 2: 102.43 -> 99
+[2025-11-03 17:41:34] [INFO] Price successfully updated from 102.43 to 99 (-3.35% change)
+[2025-11-03 17:43:37] [INFO] Stock level change triggered price check for product 3: Old qty: 20, New qty: 2, Threshold: 3
+[2025-11-03 17:43:37] [INFO] Price limits:
+[2025-11-03 17:43:37] [INFO] - Original price: 101.17010309278
+[2025-11-03 17:43:37] [INFO] - Min price (10% margin): 110
+[2025-11-03 17:43:37] [INFO] - Max price (20% increase): 120
+[2025-11-03 17:43:37] [INFO] - Final price after limits: 110
+[2025-11-03 17:43:37] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:43:37] [INFO] Base cost: 100
+[2025-11-03 17:43:37] [INFO] Current price: 200
+[2025-11-03 17:43:37] [INFO] New price (before adjust): 110
+[2025-11-03 17:43:37] [INFO] Stock level: 20 of 3
+[2025-11-03 17:43:37] [INFO] 
+Update criteria:
+[2025-11-03 17:43:37] [INFO] - Low stock? No
+[2025-11-03 17:43:37] [INFO] - Price increasing? No
+[2025-11-03 17:43:37] [INFO] - Significant change? Yes
+[2025-11-03 17:43:37] [INFO] - Price change: -45%
+[2025-11-03 17:43:37] [INFO] - Current: 200, New: 110
+[2025-11-03 17:43:37] [INFO] Should update? Yes
+[2025-11-03 17:43:37] [INFO] Update reason: Significant price change (-45%)
+[2025-11-03 17:43:37] [INFO] 
+Price calculation details:
+[2025-11-03 17:43:37] [INFO] - Current price: 200
+[2025-11-03 17:43:37] [INFO] - New price: 110
+[2025-11-03 17:43:37] [INFO] - Change: -45%
+[2025-11-03 17:43:37] [INFO] - Stock level: 20 units
+[2025-11-03 17:43:37] [INFO] - Low threshold: 3 units
+[2025-11-03 17:43:37] [INFO] - Stock status: Normal
+[2025-11-03 17:43:37] [INFO] - Update conditions: Significant price change (-45%)
+[2025-11-03 17:43:37] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 17:43:37] [INFO] Starting price update transaction for product 3
+[2025-11-03 17:43:37] [INFO] Current price: 200, New price: 110
+[2025-11-03 17:43:37] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 17:43:37] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 17:43:37] [INFO] Successfully updated price for product 3: 200 -> 110
+[2025-11-03 17:43:37] [INFO] Price successfully updated from 200 to 110 (-45% change)
+[2025-11-03 17:43:37] [INFO] Stock level change triggered price check for product 3: Old qty: 20, New qty: 2, Threshold: 3
+[2025-11-03 17:43:37] [INFO] Price limits:
+[2025-11-03 17:43:37] [INFO] - Original price: 105.55555555556
+[2025-11-03 17:43:37] [INFO] - Min price (10% margin): 110
+[2025-11-03 17:43:37] [INFO] - Max price (20% increase): 120
+[2025-11-03 17:43:37] [INFO] - Final price after limits: 110
+[2025-11-03 17:43:37] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:43:37] [INFO] Base cost: 100
+[2025-11-03 17:43:37] [INFO] Current price: 110
+[2025-11-03 17:43:37] [INFO] New price (before adjust): 110
+[2025-11-03 17:43:37] [INFO] Stock level: 2 of 3
+[2025-11-03 17:43:37] [INFO] 
+Update criteria:
+[2025-11-03 17:43:37] [INFO] - Low stock? Yes
+[2025-11-03 17:43:37] [INFO] - Price increasing? No
+[2025-11-03 17:43:37] [INFO] - Significant change? No
+[2025-11-03 17:43:37] [INFO] - Price change: 0%
+[2025-11-03 17:43:37] [INFO] - Current: 110, New: 110
+[2025-11-03 17:43:37] [INFO] Should update? Yes
+[2025-11-03 17:43:37] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 17:43:37] [INFO] 
+Price calculation details:
+[2025-11-03 17:43:37] [INFO] - Current price: 110
+[2025-11-03 17:43:37] [INFO] - New price: 110
+[2025-11-03 17:43:37] [INFO] - Change: 0%
+[2025-11-03 17:43:37] [INFO] - Stock level: 2 units
+[2025-11-03 17:43:37] [INFO] - Low threshold: 3 units
+[2025-11-03 17:43:37] [INFO] - Stock status: LOW
+[2025-11-03 17:43:37] [INFO] - Update conditions: Low stock
+[2025-11-03 17:43:37] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:43:37] [INFO] Starting price update transaction for product 3
+[2025-11-03 17:43:37] [INFO] Current price: 110, New price: 110
+[2025-11-03 17:43:37] [ERROR] Failed to update price for product 3: No product found with ID: 3
+[2025-11-03 17:43:37] [ERROR] Failed to update price: Failed to update price for product 3: No product found with ID: 3
+[2025-11-03 17:43:57] [INFO] Stock level change triggered price check for product 3: Old qty: 2, New qty: 40, Threshold: 3
+[2025-11-03 17:43:57] [INFO] Price limits:
+[2025-11-03 17:43:57] [INFO] - Original price: 105.55555555556
+[2025-11-03 17:43:57] [INFO] - Min price (10% margin): 110
+[2025-11-03 17:43:57] [INFO] - Max price (20% increase): 120
+[2025-11-03 17:43:57] [INFO] - Final price after limits: 110
+[2025-11-03 17:43:57] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:43:57] [INFO] Base cost: 100
+[2025-11-03 17:43:57] [INFO] Current price: 110
+[2025-11-03 17:43:57] [INFO] New price (before adjust): 110
+[2025-11-03 17:43:57] [INFO] Stock level: 2 of 3
+[2025-11-03 17:43:57] [INFO] 
+Update criteria:
+[2025-11-03 17:43:57] [INFO] - Low stock? Yes
+[2025-11-03 17:43:57] [INFO] - Price increasing? No
+[2025-11-03 17:43:57] [INFO] - Significant change? No
+[2025-11-03 17:43:57] [INFO] - Price change: 0%
+[2025-11-03 17:43:57] [INFO] - Current: 110, New: 110
+[2025-11-03 17:43:57] [INFO] Should update? Yes
+[2025-11-03 17:43:57] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 17:43:57] [INFO] 
+Price calculation details:
+[2025-11-03 17:43:57] [INFO] - Current price: 110
+[2025-11-03 17:43:57] [INFO] - New price: 110
+[2025-11-03 17:43:57] [INFO] - Change: 0%
+[2025-11-03 17:43:57] [INFO] - Stock level: 2 units
+[2025-11-03 17:43:57] [INFO] - Low threshold: 3 units
+[2025-11-03 17:43:57] [INFO] - Stock status: LOW
+[2025-11-03 17:43:57] [INFO] - Update conditions: Low stock
+[2025-11-03 17:43:57] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:43:57] [INFO] Starting price update transaction for product 3
+[2025-11-03 17:43:57] [INFO] Current price: 110, New price: 110
+[2025-11-03 17:43:57] [INFO] Successfully updated price for product 3: 110 -> 110
+[2025-11-03 17:43:57] [INFO] Price successfully updated from 110 to 110 (0% change)
+[2025-11-03 17:43:57] [INFO] Stock level change triggered price check for product 3: Old qty: 2, New qty: 40, Threshold: 3
+[2025-11-03 17:43:57] [INFO] Price limits:
+[2025-11-03 17:43:57] [INFO] - Original price: 97.252577319588
+[2025-11-03 17:43:57] [INFO] - Min price (10% margin): 110
+[2025-11-03 17:43:57] [INFO] - Max price (20% increase): 120
+[2025-11-03 17:43:57] [INFO] - Final price after limits: 110
+[2025-11-03 17:43:57] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:43:57] [INFO] Base cost: 100
+[2025-11-03 17:43:57] [INFO] Current price: 110
+[2025-11-03 17:43:57] [INFO] New price (before adjust): 110
+[2025-11-03 17:43:57] [INFO] Stock level: 40 of 3
+[2025-11-03 17:43:57] [INFO] 
+Update criteria:
+[2025-11-03 17:43:57] [INFO] - Low stock? No
+[2025-11-03 17:43:57] [INFO] - Price increasing? No
+[2025-11-03 17:43:57] [INFO] - Significant change? No
+[2025-11-03 17:43:57] [INFO] - Price change: 0%
+[2025-11-03 17:43:57] [INFO] - Current: 110, New: 110
+[2025-11-03 17:43:57] [INFO] Should update? No
+[2025-11-03 17:43:57] [INFO] 
+Price calculation details:
+[2025-11-03 17:43:57] [INFO] - Current price: 110
+[2025-11-03 17:43:57] [INFO] - New price: 110
+[2025-11-03 17:43:57] [INFO] - Change: 0%
+[2025-11-03 17:43:57] [INFO] - Stock level: 40 units
+[2025-11-03 17:43:57] [INFO] - Low threshold: 3 units
+[2025-11-03 17:43:57] [INFO] - Stock status: Normal
+[2025-11-03 17:43:57] [INFO] - Update conditions: None
+[2025-11-03 17:43:57] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2025-11-03 17:59:54] [INFO] Stock level change triggered price check for product 4: Old qty: 100, New qty: 3, Threshold: 20
+[2025-11-03 17:59:54] [INFO] Price limits:
+[2025-11-03 17:59:54] [INFO] - Original price: 95
+[2025-11-03 17:59:54] [INFO] - Min price (10% margin): 110
+[2025-11-03 17:59:54] [INFO] - Max price (20% increase): 120
+[2025-11-03 17:59:54] [INFO] - Final price after limits: 110
+[2025-11-03 17:59:54] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:59:54] [INFO] Base cost: 100
+[2025-11-03 17:59:54] [INFO] Current price: 110
+[2025-11-03 17:59:54] [INFO] New price (before adjust): 110
+[2025-11-03 17:59:54] [INFO] Stock level: 100 of 20
+[2025-11-03 17:59:54] [INFO] 
+Update criteria:
+[2025-11-03 17:59:54] [INFO] - Low stock? No
+[2025-11-03 17:59:54] [INFO] - Price increasing? No
+[2025-11-03 17:59:54] [INFO] - Significant change? No
+[2025-11-03 17:59:54] [INFO] - Price change: 0%
+[2025-11-03 17:59:54] [INFO] - Current: 110, New: 110
+[2025-11-03 17:59:54] [INFO] Should update? Yes
+[2025-11-03 17:59:54] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 17:59:54] [INFO] 
+Price calculation details:
+[2025-11-03 17:59:54] [INFO] - Current price: 110
+[2025-11-03 17:59:54] [INFO] - New price: 110
+[2025-11-03 17:59:54] [INFO] - Change: 0%
+[2025-11-03 17:59:54] [INFO] - Stock level: 100 units
+[2025-11-03 17:59:54] [INFO] - Low threshold: 20 units
+[2025-11-03 17:59:54] [INFO] - Stock status: Normal (High stock)
+[2025-11-03 17:59:54] [INFO] - Update conditions: None
+[2025-11-03 17:59:54] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 17:59:54] [INFO] Starting price update transaction for product 4
+[2025-11-03 17:59:54] [INFO] Current price: 110, New price: 110
+[2025-11-03 17:59:54] [INFO] Successfully updated price for product 4: 110 -> 110
+[2025-11-03 17:59:54] [INFO] Price successfully updated from 110 to 110 (0% change)
+[2025-11-03 17:59:54] [INFO] Stock level change triggered price check for product 4: Old qty: 100, New qty: 3, Threshold: 20
+[2025-11-03 17:59:54] [INFO] Price limits:
+[2025-11-03 17:59:54] [INFO] - Original price: 113.5725
+[2025-11-03 17:59:54] [INFO] - Min price (10% margin): 110
+[2025-11-03 17:59:54] [INFO] - Max price (20% increase): 120
+[2025-11-03 17:59:54] [INFO] - Final price after limits: 113.5725
+[2025-11-03 17:59:54] [INFO] 
+Detailed price calculation:
+[2025-11-03 17:59:54] [INFO] Base cost: 100
+[2025-11-03 17:59:54] [INFO] Current price: 110
+[2025-11-03 17:59:54] [INFO] New price (before adjust): 113.57
+[2025-11-03 17:59:54] [INFO] Stock level: 3 of 20
+[2025-11-03 17:59:54] [INFO] 
+Update criteria:
+[2025-11-03 17:59:54] [INFO] - Low stock? Yes
+[2025-11-03 17:59:54] [INFO] - Price increasing? Yes
+[2025-11-03 17:59:54] [INFO] - Significant change? Yes
+[2025-11-03 17:59:54] [INFO] - Price change: 3.25%
+[2025-11-03 17:59:54] [INFO] - Current: 110, New: 113.57
+[2025-11-03 17:59:54] [INFO] Should update? Yes
+[2025-11-03 17:59:54] [INFO] Update reason: Low stock and price increase
+[2025-11-03 17:59:54] [INFO] 
+Price calculation details:
+[2025-11-03 17:59:54] [INFO] - Current price: 110
+[2025-11-03 17:59:54] [INFO] - New price: 113.57
+[2025-11-03 17:59:54] [INFO] - Change: 3.25%
+[2025-11-03 17:59:54] [INFO] - Stock level: 3 units
+[2025-11-03 17:59:54] [INFO] - Low threshold: 20 units
+[2025-11-03 17:59:54] [INFO] - Stock status: LOW
+[2025-11-03 17:59:54] [INFO] - Update conditions: Low stock, Significant price change (3.25%)
+[2025-11-03 17:59:54] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 17:59:54] [INFO] Starting price update transaction for product 4
+[2025-11-03 17:59:54] [INFO] Current price: 110, New price: 113.57
+[2025-11-03 17:59:54] [INFO] Successfully updated price for product 4: 110 -> 113.57
+[2025-11-03 17:59:54] [INFO] Price successfully updated from 110 to 113.57 (3.25% change)
+[2025-11-03 18:00:43] [INFO] Stock level change triggered price check for product 4: Old qty: 3, New qty: 30, Threshold: 20
+[2025-11-03 18:00:43] [INFO] Price limits:
+[2025-11-03 18:00:43] [INFO] - Original price: 119.251125
+[2025-11-03 18:00:43] [INFO] - Min price (10% margin): 110
+[2025-11-03 18:00:43] [INFO] - Max price (20% increase): 120
+[2025-11-03 18:00:43] [INFO] - Final price after limits: 119.251125
+[2025-11-03 18:00:43] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:00:43] [INFO] Base cost: 100
+[2025-11-03 18:00:43] [INFO] Current price: 113.57
+[2025-11-03 18:00:43] [INFO] New price (before adjust): 119.25
+[2025-11-03 18:00:43] [INFO] Stock level: 3 of 20
+[2025-11-03 18:00:43] [INFO] 
+Update criteria:
+[2025-11-03 18:00:43] [INFO] - Low stock? Yes
+[2025-11-03 18:00:43] [INFO] - Price increasing? Yes
+[2025-11-03 18:00:43] [INFO] - Significant change? Yes
+[2025-11-03 18:00:43] [INFO] - Price change: 5%
+[2025-11-03 18:00:43] [INFO] - Current: 113.57, New: 119.25
+[2025-11-03 18:00:43] [INFO] Should update? Yes
+[2025-11-03 18:00:43] [INFO] Update reason: Low stock and price increase
+[2025-11-03 18:00:43] [INFO] 
+Price calculation details:
+[2025-11-03 18:00:43] [INFO] - Current price: 113.57
+[2025-11-03 18:00:43] [INFO] - New price: 119.25
+[2025-11-03 18:00:43] [INFO] - Change: 5%
+[2025-11-03 18:00:43] [INFO] - Stock level: 3 units
+[2025-11-03 18:00:43] [INFO] - Low threshold: 20 units
+[2025-11-03 18:00:43] [INFO] - Stock status: LOW
+[2025-11-03 18:00:43] [INFO] - Update conditions: Low stock, Significant price change (5%)
+[2025-11-03 18:00:43] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:00:43] [INFO] Starting price update transaction for product 4
+[2025-11-03 18:00:43] [INFO] Current price: 113.57, New price: 119.25
+[2025-11-03 18:00:43] [INFO] Successfully updated price for product 4: 113.57 -> 119.25
+[2025-11-03 18:00:43] [INFO] Price successfully updated from 113.57 to 119.25 (5% change)
+[2025-11-03 18:00:43] [INFO] Stock level change triggered price check for product 4: Old qty: 3, New qty: 30, Threshold: 20
+[2025-11-03 18:00:43] [INFO] Price limits:
+[2025-11-03 18:00:43] [INFO] - Original price: 107.23125
+[2025-11-03 18:00:43] [INFO] - Min price (10% margin): 110
+[2025-11-03 18:00:43] [INFO] - Max price (20% increase): 120
+[2025-11-03 18:00:43] [INFO] - Final price after limits: 110
+[2025-11-03 18:00:43] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:00:43] [INFO] Base cost: 100
+[2025-11-03 18:00:43] [INFO] Current price: 119.25
+[2025-11-03 18:00:43] [INFO] New price (before adjust): 110
+[2025-11-03 18:00:43] [INFO] Stock level: 30 of 20
+[2025-11-03 18:00:43] [INFO] 
+Update criteria:
+[2025-11-03 18:00:43] [INFO] - Low stock? No
+[2025-11-03 18:00:43] [INFO] - Price increasing? No
+[2025-11-03 18:00:43] [INFO] - Significant change? Yes
+[2025-11-03 18:00:43] [INFO] - Price change: -7.76%
+[2025-11-03 18:00:43] [INFO] - Current: 119.25, New: 110
+[2025-11-03 18:00:43] [INFO] Should update? Yes
+[2025-11-03 18:00:43] [INFO] Update reason: Significant price change (-7.76%)
+[2025-11-03 18:00:43] [INFO] 
+Price calculation details:
+[2025-11-03 18:00:43] [INFO] - Current price: 119.25
+[2025-11-03 18:00:43] [INFO] - New price: 110
+[2025-11-03 18:00:43] [INFO] - Change: -7.76%
+[2025-11-03 18:00:43] [INFO] - Stock level: 30 units
+[2025-11-03 18:00:43] [INFO] - Low threshold: 20 units
+[2025-11-03 18:00:43] [INFO] - Stock status: Normal
+[2025-11-03 18:00:43] [INFO] - Update conditions: Significant price change (-7.76%)
+[2025-11-03 18:00:43] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:00:43] [INFO] Starting price update transaction for product 4
+[2025-11-03 18:00:43] [INFO] Current price: 119.25, New price: 110
+[2025-11-03 18:00:43] [INFO] Successfully updated price for product 4: 119.25 -> 110
+[2025-11-03 18:00:43] [INFO] Price successfully updated from 119.25 to 110 (-7.76% change)
+[2025-11-03 18:03:43] [INFO] Stock level change triggered price check for product 5: Old qty: 100, New qty: 8, Threshold: 15
+[2025-11-03 18:03:43] [INFO] Price limits:
+[2025-11-03 18:03:43] [INFO] - Original price: 4987.5
+[2025-11-03 18:03:43] [INFO] - Min price (10% margin): 5500
+[2025-11-03 18:03:43] [INFO] - Max price (20% increase): 6000
+[2025-11-03 18:03:43] [INFO] - Final price after limits: 5500
+[2025-11-03 18:03:43] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:03:43] [INFO] Base cost: 5000
+[2025-11-03 18:03:43] [INFO] Current price: 7500
+[2025-11-03 18:03:43] [INFO] New price (before adjust): 5500
+[2025-11-03 18:03:43] [INFO] Stock level: 100 of 15
+[2025-11-03 18:03:43] [INFO] 
+Update criteria:
+[2025-11-03 18:03:43] [INFO] - Low stock? No
+[2025-11-03 18:03:43] [INFO] - Price increasing? No
+[2025-11-03 18:03:43] [INFO] - Significant change? Yes
+[2025-11-03 18:03:43] [INFO] - Price change: -26.67%
+[2025-11-03 18:03:43] [INFO] - Current: 7500, New: 5500
+[2025-11-03 18:03:43] [INFO] Should update? Yes
+[2025-11-03 18:03:43] [INFO] Update reason: Significant price change (-26.67%)
+[2025-11-03 18:03:43] [INFO] 
+Price calculation details:
+[2025-11-03 18:03:43] [INFO] - Current price: 7500
+[2025-11-03 18:03:43] [INFO] - New price: 5500
+[2025-11-03 18:03:43] [INFO] - Change: -26.67%
+[2025-11-03 18:03:43] [INFO] - Stock level: 100 units
+[2025-11-03 18:03:43] [INFO] - Low threshold: 15 units
+[2025-11-03 18:03:43] [INFO] - Stock status: Normal (High stock)
+[2025-11-03 18:03:43] [INFO] - Update conditions: Significant price change (-26.67%)
+[2025-11-03 18:03:43] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:03:43] [INFO] Starting price update transaction for product 5
+[2025-11-03 18:03:43] [INFO] Current price: 7500, New price: 5500
+[2025-11-03 18:03:43] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 18:03:43] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 18:03:43] [INFO] Successfully updated price for product 5: 7500 -> 5500
+[2025-11-03 18:03:43] [INFO] Price successfully updated from 7500 to 5500 (-26.67% change)
+[2025-11-03 18:03:43] [INFO] Stock level change triggered price check for product 5: Old qty: 100, New qty: 8, Threshold: 15
+[2025-11-03 18:03:43] [INFO] Price limits:
+[2025-11-03 18:03:43] [INFO] - Original price: 5701.2666666667
+[2025-11-03 18:03:43] [INFO] - Min price (10% margin): 5500
+[2025-11-03 18:03:43] [INFO] - Max price (20% increase): 6000
+[2025-11-03 18:03:43] [INFO] - Final price after limits: 5701.2666666667
+[2025-11-03 18:03:43] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:03:43] [INFO] Base cost: 5000
+[2025-11-03 18:03:43] [INFO] Current price: 5500
+[2025-11-03 18:03:43] [INFO] New price (before adjust): 5701.27
+[2025-11-03 18:03:43] [INFO] Stock level: 8 of 15
+[2025-11-03 18:03:43] [INFO] 
+Update criteria:
+[2025-11-03 18:03:43] [INFO] - Low stock? Yes
+[2025-11-03 18:03:43] [INFO] - Price increasing? Yes
+[2025-11-03 18:03:43] [INFO] - Significant change? Yes
+[2025-11-03 18:03:43] [INFO] - Price change: 3.66%
+[2025-11-03 18:03:43] [INFO] - Current: 5500, New: 5701.27
+[2025-11-03 18:03:43] [INFO] Should update? Yes
+[2025-11-03 18:03:43] [INFO] Update reason: Low stock and price increase
+[2025-11-03 18:03:43] [INFO] 
+Price calculation details:
+[2025-11-03 18:03:43] [INFO] - Current price: 5500
+[2025-11-03 18:03:43] [INFO] - New price: 5701.27
+[2025-11-03 18:03:43] [INFO] - Change: 3.66%
+[2025-11-03 18:03:43] [INFO] - Stock level: 8 units
+[2025-11-03 18:03:43] [INFO] - Low threshold: 15 units
+[2025-11-03 18:03:43] [INFO] - Stock status: LOW
+[2025-11-03 18:03:43] [INFO] - Update conditions: Low stock, Significant price change (3.66%)
+[2025-11-03 18:03:43] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:03:43] [INFO] Starting price update transaction for product 5
+[2025-11-03 18:03:43] [INFO] Current price: 5500, New price: 5701.27
+[2025-11-03 18:03:43] [INFO] Successfully updated price for product 5: 5500 -> 5701.27
+[2025-11-03 18:03:43] [INFO] Price successfully updated from 5500 to 5701.27 (3.66% change)
+[2025-11-03 18:03:59] [INFO] Stock level change triggered price check for product 5: Old qty: 8, New qty: 150, Threshold: 15
+[2025-11-03 18:03:59] [INFO] Price limits:
+[2025-11-03 18:03:59] [INFO] - Original price: 5701.2666666667
+[2025-11-03 18:03:59] [INFO] - Min price (10% margin): 5500
+[2025-11-03 18:03:59] [INFO] - Max price (20% increase): 6000
+[2025-11-03 18:03:59] [INFO] - Final price after limits: 5701.2666666667
+[2025-11-03 18:03:59] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:03:59] [INFO] Base cost: 5000
+[2025-11-03 18:03:59] [INFO] Current price: 5701.27
+[2025-11-03 18:03:59] [INFO] New price (before adjust): 5701.27
+[2025-11-03 18:03:59] [INFO] Stock level: 8 of 15
+[2025-11-03 18:03:59] [INFO] 
+Update criteria:
+[2025-11-03 18:03:59] [INFO] - Low stock? Yes
+[2025-11-03 18:03:59] [INFO] - Price increasing? No
+[2025-11-03 18:03:59] [INFO] - Significant change? No
+[2025-11-03 18:03:59] [INFO] - Price change: 0%
+[2025-11-03 18:03:59] [INFO] - Current: 5701.27, New: 5701.27
+[2025-11-03 18:03:59] [INFO] Should update? Yes
+[2025-11-03 18:03:59] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 18:03:59] [INFO] 
+Price calculation details:
+[2025-11-03 18:03:59] [INFO] - Current price: 5701.27
+[2025-11-03 18:03:59] [INFO] - New price: 5701.27
+[2025-11-03 18:03:59] [INFO] - Change: 0%
+[2025-11-03 18:03:59] [INFO] - Stock level: 8 units
+[2025-11-03 18:03:59] [INFO] - Low threshold: 15 units
+[2025-11-03 18:03:59] [INFO] - Stock status: LOW
+[2025-11-03 18:03:59] [INFO] - Update conditions: Low stock
+[2025-11-03 18:03:59] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:03:59] [INFO] Starting price update transaction for product 5
+[2025-11-03 18:03:59] [INFO] Current price: 5701.27, New price: 5701.27
+[2025-11-03 18:03:59] [INFO] Successfully updated price for product 5: 5701.27 -> 5701.27
+[2025-11-03 18:03:59] [INFO] Price successfully updated from 5701.27 to 5701.27 (0% change)
+[2025-11-03 18:03:59] [INFO] Stock level change triggered price check for product 5: Old qty: 8, New qty: 150, Threshold: 15
+[2025-11-03 18:03:59] [INFO] Price limits:
+[2025-11-03 18:03:59] [INFO] - Original price: 4613.4375
+[2025-11-03 18:03:59] [INFO] - Min price (10% margin): 5500
+[2025-11-03 18:03:59] [INFO] - Max price (20% increase): 6000
+[2025-11-03 18:03:59] [INFO] - Final price after limits: 5500
+[2025-11-03 18:03:59] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:03:59] [INFO] Base cost: 5000
+[2025-11-03 18:03:59] [INFO] Current price: 5701.27
+[2025-11-03 18:03:59] [INFO] New price (before adjust): 5500
+[2025-11-03 18:03:59] [INFO] Stock level: 150 of 15
+[2025-11-03 18:03:59] [INFO] 
+Update criteria:
+[2025-11-03 18:03:59] [INFO] - Low stock? No
+[2025-11-03 18:03:59] [INFO] - Price increasing? No
+[2025-11-03 18:03:59] [INFO] - Significant change? Yes
+[2025-11-03 18:03:59] [INFO] - Price change: -3.53%
+[2025-11-03 18:03:59] [INFO] - Current: 5701.27, New: 5500
+[2025-11-03 18:03:59] [INFO] Should update? Yes
+[2025-11-03 18:03:59] [INFO] Update reason: Significant price change (-3.53%)
+[2025-11-03 18:03:59] [INFO] 
+Price calculation details:
+[2025-11-03 18:03:59] [INFO] - Current price: 5701.27
+[2025-11-03 18:03:59] [INFO] - New price: 5500
+[2025-11-03 18:03:59] [INFO] - Change: -3.53%
+[2025-11-03 18:03:59] [INFO] - Stock level: 150 units
+[2025-11-03 18:03:59] [INFO] - Low threshold: 15 units
+[2025-11-03 18:03:59] [INFO] - Stock status: Normal (High stock)
+[2025-11-03 18:03:59] [INFO] - Update conditions: Significant price change (-3.53%)
+[2025-11-03 18:03:59] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:03:59] [INFO] Starting price update transaction for product 5
+[2025-11-03 18:03:59] [INFO] Current price: 5701.27, New price: 5500
+[2025-11-03 18:03:59] [INFO] Successfully updated price for product 5: 5701.27 -> 5500
+[2025-11-03 18:03:59] [INFO] Price successfully updated from 5701.27 to 5500 (-3.53% change)
+[2025-11-03 18:15:21] [INFO] Stock level change triggered price check for product 6: Old qty: 50, New qty: 5, Threshold: 20
+[2025-11-03 18:15:21] [INFO] Price limits:
+[2025-11-03 18:15:21] [INFO] - Original price: 2711.953125
+[2025-11-03 18:15:21] [INFO] - Min price (10% margin): 2750
+[2025-11-03 18:15:21] [INFO] - Max price (20% increase): 3000
+[2025-11-03 18:15:21] [INFO] - Final price after limits: 2750
+[2025-11-03 18:15:21] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:15:21] [INFO] Base cost: 2500
+[2025-11-03 18:15:21] [INFO] Current price: 5000
+[2025-11-03 18:15:21] [INFO] New price (before adjust): 2750
+[2025-11-03 18:15:21] [INFO] Stock level: 50 of 20
+[2025-11-03 18:15:21] [INFO] 
+Update criteria:
+[2025-11-03 18:15:21] [INFO] - Low stock? No
+[2025-11-03 18:15:21] [INFO] - Price increasing? No
+[2025-11-03 18:15:21] [INFO] - Significant change? Yes
+[2025-11-03 18:15:21] [INFO] - Price change: -45%
+[2025-11-03 18:15:21] [INFO] - Current: 5000, New: 2750
+[2025-11-03 18:15:21] [INFO] Should update? Yes
+[2025-11-03 18:15:21] [INFO] Update reason: Significant price change (-45%)
+[2025-11-03 18:15:21] [INFO] 
+Price calculation details:
+[2025-11-03 18:15:21] [INFO] - Current price: 5000
+[2025-11-03 18:15:21] [INFO] - New price: 2750
+[2025-11-03 18:15:21] [INFO] - Change: -45%
+[2025-11-03 18:15:21] [INFO] - Stock level: 50 units
+[2025-11-03 18:15:21] [INFO] - Low threshold: 20 units
+[2025-11-03 18:15:21] [INFO] - Stock status: Normal
+[2025-11-03 18:15:21] [INFO] - Update conditions: Significant price change (-45%)
+[2025-11-03 18:15:21] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:15:21] [INFO] Starting price update transaction for product 6
+[2025-11-03 18:15:21] [INFO] Current price: 5000, New price: 2750
+[2025-11-03 18:15:21] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 18:15:21] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 18:15:21] [INFO] Successfully updated price for product 6: 5000 -> 2750
+[2025-11-03 18:15:21] [INFO] Price successfully updated from 5000 to 2750 (-45% change)
+[2025-11-03 18:15:21] [INFO] Stock level change triggered price check for product 6: Old qty: 50, New qty: 5, Threshold: 20
+[2025-11-03 18:15:21] [INFO] Price limits:
+[2025-11-03 18:15:21] [INFO] - Original price: 2961.328125
+[2025-11-03 18:15:21] [INFO] - Min price (10% margin): 2750
+[2025-11-03 18:15:21] [INFO] - Max price (20% increase): 3000
+[2025-11-03 18:15:21] [INFO] - Final price after limits: 2961.328125
+[2025-11-03 18:15:21] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:15:21] [INFO] Base cost: 2500
+[2025-11-03 18:15:21] [INFO] Current price: 2750
+[2025-11-03 18:15:21] [INFO] New price (before adjust): 2961.33
+[2025-11-03 18:15:21] [INFO] Stock level: 5 of 20
+[2025-11-03 18:15:21] [INFO] 
+Update criteria:
+[2025-11-03 18:15:21] [INFO] - Low stock? Yes
+[2025-11-03 18:15:21] [INFO] - Price increasing? Yes
+[2025-11-03 18:15:21] [INFO] - Significant change? Yes
+[2025-11-03 18:15:21] [INFO] - Price change: 7.68%
+[2025-11-03 18:15:21] [INFO] - Current: 2750, New: 2961.33
+[2025-11-03 18:15:21] [INFO] Should update? Yes
+[2025-11-03 18:15:21] [INFO] Update reason: Low stock and price increase
+[2025-11-03 18:15:21] [INFO] 
+Price calculation details:
+[2025-11-03 18:15:21] [INFO] - Current price: 2750
+[2025-11-03 18:15:21] [INFO] - New price: 2961.33
+[2025-11-03 18:15:21] [INFO] - Change: 7.68%
+[2025-11-03 18:15:21] [INFO] - Stock level: 5 units
+[2025-11-03 18:15:21] [INFO] - Low threshold: 20 units
+[2025-11-03 18:15:21] [INFO] - Stock status: LOW
+[2025-11-03 18:15:21] [INFO] - Update conditions: Low stock, Significant price change (7.68%)
+[2025-11-03 18:15:21] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:15:21] [INFO] Starting price update transaction for product 6
+[2025-11-03 18:15:21] [INFO] Current price: 2750, New price: 2961.33
+[2025-11-03 18:15:21] [INFO] Successfully updated price for product 6: 2750 -> 2961.33
+[2025-11-03 18:15:21] [INFO] Price successfully updated from 2750 to 2961.33 (7.68% change)
+[2025-11-03 18:15:53] [INFO] Stock level change triggered price check for product 6: Old qty: 5, New qty: 160, Threshold: 20
+[2025-11-03 18:15:53] [INFO] Price limits:
+[2025-11-03 18:15:53] [INFO] - Original price: 2961.328125
+[2025-11-03 18:15:53] [INFO] - Min price (10% margin): 2750
+[2025-11-03 18:15:53] [INFO] - Max price (20% increase): 3000
+[2025-11-03 18:15:53] [INFO] - Final price after limits: 2961.328125
+[2025-11-03 18:15:53] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:15:53] [INFO] Base cost: 2500
+[2025-11-03 18:15:53] [INFO] Current price: 2961.33
+[2025-11-03 18:15:53] [INFO] New price (before adjust): 2961.33
+[2025-11-03 18:15:53] [INFO] Stock level: 5 of 20
+[2025-11-03 18:15:53] [INFO] 
+Update criteria:
+[2025-11-03 18:15:53] [INFO] - Low stock? Yes
+[2025-11-03 18:15:53] [INFO] - Price increasing? No
+[2025-11-03 18:15:53] [INFO] - Significant change? No
+[2025-11-03 18:15:53] [INFO] - Price change: 0%
+[2025-11-03 18:15:53] [INFO] - Current: 2961.33, New: 2961.33
+[2025-11-03 18:15:53] [INFO] Should update? Yes
+[2025-11-03 18:15:53] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 18:15:53] [INFO] 
+Price calculation details:
+[2025-11-03 18:15:53] [INFO] - Current price: 2961.33
+[2025-11-03 18:15:53] [INFO] - New price: 2961.33
+[2025-11-03 18:15:53] [INFO] - Change: 0%
+[2025-11-03 18:15:53] [INFO] - Stock level: 5 units
+[2025-11-03 18:15:53] [INFO] - Low threshold: 20 units
+[2025-11-03 18:15:53] [INFO] - Stock status: LOW
+[2025-11-03 18:15:53] [INFO] - Update conditions: Low stock
+[2025-11-03 18:15:53] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:15:53] [INFO] Starting price update transaction for product 6
+[2025-11-03 18:15:53] [INFO] Current price: 2961.33, New price: 2961.33
+[2025-11-03 18:15:53] [INFO] Successfully updated price for product 6: 2961.33 -> 2961.33
+[2025-11-03 18:15:53] [INFO] Price successfully updated from 2961.33 to 2961.33 (0% change)
+[2025-11-03 18:15:53] [INFO] Stock level change triggered price check for product 6: Old qty: 5, New qty: 160, Threshold: 20
+[2025-11-03 18:15:53] [INFO] Price limits:
+[2025-11-03 18:15:53] [INFO] - Original price: 2597.65625
+[2025-11-03 18:15:53] [INFO] - Min price (10% margin): 2750
+[2025-11-03 18:15:53] [INFO] - Max price (20% increase): 3000
+[2025-11-03 18:15:53] [INFO] - Final price after limits: 2750
+[2025-11-03 18:15:53] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:15:53] [INFO] Base cost: 2500
+[2025-11-03 18:15:53] [INFO] Current price: 2961.33
+[2025-11-03 18:15:53] [INFO] New price (before adjust): 2750
+[2025-11-03 18:15:53] [INFO] Stock level: 160 of 20
+[2025-11-03 18:15:53] [INFO] 
+Update criteria:
+[2025-11-03 18:15:53] [INFO] - Low stock? No
+[2025-11-03 18:15:53] [INFO] - Price increasing? No
+[2025-11-03 18:15:53] [INFO] - Significant change? Yes
+[2025-11-03 18:15:53] [INFO] - Price change: -7.14%
+[2025-11-03 18:15:53] [INFO] - Current: 2961.33, New: 2750
+[2025-11-03 18:15:53] [INFO] Should update? Yes
+[2025-11-03 18:15:53] [INFO] Update reason: Significant price change (-7.14%)
+[2025-11-03 18:15:53] [INFO] 
+Price calculation details:
+[2025-11-03 18:15:53] [INFO] - Current price: 2961.33
+[2025-11-03 18:15:53] [INFO] - New price: 2750
+[2025-11-03 18:15:53] [INFO] - Change: -7.14%
+[2025-11-03 18:15:53] [INFO] - Stock level: 160 units
+[2025-11-03 18:15:53] [INFO] - Low threshold: 20 units
+[2025-11-03 18:15:53] [INFO] - Stock status: Normal
+[2025-11-03 18:15:53] [INFO] - Update conditions: Significant price change (-7.14%)
+[2025-11-03 18:15:53] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:15:53] [INFO] Starting price update transaction for product 6
+[2025-11-03 18:15:53] [INFO] Current price: 2961.33, New price: 2750
+[2025-11-03 18:15:53] [INFO] Successfully updated price for product 6: 2961.33 -> 2750
+[2025-11-03 18:15:53] [INFO] Price successfully updated from 2961.33 to 2750 (-7.14% change)
+[2025-11-03 18:22:46] [INFO] Stock level change triggered price check for product 7: Old qty: 120, New qty: 15, Threshold: 30
+[2025-11-03 18:22:46] [INFO] Price limits:
+[2025-11-03 18:22:46] [INFO] - Original price: 16944.765957447
+[2025-11-03 18:22:46] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:22:46] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:22:46] [INFO] - Final price after limits: 12000
+[2025-11-03 18:22:46] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:22:46] [INFO] Base cost: 10000
+[2025-11-03 18:22:46] [INFO] Current price: 16000
+[2025-11-03 18:22:46] [INFO] New price (before adjust): 12000
+[2025-11-03 18:22:46] [INFO] Stock level: 120 of 30
+[2025-11-03 18:22:46] [INFO] 
+Update criteria:
+[2025-11-03 18:22:46] [INFO] - Low stock? No
+[2025-11-03 18:22:46] [INFO] - Price increasing? No
+[2025-11-03 18:22:46] [INFO] - Significant change? Yes
+[2025-11-03 18:22:46] [INFO] - Price change: -25%
+[2025-11-03 18:22:46] [INFO] - Current: 16000, New: 12000
+[2025-11-03 18:22:46] [INFO] Should update? Yes
+[2025-11-03 18:22:46] [INFO] Update reason: Significant price change (-25%)
+[2025-11-03 18:22:46] [INFO] 
+Price calculation details:
+[2025-11-03 18:22:46] [INFO] - Current price: 16000
+[2025-11-03 18:22:46] [INFO] - New price: 12000
+[2025-11-03 18:22:46] [INFO] - Change: -25%
+[2025-11-03 18:22:46] [INFO] - Stock level: 120 units
+[2025-11-03 18:22:46] [INFO] - Low threshold: 30 units
+[2025-11-03 18:22:46] [INFO] - Stock status: Normal
+[2025-11-03 18:22:46] [INFO] - Update conditions: Significant price change (-25%)
+[2025-11-03 18:22:46] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:22:46] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:22:46] [INFO] Current price: 16000, New price: 12000
+[2025-11-03 18:22:46] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 18:22:46] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2025-11-03 18:22:46] [INFO] Successfully updated price for product 7: 16000 -> 12000
+[2025-11-03 18:22:46] [INFO] Price successfully updated from 16000 to 12000 (-25% change)
+[2025-11-03 18:22:46] [INFO] Stock level change triggered price check for product 7: Old qty: 120, New qty: 15, Threshold: 30
+[2025-11-03 18:22:46] [INFO] Price limits:
+[2025-11-03 18:22:46] [INFO] - Original price: 13765.5
+[2025-11-03 18:22:46] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:22:46] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:22:46] [INFO] - Final price after limits: 12000
+[2025-11-03 18:22:46] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:22:46] [INFO] Base cost: 10000
+[2025-11-03 18:22:46] [INFO] Current price: 12000
+[2025-11-03 18:22:46] [INFO] New price (before adjust): 12000
+[2025-11-03 18:22:46] [INFO] Stock level: 15 of 30
+[2025-11-03 18:22:46] [INFO] 
+Update criteria:
+[2025-11-03 18:22:46] [INFO] - Low stock? Yes
+[2025-11-03 18:22:46] [INFO] - Price increasing? No
+[2025-11-03 18:22:46] [INFO] - Significant change? No
+[2025-11-03 18:22:46] [INFO] - Price change: 0%
+[2025-11-03 18:22:46] [INFO] - Current: 12000, New: 12000
+[2025-11-03 18:22:46] [INFO] Should update? Yes
+[2025-11-03 18:22:46] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 18:22:46] [INFO] 
+Price calculation details:
+[2025-11-03 18:22:46] [INFO] - Current price: 12000
+[2025-11-03 18:22:46] [INFO] - New price: 12000
+[2025-11-03 18:22:46] [INFO] - Change: 0%
+[2025-11-03 18:22:46] [INFO] - Stock level: 15 units
+[2025-11-03 18:22:46] [INFO] - Low threshold: 30 units
+[2025-11-03 18:22:46] [INFO] - Stock status: LOW
+[2025-11-03 18:22:46] [INFO] - Update conditions: Low stock
+[2025-11-03 18:22:46] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:22:46] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:22:46] [INFO] Current price: 12000, New price: 12000
+[2025-11-03 18:22:46] [ERROR] Failed to update price for product 7: No product found with ID: 7
+[2025-11-03 18:22:46] [ERROR] Failed to update price: Failed to update price for product 7: No product found with ID: 7
+[2025-11-03 18:31:34] [INFO] Stock level change triggered price check for product 7: Old qty: 15, New qty: 30, Threshold: 30
+[2025-11-03 18:31:34] [INFO] Price limits:
+[2025-11-03 18:31:34] [INFO] - Original price: 11471.25
+[2025-11-03 18:31:34] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:31:34] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:31:34] [INFO] - Final price after limits: 11471.25
+[2025-11-03 18:31:34] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:31:34] [INFO] Base cost: 10000
+[2025-11-03 18:31:34] [INFO] Current price: 12000
+[2025-11-03 18:31:34] [INFO] New price (before adjust): 11471.25
+[2025-11-03 18:31:34] [INFO] Stock level: 15 of 30
+[2025-11-03 18:31:34] [INFO] 
+Update criteria:
+[2025-11-03 18:31:34] [INFO] - Low stock? Yes
+[2025-11-03 18:31:34] [INFO] - Price increasing? No
+[2025-11-03 18:31:34] [INFO] - Significant change? Yes
+[2025-11-03 18:31:34] [INFO] - Price change: -4.41%
+[2025-11-03 18:31:34] [INFO] - Current: 12000, New: 11471.25
+[2025-11-03 18:31:34] [INFO] Should update? Yes
+[2025-11-03 18:31:34] [INFO] Update reason: Significant price change (-4.41%)
+[2025-11-03 18:31:34] [INFO] 
+Price calculation details:
+[2025-11-03 18:31:34] [INFO] - Current price: 12000
+[2025-11-03 18:31:34] [INFO] - New price: 11471.25
+[2025-11-03 18:31:34] [INFO] - Change: -4.41%
+[2025-11-03 18:31:34] [INFO] - Stock level: 15 units
+[2025-11-03 18:31:34] [INFO] - Low threshold: 30 units
+[2025-11-03 18:31:34] [INFO] - Stock status: LOW
+[2025-11-03 18:31:34] [INFO] - Update conditions: Low stock, Significant price change (-4.41%)
+[2025-11-03 18:31:34] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:31:34] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:31:34] [INFO] Current price: 12000, New price: 11471.25
+[2025-11-03 18:31:34] [INFO] Successfully updated price for product 7: 12000 -> 11471.25
+[2025-11-03 18:31:34] [INFO] Price successfully updated from 12000 to 11471.25 (-4.41% change)
+[2025-11-03 18:31:34] [INFO] Stock level change triggered price check for product 7: Old qty: 15, New qty: 30, Threshold: 30
+[2025-11-03 18:31:34] [INFO] Price limits:
+[2025-11-03 18:31:34] [INFO] - Original price: 9975
+[2025-11-03 18:31:34] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:31:34] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:31:34] [INFO] - Final price after limits: 11000
+[2025-11-03 18:31:34] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:31:34] [INFO] Base cost: 10000
+[2025-11-03 18:31:34] [INFO] Current price: 11471.25
+[2025-11-03 18:31:34] [INFO] New price (before adjust): 11000
+[2025-11-03 18:31:34] [INFO] Stock level: 30 of 30
+[2025-11-03 18:31:34] [INFO] 
+Update criteria:
+[2025-11-03 18:31:34] [INFO] - Low stock? No
+[2025-11-03 18:31:34] [INFO] - Price increasing? No
+[2025-11-03 18:31:34] [INFO] - Significant change? Yes
+[2025-11-03 18:31:34] [INFO] - Price change: -4.11%
+[2025-11-03 18:31:34] [INFO] - Current: 11471.25, New: 11000
+[2025-11-03 18:31:34] [INFO] Should update? Yes
+[2025-11-03 18:31:34] [INFO] Update reason: Significant price change (-4.11%)
+[2025-11-03 18:31:34] [INFO] 
+Price calculation details:
+[2025-11-03 18:31:34] [INFO] - Current price: 11471.25
+[2025-11-03 18:31:34] [INFO] - New price: 11000
+[2025-11-03 18:31:34] [INFO] - Change: -4.11%
+[2025-11-03 18:31:34] [INFO] - Stock level: 30 units
+[2025-11-03 18:31:34] [INFO] - Low threshold: 30 units
+[2025-11-03 18:31:34] [INFO] - Stock status: Normal
+[2025-11-03 18:31:34] [INFO] - Update conditions: Significant price change (-4.11%)
+[2025-11-03 18:31:34] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:31:34] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:31:34] [INFO] Current price: 11471.25, New price: 11000
+[2025-11-03 18:31:34] [INFO] Successfully updated price for product 7: 11471.25 -> 11000
+[2025-11-03 18:31:34] [INFO] Price successfully updated from 11471.25 to 11000 (-4.11% change)
+[2025-11-03 18:32:14] [INFO] Stock level change triggered price check for product 7: Old qty: 200, New qty: 10, Threshold: 30
+[2025-11-03 18:32:14] [INFO] Price limits:
+[2025-11-03 18:32:14] [INFO] - Original price: 10250.904255319
+[2025-11-03 18:32:14] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:32:14] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:32:14] [INFO] - Final price after limits: 11000
+[2025-11-03 18:32:14] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:32:14] [INFO] Base cost: 10000
+[2025-11-03 18:32:14] [INFO] Current price: 11000
+[2025-11-03 18:32:14] [INFO] New price (before adjust): 11000
+[2025-11-03 18:32:14] [INFO] Stock level: 200 of 30
+[2025-11-03 18:32:14] [INFO] 
+Update criteria:
+[2025-11-03 18:32:14] [INFO] - Low stock? No
+[2025-11-03 18:32:14] [INFO] - Price increasing? No
+[2025-11-03 18:32:14] [INFO] - Significant change? No
+[2025-11-03 18:32:14] [INFO] - Price change: 0%
+[2025-11-03 18:32:14] [INFO] - Current: 11000, New: 11000
+[2025-11-03 18:32:14] [INFO] Should update? No
+[2025-11-03 18:32:14] [INFO] 
+Price calculation details:
+[2025-11-03 18:32:14] [INFO] - Current price: 11000
+[2025-11-03 18:32:14] [INFO] - New price: 11000
+[2025-11-03 18:32:14] [INFO] - Change: 0%
+[2025-11-03 18:32:14] [INFO] - Stock level: 200 units
+[2025-11-03 18:32:14] [INFO] - Low threshold: 30 units
+[2025-11-03 18:32:14] [INFO] - Stock status: Normal
+[2025-11-03 18:32:14] [INFO] - Update conditions: None
+[2025-11-03 18:32:14] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2025-11-03 18:32:14] [INFO] Stock level change triggered price check for product 7: Old qty: 200, New qty: 10, Threshold: 30
+[2025-11-03 18:32:14] [INFO] Price limits:
+[2025-11-03 18:32:14] [INFO] - Original price: 11748.333333333
+[2025-11-03 18:32:14] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:32:14] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:32:14] [INFO] - Final price after limits: 11748.333333333
+[2025-11-03 18:32:14] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:32:14] [INFO] Base cost: 10000
+[2025-11-03 18:32:14] [INFO] Current price: 11000
+[2025-11-03 18:32:14] [INFO] New price (before adjust): 11748.33
+[2025-11-03 18:32:14] [INFO] Stock level: 10 of 30
+[2025-11-03 18:32:14] [INFO] 
+Update criteria:
+[2025-11-03 18:32:14] [INFO] - Low stock? Yes
+[2025-11-03 18:32:14] [INFO] - Price increasing? Yes
+[2025-11-03 18:32:14] [INFO] - Significant change? Yes
+[2025-11-03 18:32:14] [INFO] - Price change: 6.8%
+[2025-11-03 18:32:14] [INFO] - Current: 11000, New: 11748.33
+[2025-11-03 18:32:14] [INFO] Should update? Yes
+[2025-11-03 18:32:14] [INFO] Update reason: Low stock and price increase
+[2025-11-03 18:32:14] [INFO] 
+Price calculation details:
+[2025-11-03 18:32:14] [INFO] - Current price: 11000
+[2025-11-03 18:32:14] [INFO] - New price: 11748.33
+[2025-11-03 18:32:14] [INFO] - Change: 6.8%
+[2025-11-03 18:32:14] [INFO] - Stock level: 10 units
+[2025-11-03 18:32:14] [INFO] - Low threshold: 30 units
+[2025-11-03 18:32:14] [INFO] - Stock status: LOW
+[2025-11-03 18:32:14] [INFO] - Update conditions: Low stock, Significant price change (6.8%)
+[2025-11-03 18:32:14] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:32:14] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:32:14] [INFO] Current price: 11000, New price: 11748.33
+[2025-11-03 18:32:14] [INFO] Successfully updated price for product 7: 11000 -> 11748.33
+[2025-11-03 18:32:14] [INFO] Price successfully updated from 11000 to 11748.33 (6.8% change)
+[2025-11-03 18:32:34] [INFO] Stock level change triggered price check for product 7: Old qty: 10, New qty: 500, Threshold: 30
+[2025-11-03 18:32:34] [INFO] Price limits:
+[2025-11-03 18:32:34] [INFO] - Original price: 11748.333333333
+[2025-11-03 18:32:34] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:32:34] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:32:34] [INFO] - Final price after limits: 11748.333333333
+[2025-11-03 18:32:34] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:32:34] [INFO] Base cost: 10000
+[2025-11-03 18:32:34] [INFO] Current price: 11748.33
+[2025-11-03 18:32:34] [INFO] New price (before adjust): 11748.33
+[2025-11-03 18:32:34] [INFO] Stock level: 10 of 30
+[2025-11-03 18:32:34] [INFO] 
+Update criteria:
+[2025-11-03 18:32:34] [INFO] - Low stock? Yes
+[2025-11-03 18:32:34] [INFO] - Price increasing? No
+[2025-11-03 18:32:34] [INFO] - Significant change? No
+[2025-11-03 18:32:34] [INFO] - Price change: 0%
+[2025-11-03 18:32:34] [INFO] - Current: 11748.33, New: 11748.33
+[2025-11-03 18:32:34] [INFO] Should update? Yes
+[2025-11-03 18:32:34] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 18:32:34] [INFO] 
+Price calculation details:
+[2025-11-03 18:32:34] [INFO] - Current price: 11748.33
+[2025-11-03 18:32:34] [INFO] - New price: 11748.33
+[2025-11-03 18:32:34] [INFO] - Change: 0%
+[2025-11-03 18:32:34] [INFO] - Stock level: 10 units
+[2025-11-03 18:32:34] [INFO] - Low threshold: 30 units
+[2025-11-03 18:32:34] [INFO] - Stock status: LOW
+[2025-11-03 18:32:34] [INFO] - Update conditions: Low stock
+[2025-11-03 18:32:34] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:32:34] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:32:34] [INFO] Current price: 11748.33, New price: 11748.33
+[2025-11-03 18:32:34] [INFO] Successfully updated price for product 7: 11748.33 -> 11748.33
+[2025-11-03 18:32:34] [INFO] Price successfully updated from 11748.33 to 11748.33 (0% change)
+[2025-11-03 18:32:34] [INFO] Stock level change triggered price check for product 7: Old qty: 10, New qty: 500, Threshold: 30
+[2025-11-03 18:32:34] [INFO] Price limits:
+[2025-11-03 18:32:34] [INFO] - Original price: 9975
+[2025-11-03 18:32:34] [INFO] - Min price (10% margin): 11000
+[2025-11-03 18:32:34] [INFO] - Max price (20% increase): 12000
+[2025-11-03 18:32:34] [INFO] - Final price after limits: 11000
+[2025-11-03 18:32:34] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:32:34] [INFO] Base cost: 10000
+[2025-11-03 18:32:34] [INFO] Current price: 11748.33
+[2025-11-03 18:32:34] [INFO] New price (before adjust): 11000
+[2025-11-03 18:32:34] [INFO] Stock level: 500 of 30
+[2025-11-03 18:32:34] [INFO] 
+Update criteria:
+[2025-11-03 18:32:34] [INFO] - Low stock? No
+[2025-11-03 18:32:34] [INFO] - Price increasing? No
+[2025-11-03 18:32:34] [INFO] - Significant change? Yes
+[2025-11-03 18:32:34] [INFO] - Price change: -6.37%
+[2025-11-03 18:32:34] [INFO] - Current: 11748.33, New: 11000
+[2025-11-03 18:32:34] [INFO] Should update? Yes
+[2025-11-03 18:32:34] [INFO] Update reason: Significant price change (-6.37%)
+[2025-11-03 18:32:34] [INFO] 
+Price calculation details:
+[2025-11-03 18:32:34] [INFO] - Current price: 11748.33
+[2025-11-03 18:32:34] [INFO] - New price: 11000
+[2025-11-03 18:32:34] [INFO] - Change: -6.37%
+[2025-11-03 18:32:34] [INFO] - Stock level: 500 units
+[2025-11-03 18:32:34] [INFO] - Low threshold: 30 units
+[2025-11-03 18:32:34] [INFO] - Stock status: Normal (High stock)
+[2025-11-03 18:32:34] [INFO] - Update conditions: Significant price change (-6.37%)
+[2025-11-03 18:32:34] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:32:34] [INFO] Starting price update transaction for product 7
+[2025-11-03 18:32:34] [INFO] Current price: 11748.33, New price: 11000
+[2025-11-03 18:32:34] [INFO] Successfully updated price for product 7: 11748.33 -> 11000
+[2025-11-03 18:32:34] [INFO] Price successfully updated from 11748.33 to 11000 (-6.37% change)
+[2025-11-03 18:35:46] [INFO] Stock level change triggered price check for product 8: Old qty: 100, New qty: 20, Threshold: 50
+[2025-11-03 18:35:46] [INFO] Price limits:
+[2025-11-03 18:35:46] [INFO] - Original price: 4300.3333333333
+[2025-11-03 18:35:46] [INFO] - Min price (10% margin): 4400
+[2025-11-03 18:35:46] [INFO] - Max price (20% increase): 4800
+[2025-11-03 18:35:46] [INFO] - Final price after limits: 4400
+[2025-11-03 18:35:46] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:35:46] [INFO] Base cost: 4000
+[2025-11-03 18:35:46] [INFO] Current price: 4400
+[2025-11-03 18:35:46] [INFO] New price (before adjust): 4400
+[2025-11-03 18:35:46] [INFO] Stock level: 100 of 50
+[2025-11-03 18:35:46] [INFO] 
+Update criteria:
+[2025-11-03 18:35:46] [INFO] - Low stock? No
+[2025-11-03 18:35:46] [INFO] - Price increasing? No
+[2025-11-03 18:35:46] [INFO] - Significant change? No
+[2025-11-03 18:35:46] [INFO] - Price change: 0%
+[2025-11-03 18:35:46] [INFO] - Current: 4400, New: 4400
+[2025-11-03 18:35:46] [INFO] Should update? No
+[2025-11-03 18:35:46] [INFO] 
+Price calculation details:
+[2025-11-03 18:35:46] [INFO] - Current price: 4400
+[2025-11-03 18:35:46] [INFO] - New price: 4400
+[2025-11-03 18:35:46] [INFO] - Change: 0%
+[2025-11-03 18:35:46] [INFO] - Stock level: 100 units
+[2025-11-03 18:35:46] [INFO] - Low threshold: 50 units
+[2025-11-03 18:35:46] [INFO] - Stock status: Normal
+[2025-11-03 18:35:46] [INFO] - Update conditions: None
+[2025-11-03 18:35:46] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2025-11-03 18:35:46] [INFO] Stock level change triggered price check for product 8: Old qty: 100, New qty: 20, Threshold: 50
+[2025-11-03 18:35:46] [INFO] Price limits:
+[2025-11-03 18:35:46] [INFO] - Original price: 4660.32
+[2025-11-03 18:35:46] [INFO] - Min price (10% margin): 4400
+[2025-11-03 18:35:46] [INFO] - Max price (20% increase): 4800
+[2025-11-03 18:35:46] [INFO] - Final price after limits: 4660.32
+[2025-11-03 18:35:46] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:35:46] [INFO] Base cost: 4000
+[2025-11-03 18:35:46] [INFO] Current price: 4400
+[2025-11-03 18:35:46] [INFO] New price (before adjust): 4660.32
+[2025-11-03 18:35:46] [INFO] Stock level: 20 of 50
+[2025-11-03 18:35:46] [INFO] 
+Update criteria:
+[2025-11-03 18:35:46] [INFO] - Low stock? Yes
+[2025-11-03 18:35:46] [INFO] - Price increasing? Yes
+[2025-11-03 18:35:46] [INFO] - Significant change? Yes
+[2025-11-03 18:35:46] [INFO] - Price change: 5.92%
+[2025-11-03 18:35:46] [INFO] - Current: 4400, New: 4660.32
+[2025-11-03 18:35:46] [INFO] Should update? Yes
+[2025-11-03 18:35:46] [INFO] Update reason: Low stock and price increase
+[2025-11-03 18:35:46] [INFO] 
+Price calculation details:
+[2025-11-03 18:35:46] [INFO] - Current price: 4400
+[2025-11-03 18:35:46] [INFO] - New price: 4660.32
+[2025-11-03 18:35:46] [INFO] - Change: 5.92%
+[2025-11-03 18:35:46] [INFO] - Stock level: 20 units
+[2025-11-03 18:35:46] [INFO] - Low threshold: 50 units
+[2025-11-03 18:35:46] [INFO] - Stock status: LOW
+[2025-11-03 18:35:46] [INFO] - Update conditions: Low stock, Significant price change (5.92%)
+[2025-11-03 18:35:46] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:35:46] [INFO] Starting price update transaction for product 8
+[2025-11-03 18:35:46] [INFO] Current price: 4400, New price: 4660.32
+[2025-11-03 18:35:46] [INFO] Successfully updated price for product 8: 4400 -> 4660.32
+[2025-11-03 18:35:46] [INFO] Price successfully updated from 4400 to 4660.32 (5.92% change)
+[2025-11-03 18:36:20] [INFO] Stock level change triggered price check for product 8: Old qty: 20, New qty: 200, Threshold: 50
+[2025-11-03 18:36:20] [INFO] Price limits:
+[2025-11-03 18:36:20] [INFO] - Original price: 4660.32
+[2025-11-03 18:36:20] [INFO] - Min price (10% margin): 4400
+[2025-11-03 18:36:20] [INFO] - Max price (20% increase): 4800
+[2025-11-03 18:36:20] [INFO] - Final price after limits: 4660.32
+[2025-11-03 18:36:20] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:36:20] [INFO] Base cost: 4000
+[2025-11-03 18:36:20] [INFO] Current price: 4660.32
+[2025-11-03 18:36:20] [INFO] New price (before adjust): 4660.32
+[2025-11-03 18:36:20] [INFO] Stock level: 20 of 50
+[2025-11-03 18:36:20] [INFO] 
+Update criteria:
+[2025-11-03 18:36:20] [INFO] - Low stock? Yes
+[2025-11-03 18:36:20] [INFO] - Price increasing? No
+[2025-11-03 18:36:20] [INFO] - Significant change? No
+[2025-11-03 18:36:20] [INFO] - Price change: 0%
+[2025-11-03 18:36:20] [INFO] - Current: 4660.32, New: 4660.32
+[2025-11-03 18:36:20] [INFO] Should update? Yes
+[2025-11-03 18:36:20] [INFO] Update reason: Significant price change (0%)
+[2025-11-03 18:36:20] [INFO] 
+Price calculation details:
+[2025-11-03 18:36:20] [INFO] - Current price: 4660.32
+[2025-11-03 18:36:20] [INFO] - New price: 4660.32
+[2025-11-03 18:36:20] [INFO] - Change: 0%
+[2025-11-03 18:36:20] [INFO] - Stock level: 20 units
+[2025-11-03 18:36:20] [INFO] - Low threshold: 50 units
+[2025-11-03 18:36:20] [INFO] - Stock status: LOW
+[2025-11-03 18:36:20] [INFO] - Update conditions: Low stock
+[2025-11-03 18:36:20] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2025-11-03 18:36:20] [INFO] Starting price update transaction for product 8
+[2025-11-03 18:36:20] [INFO] Current price: 4660.32, New price: 4660.32
+[2025-11-03 18:36:20] [INFO] Successfully updated price for product 8: 4660.32 -> 4660.32
+[2025-11-03 18:36:20] [INFO] Price successfully updated from 4660.32 to 4660.32 (0% change)
+[2025-11-03 18:36:20] [INFO] Stock level change triggered price check for product 8: Old qty: 20, New qty: 200, Threshold: 50
+[2025-11-03 18:36:20] [INFO] Price limits:
+[2025-11-03 18:36:20] [INFO] - Original price: 4123
+[2025-11-03 18:36:20] [INFO] - Min price (10% margin): 4400
+[2025-11-03 18:36:20] [INFO] - Max price (20% increase): 4800
+[2025-11-03 18:36:20] [INFO] - Final price after limits: 4400
+[2025-11-03 18:36:20] [INFO] 
+Detailed price calculation:
+[2025-11-03 18:36:20] [INFO] Base cost: 4000
+[2025-11-03 18:36:20] [INFO] Current price: 4660.32
+[2025-11-03 18:36:20] [INFO] New price (before adjust): 4400
+[2025-11-03 18:36:20] [INFO] Stock level: 200 of 50
+[2025-11-03 18:36:20] [INFO] 
+Update criteria:
+[2025-11-03 18:36:20] [INFO] - Low stock? No
+[2025-11-03 18:36:20] [INFO] - Price increasing? No
+[2025-11-03 18:36:20] [INFO] - Significant change? Yes
+[2025-11-03 18:36:20] [INFO] - Price change: -5.59%
+[2025-11-03 18:36:20] [INFO] - Current: 4660.32, New: 4400
+[2025-11-03 18:36:20] [INFO] Should update? Yes
+[2025-11-03 18:36:20] [INFO] Update reason: Significant price change (-5.59%)
+[2025-11-03 18:36:20] [INFO] 
+Price calculation details:
+[2025-11-03 18:36:20] [INFO] - Current price: 4660.32
+[2025-11-03 18:36:20] [INFO] - New price: 4400
+[2025-11-03 18:36:20] [INFO] - Change: -5.59%
+[2025-11-03 18:36:20] [INFO] - Stock level: 200 units
+[2025-11-03 18:36:20] [INFO] - Low threshold: 50 units
+[2025-11-03 18:36:20] [INFO] - Stock status: Normal
+[2025-11-03 18:36:20] [INFO] - Update conditions: Significant price change (-5.59%)
+[2025-11-03 18:36:20] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2025-11-03 18:36:20] [INFO] Starting price update transaction for product 8
+[2025-11-03 18:36:20] [INFO] Current price: 4660.32, New price: 4400
+[2025-11-03 18:36:20] [INFO] Successfully updated price for product 8: 4660.32 -> 4400
+[2025-11-03 18:36:20] [INFO] Price successfully updated from 4660.32 to 4400 (-5.59% change)
+[2025-11-10 08:18:28] [INFO] Starting automated price update job
+[2025-11-10 08:18:32] [ERROR] Price update job failed: Database connection failed
+[2025-11-12 00:33:19] [INFO] Starting automated price update job
+[2025-11-12 00:33:23] [ERROR] Price update job failed: Database connection failed
+[2025-12-02 00:32:09] [INFO] Starting automated price update job
+[2025-12-02 00:32:13] [ERROR] Price update job failed: Database connection failed
+[2026-01-13 08:30:30] [INFO] Starting automated price update job
+[2026-01-13 08:30:34] [ERROR] Price update job failed: Database connection failed
+[2026-01-22 10:40:03] [INFO] Starting automated price update job
+[2026-01-22 10:40:07] [ERROR] Price update job failed: Database connection failed
+[2026-02-08 05:15:41] [INFO] Starting automated price update job
+[2026-02-10 06:36:18] [INFO] Starting automated price update job
+[2026-02-10 06:36:22] [ERROR] Price update job failed: Database connection failed
+[2026-02-24 00:32:10] [INFO] Starting automated price update job
+[2026-02-24 00:32:14] [ERROR] Price update job failed: Database connection failed
+[2026-03-03 00:32:16] [INFO] Starting automated price update job
+[2026-03-03 00:32:21] [ERROR] Price update job failed: Database connection failed
+[2026-03-09 17:53:06] [INFO] Stock level change triggered price check for product 9: Old qty: 100, New qty: 5, Threshold: 20
+[2026-03-09 17:53:06] [INFO] Price limits:
+[2026-03-09 17:53:06] [INFO] - Original price: 1692.1875
+[2026-03-09 17:53:06] [INFO] - Min price (10% margin): 1650
+[2026-03-09 17:53:06] [INFO] - Max price (20% increase): 1800
+[2026-03-09 17:53:06] [INFO] - Final price after limits: 1692.1875
+[2026-03-09 17:53:06] [INFO] 
+Detailed price calculation:
+[2026-03-09 17:53:06] [INFO] Base cost: 1500
+[2026-03-09 17:53:06] [INFO] Current price: 2000
+[2026-03-09 17:53:06] [INFO] New price (before adjust): 1692.19
+[2026-03-09 17:53:06] [INFO] Stock level: 5 of 20
+[2026-03-09 17:53:06] [INFO] 
+Update criteria:
+[2026-03-09 17:53:06] [INFO] - Low stock? Yes
+[2026-03-09 17:53:06] [INFO] - Price increasing? No
+[2026-03-09 17:53:06] [INFO] - Significant change? Yes
+[2026-03-09 17:53:06] [INFO] - Price change: -15.39%
+[2026-03-09 17:53:06] [INFO] - Current: 2000, New: 1692.19
+[2026-03-09 17:53:06] [INFO] Should update? Yes
+[2026-03-09 17:53:06] [INFO] Update reason: Significant price change (-15.39%)
+[2026-03-09 17:53:06] [INFO] 
+Price calculation details:
+[2026-03-09 17:53:06] [INFO] - Current price: 2000
+[2026-03-09 17:53:06] [INFO] - New price: 1692.19
+[2026-03-09 17:53:06] [INFO] - Change: -15.39%
+[2026-03-09 17:53:06] [INFO] - Stock level: 5 units
+[2026-03-09 17:53:06] [INFO] - Low threshold: 20 units
+[2026-03-09 17:53:06] [INFO] - Stock status: LOW
+[2026-03-09 17:53:06] [INFO] - Update conditions: Low stock, Significant price change (-15.39%)
+[2026-03-09 17:53:06] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-09 17:53:06] [INFO] Starting price update transaction for product 9
+[2026-03-09 17:53:06] [INFO] Current price: 2000, New price: 1692.19
+[2026-03-09 17:53:06] [INFO] Successfully updated price for product 9: 2000 -> 1692.19
+[2026-03-09 17:53:06] [INFO] Price successfully updated from 2000 to 1692.19 (-15.39% change)
+[2026-03-09 18:07:22] [INFO] Stock level change triggered price check for product 9: Old qty: 5, New qty: 100, Threshold: 20
+[2026-03-09 18:07:22] [INFO] Price limits:
+[2026-03-09 18:07:22] [INFO] - Original price: 1596
+[2026-03-09 18:07:22] [INFO] - Min price (10% margin): 1650
+[2026-03-09 18:07:22] [INFO] - Max price (20% increase): 1800
+[2026-03-09 18:07:22] [INFO] - Final price after limits: 1650
+[2026-03-09 18:07:22] [INFO] 
+Detailed price calculation:
+[2026-03-09 18:07:22] [INFO] Base cost: 1500
+[2026-03-09 18:07:22] [INFO] Current price: 1692.19
+[2026-03-09 18:07:22] [INFO] New price (before adjust): 1650
+[2026-03-09 18:07:22] [INFO] Stock level: 100 of 20
+[2026-03-09 18:07:22] [INFO] 
+Update criteria:
+[2026-03-09 18:07:22] [INFO] - Low stock? No
+[2026-03-09 18:07:22] [INFO] - Price increasing? No
+[2026-03-09 18:07:22] [INFO] - Significant change? Yes
+[2026-03-09 18:07:22] [INFO] - Price change: -2.49%
+[2026-03-09 18:07:22] [INFO] - Current: 1692.19, New: 1650
+[2026-03-09 18:07:22] [INFO] Should update? Yes
+[2026-03-09 18:07:22] [INFO] Update reason: Significant price change (-2.49%)
+[2026-03-09 18:07:22] [INFO] 
+Price calculation details:
+[2026-03-09 18:07:22] [INFO] - Current price: 1692.19
+[2026-03-09 18:07:22] [INFO] - New price: 1650
+[2026-03-09 18:07:22] [INFO] - Change: -2.49%
+[2026-03-09 18:07:22] [INFO] - Stock level: 100 units
+[2026-03-09 18:07:22] [INFO] - Low threshold: 20 units
+[2026-03-09 18:07:22] [INFO] - Stock status: Normal
+[2026-03-09 18:07:22] [INFO] - Update conditions: Significant price change (-2.49%)
+[2026-03-09 18:07:22] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-09 18:07:22] [INFO] Starting price update transaction for product 9
+[2026-03-09 18:07:22] [INFO] Current price: 1692.19, New price: 1650
+[2026-03-09 18:07:22] [INFO] Successfully updated price for product 9: 1692.19 -> 1650
+[2026-03-09 18:07:22] [INFO] Price successfully updated from 1692.19 to 1650 (-2.49% change)
+[2026-03-09 18:08:13] [INFO] Stock level change triggered price check for product 9: Old qty: 100, New qty: 5, Threshold: 20
+[2026-03-09 18:08:13] [INFO] Price limits:
+[2026-03-09 18:08:13] [INFO] - Original price: 1776.796875
+[2026-03-09 18:08:13] [INFO] - Min price (10% margin): 1650
+[2026-03-09 18:08:13] [INFO] - Max price (20% increase): 1800
+[2026-03-09 18:08:13] [INFO] - Final price after limits: 1776.796875
+[2026-03-09 18:08:13] [INFO] 
+Detailed price calculation:
+[2026-03-09 18:08:13] [INFO] Base cost: 1500
+[2026-03-09 18:08:13] [INFO] Current price: 1650
+[2026-03-09 18:08:13] [INFO] New price (before adjust): 1776.8
+[2026-03-09 18:08:13] [INFO] Stock level: 5 of 20
+[2026-03-09 18:08:13] [INFO] 
+Update criteria:
+[2026-03-09 18:08:13] [INFO] - Low stock? Yes
+[2026-03-09 18:08:13] [INFO] - Price increasing? Yes
+[2026-03-09 18:08:13] [INFO] - Significant change? Yes
+[2026-03-09 18:08:13] [INFO] - Price change: 7.68%
+[2026-03-09 18:08:13] [INFO] - Current: 1650, New: 1776.8
+[2026-03-09 18:08:13] [INFO] Should update? Yes
+[2026-03-09 18:08:13] [INFO] Update reason: Low stock and price increase
+[2026-03-09 18:08:13] [INFO] 
+Price calculation details:
+[2026-03-09 18:08:13] [INFO] - Current price: 1650
+[2026-03-09 18:08:13] [INFO] - New price: 1776.8
+[2026-03-09 18:08:13] [INFO] - Change: 7.68%
+[2026-03-09 18:08:13] [INFO] - Stock level: 5 units
+[2026-03-09 18:08:13] [INFO] - Low threshold: 20 units
+[2026-03-09 18:08:13] [INFO] - Stock status: LOW
+[2026-03-09 18:08:13] [INFO] - Update conditions: Low stock, Significant price change (7.68%)
+[2026-03-09 18:08:13] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-09 18:08:13] [INFO] Starting price update transaction for product 9
+[2026-03-09 18:08:13] [INFO] Current price: 1650, New price: 1776.8
+[2026-03-09 18:08:13] [INFO] Successfully updated price for product 9: 1650 -> 1776.8
+[2026-03-09 18:08:13] [INFO] Price successfully updated from 1650 to 1776.8 (7.68% change)
+[2026-03-09 18:08:34] [INFO] Stock level change triggered price check for product 9: Old qty: 5, New qty: 1, Threshold: 20
+[2026-03-09 18:08:34] [INFO] Price limits:
+[2026-03-09 18:08:34] [INFO] - Original price: 1794.751875
+[2026-03-09 18:08:34] [INFO] - Min price (10% margin): 1650
+[2026-03-09 18:08:34] [INFO] - Max price (20% increase): 1800
+[2026-03-09 18:08:34] [INFO] - Final price after limits: 1794.751875
+[2026-03-09 18:08:34] [INFO] 
+Detailed price calculation:
+[2026-03-09 18:08:34] [INFO] Base cost: 1500
+[2026-03-09 18:08:34] [INFO] Current price: 1776.8
+[2026-03-09 18:08:34] [INFO] New price (before adjust): 1794.75
+[2026-03-09 18:08:34] [INFO] Stock level: 1 of 20
+[2026-03-09 18:08:34] [INFO] 
+Update criteria:
+[2026-03-09 18:08:34] [INFO] - Low stock? Yes
+[2026-03-09 18:08:34] [INFO] - Price increasing? Yes
+[2026-03-09 18:08:34] [INFO] - Significant change? Yes
+[2026-03-09 18:08:34] [INFO] - Price change: 1.01%
+[2026-03-09 18:08:34] [INFO] - Current: 1776.8, New: 1794.75
+[2026-03-09 18:08:34] [INFO] Should update? Yes
+[2026-03-09 18:08:34] [INFO] Update reason: Low stock and price increase
+[2026-03-09 18:08:34] [INFO] 
+Price calculation details:
+[2026-03-09 18:08:34] [INFO] - Current price: 1776.8
+[2026-03-09 18:08:34] [INFO] - New price: 1794.75
+[2026-03-09 18:08:34] [INFO] - Change: 1.01%
+[2026-03-09 18:08:34] [INFO] - Stock level: 1 units
+[2026-03-09 18:08:34] [INFO] - Low threshold: 20 units
+[2026-03-09 18:08:34] [INFO] - Stock status: LOW
+[2026-03-09 18:08:34] [INFO] - Update conditions: Low stock, Significant price change (1.01%)
+[2026-03-09 18:08:34] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-09 18:08:34] [INFO] Starting price update transaction for product 9
+[2026-03-09 18:08:34] [INFO] Current price: 1776.8, New price: 1794.75
+[2026-03-09 18:08:34] [INFO] Successfully updated price for product 9: 1776.8 -> 1794.75
+[2026-03-09 18:08:34] [INFO] Price successfully updated from 1776.8 to 1794.75 (1.01% change)
+[2026-03-09 18:19:21] [INFO] Stock level change triggered price check for product 10: Old qty: 100, New qty: 13, Threshold: 15
+[2026-03-09 18:19:21] [INFO] Price limits:
+[2026-03-09 18:19:21] [INFO] - Original price: 15707.3
+[2026-03-09 18:19:21] [INFO] - Min price (10% margin): 16500
+[2026-03-09 18:19:21] [INFO] - Max price (20% increase): 18000
+[2026-03-09 18:19:21] [INFO] - Final price after limits: 16500
+[2026-03-09 18:19:21] [INFO] 
+Detailed price calculation:
+[2026-03-09 18:19:21] [INFO] Base cost: 15000
+[2026-03-09 18:19:21] [INFO] Current price: 19000
+[2026-03-09 18:19:21] [INFO] New price (before adjust): 16500
+[2026-03-09 18:19:21] [INFO] Stock level: 13 of 15
+[2026-03-09 18:19:21] [INFO] 
+Update criteria:
+[2026-03-09 18:19:21] [INFO] - Low stock? Yes
+[2026-03-09 18:19:21] [INFO] - Price increasing? No
+[2026-03-09 18:19:21] [INFO] - Significant change? Yes
+[2026-03-09 18:19:21] [INFO] - Price change: -13.16%
+[2026-03-09 18:19:21] [INFO] - Current: 19000, New: 16500
+[2026-03-09 18:19:21] [INFO] Should update? Yes
+[2026-03-09 18:19:21] [INFO] Update reason: Significant price change (-13.16%)
+[2026-03-09 18:19:21] [INFO] 
+Price calculation details:
+[2026-03-09 18:19:21] [INFO] - Current price: 19000
+[2026-03-09 18:19:21] [INFO] - New price: 16500
+[2026-03-09 18:19:21] [INFO] - Change: -13.16%
+[2026-03-09 18:19:21] [INFO] - Stock level: 13 units
+[2026-03-09 18:19:21] [INFO] - Low threshold: 15 units
+[2026-03-09 18:19:21] [INFO] - Stock status: LOW
+[2026-03-09 18:19:21] [INFO] - Update conditions: Low stock, Significant price change (-13.16%)
+[2026-03-09 18:19:21] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-09 18:19:21] [INFO] Starting price update transaction for product 10
+[2026-03-09 18:19:21] [INFO] Current price: 19000, New price: 16500
+[2026-03-09 18:19:22] [INFO] Successfully updated price for product 10: 19000 -> 16500
+[2026-03-09 18:19:22] [INFO] Price successfully updated from 19000 to 16500 (-13.16% change)
+[2026-03-09 18:28:21] [INFO] Stock level change triggered price check for product 10: Old qty: 13, New qty: 1000, Threshold: 15
+[2026-03-09 18:28:21] [INFO] Price limits:
+[2026-03-09 18:28:21] [INFO] - Original price: 12718.125
+[2026-03-09 18:28:21] [INFO] - Min price (10% margin): 16500
+[2026-03-09 18:28:21] [INFO] - Max price (20% increase): 18000
+[2026-03-09 18:28:21] [INFO] - Final price after limits: 16500
+[2026-03-09 18:28:21] [INFO] 
+Detailed price calculation:
+[2026-03-09 18:28:21] [INFO] Base cost: 15000
+[2026-03-09 18:28:21] [INFO] Current price: 16500
+[2026-03-09 18:28:21] [INFO] New price (before adjust): 16500
+[2026-03-09 18:28:21] [INFO] Stock level: 1000 of 15
+[2026-03-09 18:28:21] [INFO] 
+Update criteria:
+[2026-03-09 18:28:21] [INFO] - Low stock? No
+[2026-03-09 18:28:21] [INFO] - Price increasing? No
+[2026-03-09 18:28:21] [INFO] - Significant change? No
+[2026-03-09 18:28:21] [INFO] - Price change: 0%
+[2026-03-09 18:28:21] [INFO] - Current: 16500, New: 16500
+[2026-03-09 18:28:21] [INFO] Should update? Yes
+[2026-03-09 18:28:21] [INFO] Update reason: Significant price change (0%)
+[2026-03-09 18:28:21] [INFO] 
+Price calculation details:
+[2026-03-09 18:28:22] [INFO] - Current price: 16500
+[2026-03-09 18:28:22] [INFO] - New price: 16500
+[2026-03-09 18:28:22] [INFO] - Change: 0%
+[2026-03-09 18:28:22] [INFO] - Stock level: 1000 units
+[2026-03-09 18:28:22] [INFO] - Low threshold: 15 units
+[2026-03-09 18:28:22] [INFO] - Stock status: Normal (High stock)
+[2026-03-09 18:28:22] [INFO] - Update conditions: None
+[2026-03-09 18:28:22] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-09 18:28:22] [INFO] Starting price update transaction for product 10
+[2026-03-09 18:28:22] [INFO] Current price: 16500, New price: 16500
+[2026-03-09 18:28:22] [INFO] Successfully updated price for product 10: 16500 -> 16500
+[2026-03-09 18:28:22] [INFO] Price successfully updated from 16500 to 16500 (0% change)
+[2026-03-10 00:43:23] [INFO] Starting automated price update job
+[2026-03-10 00:43:23] [INFO] Updating exchange rates...
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 807.5
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 1100
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 1200
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 1100
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 1000
+[2026-03-10 00:43:23] [INFO] Current price: 1100
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 1100
+[2026-03-10 00:43:23] [INFO] Stock level: 200 of 7
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 1100, New: 1100
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 1100
+[2026-03-10 00:43:23] [INFO] - New price: 1100
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 200 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 7 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 1
+[2026-03-10 00:43:23] [INFO] Current price: 1100, New price: 1100
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 1: 1100 -> 1100
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 1100 to 1100 (0% change)
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 85.5
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 99
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 108
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 99
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 90
+[2026-03-10 00:43:23] [INFO] Current price: 99
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 99
+[2026-03-10 00:43:23] [INFO] Stock level: 100 of 10
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 99, New: 99
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 99
+[2026-03-10 00:43:23] [INFO] - New price: 99
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 100 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 10 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 2
+[2026-03-10 00:43:23] [INFO] Current price: 99, New price: 99
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 2: 99 -> 99
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 99 to 99 (0% change)
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 97.252577319588
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 110
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 120
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 110
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 100
+[2026-03-10 00:43:23] [INFO] Current price: 110
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 110
+[2026-03-10 00:43:23] [INFO] Stock level: 40 of 3
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 110, New: 110
+[2026-03-10 00:43:23] [INFO] Should update? No
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 110
+[2026-03-10 00:43:23] [INFO] - New price: 110
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 40 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 3 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 102.125
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 110
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 120
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 110
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 100
+[2026-03-10 00:43:23] [INFO] Current price: 110
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 110
+[2026-03-10 00:43:23] [INFO] Stock level: 30 of 20
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 110, New: 110
+[2026-03-10 00:43:23] [INFO] Should update? No
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 110
+[2026-03-10 00:43:23] [INFO] - New price: 110
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 30 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 20 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 4393.75
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 5500
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 6000
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 5500
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 5000
+[2026-03-10 00:43:23] [INFO] Current price: 5500
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 5500
+[2026-03-10 00:43:23] [INFO] Stock level: 150 of 15
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 5500, New: 5500
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 5500
+[2026-03-10 00:43:23] [INFO] - New price: 5500
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 150 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 15 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 5
+[2026-03-10 00:43:23] [INFO] Current price: 5500, New price: 5500
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 5: 5500 -> 5500
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 5500 to 5500 (0% change)
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 2473.9583333333
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 2750
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 3000
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 2750
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 2500
+[2026-03-10 00:43:23] [INFO] Current price: 2750
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 2750
+[2026-03-10 00:43:23] [INFO] Stock level: 160 of 20
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 2750, New: 2750
+[2026-03-10 00:43:23] [INFO] Should update? No
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 2750
+[2026-03-10 00:43:23] [INFO] - New price: 2750
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 160 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 20 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] NO SIGNIFICANT CHANGE: Keeping current price
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 9500
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 11000
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 12000
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 11000
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 10000
+[2026-03-10 00:43:23] [INFO] Current price: 11000
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 11000
+[2026-03-10 00:43:23] [INFO] Stock level: 500 of 30
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? No
+[2026-03-10 00:43:23] [INFO] - Price change: 0%
+[2026-03-10 00:43:23] [INFO] - Current: 11000, New: 11000
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 11000
+[2026-03-10 00:43:23] [INFO] - New price: 11000
+[2026-03-10 00:43:23] [INFO] - Change: 0%
+[2026-03-10 00:43:23] [INFO] - Stock level: 500 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 30 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 00:43:23] [INFO] - Update conditions: None
+[2026-03-10 00:43:23] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 7
+[2026-03-10 00:43:23] [INFO] Current price: 11000, New price: 11000
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 7: 11000 -> 11000
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 11000 to 11000 (0% change)
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 3926.6666666667
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 4400
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 4800
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 4400
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 4000
+[2026-03-10 00:43:23] [INFO] Current price: 12000
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 4400
+[2026-03-10 00:43:23] [INFO] Stock level: 200 of 50
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? Yes
+[2026-03-10 00:43:23] [INFO] - Price change: -63.33%
+[2026-03-10 00:43:23] [INFO] - Current: 12000, New: 4400
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (-63.33%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 12000
+[2026-03-10 00:43:23] [INFO] - New price: 4400
+[2026-03-10 00:43:23] [INFO] - Change: -63.33%
+[2026-03-10 00:43:23] [INFO] - Stock level: 200 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 50 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal
+[2026-03-10 00:43:23] [INFO] - Update conditions: Significant price change (-63.33%)
+[2026-03-10 00:43:23] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 8
+[2026-03-10 00:43:23] [INFO] Current price: 12000, New price: 4400
+[2026-03-10 00:43:23] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2026-03-10 00:43:23] [ERROR] Failed to create price change notification: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 8: 12000 -> 4400
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 12000 to 4400 (-63.33% change)
+[2026-03-10 00:43:23] [INFO] Updated price for product 8 (Bluetooth speaker): NGN12000.00 -> NGN4400.00
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 1709.2875
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 1650
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 1800
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 1709.2875
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 1500
+[2026-03-10 00:43:23] [INFO] Current price: 1794.75
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 1709.29
+[2026-03-10 00:43:23] [INFO] Stock level: 1 of 20
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? Yes
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? Yes
+[2026-03-10 00:43:23] [INFO] - Price change: -4.76%
+[2026-03-10 00:43:23] [INFO] - Current: 1794.75, New: 1709.29
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (-4.76%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 1794.75
+[2026-03-10 00:43:23] [INFO] - New price: 1709.29
+[2026-03-10 00:43:23] [INFO] - Change: -4.76%
+[2026-03-10 00:43:23] [INFO] - Stock level: 1 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 20 units
+[2026-03-10 00:43:23] [INFO] - Stock status: LOW
+[2026-03-10 00:43:23] [INFO] - Update conditions: Low stock, Significant price change (-4.76%)
+[2026-03-10 00:43:23] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 9
+[2026-03-10 00:43:23] [INFO] Current price: 1794.75, New price: 1709.29
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 9: 1794.75 -> 1709.29
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 1794.75 to 1709.29 (-4.76% change)
+[2026-03-10 00:43:23] [INFO] Updated price for product 9 (Bluetooth speaker JBL): NGN1794.75 -> NGN1709.29
+[2026-03-10 00:43:23] [INFO] Price limits:
+[2026-03-10 00:43:23] [INFO] - Original price: 12112.5
+[2026-03-10 00:43:23] [INFO] - Min price (10% margin): 16500
+[2026-03-10 00:43:23] [INFO] - Max price (20% increase): 18000
+[2026-03-10 00:43:23] [INFO] - Final price after limits: 16500
+[2026-03-10 00:43:23] [INFO] 
+Detailed price calculation:
+[2026-03-10 00:43:23] [INFO] Base cost: 15000
+[2026-03-10 00:43:23] [INFO] Current price: 170000
+[2026-03-10 00:43:23] [INFO] New price (before adjust): 16500
+[2026-03-10 00:43:23] [INFO] Stock level: 1000 of 15
+[2026-03-10 00:43:23] [INFO] 
+Update criteria:
+[2026-03-10 00:43:23] [INFO] - Low stock? No
+[2026-03-10 00:43:23] [INFO] - Price increasing? No
+[2026-03-10 00:43:23] [INFO] - Significant change? Yes
+[2026-03-10 00:43:23] [INFO] - Price change: -90.29%
+[2026-03-10 00:43:23] [INFO] - Current: 170000, New: 16500
+[2026-03-10 00:43:23] [INFO] Should update? Yes
+[2026-03-10 00:43:23] [INFO] Update reason: Significant price change (-90.29%)
+[2026-03-10 00:43:23] [INFO] 
+Price calculation details:
+[2026-03-10 00:43:23] [INFO] - Current price: 170000
+[2026-03-10 00:43:23] [INFO] - New price: 16500
+[2026-03-10 00:43:23] [INFO] - Change: -90.29%
+[2026-03-10 00:43:23] [INFO] - Stock level: 1000 units
+[2026-03-10 00:43:23] [INFO] - Low threshold: 15 units
+[2026-03-10 00:43:23] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 00:43:23] [INFO] - Update conditions: Significant price change (-90.29%)
+[2026-03-10 00:43:23] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 00:43:23] [INFO] Starting price update transaction for product 10
+[2026-03-10 00:43:23] [INFO] Current price: 170000, New price: 16500
+[2026-03-10 00:43:23] [INFO] Successfully updated price for product 10: 170000 -> 16500
+[2026-03-10 00:43:23] [INFO] Price successfully updated from 170000 to 16500 (-90.29% change)
+[2026-03-10 00:43:23] [INFO] Updated price for product 10 (Bread): NGN170000.00 -> NGN16500.00
+[2026-03-10 00:43:23] [INFO] Price update completed. Updated: 3 products, Unchanged: 7 products, Failed: 0 products
+[2026-03-10 01:26:27] [ERROR] OrderController::create error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`order_items`, CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`) ON DELETE CASCADE) Trace: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Model.php(76): PDOStatement->execute()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\models\OrderItem.php(16): Model->create(Array)
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(163): OrderItem->createItem(Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(76): OrderController->processSellerOrder(Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(301): OrderController->create(Array)
+#5 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): OrderController->createOrderApi()
+#6 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('OrderController...', Array)
+#7 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/orders', 'POST')
+#8 {main}
+[2026-03-10 01:27:51] [ERROR] OrderController::create error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`order_items`, CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`) ON DELETE CASCADE) Trace: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Model.php(76): PDOStatement->execute()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\models\OrderItem.php(16): Model->create(Array)
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(163): OrderItem->createItem(Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(76): OrderController->processSellerOrder(Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(301): OrderController->create(Array)
+#5 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): OrderController->createOrderApi()
+#6 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('OrderController...', Array)
+#7 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/orders', 'POST')
+#8 {main}
+[2026-03-10 01:35:56] [ERROR] Rollback error: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[2026-03-10 01:35:56] [ERROR] OrderController::create error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`order_items`, CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`) ON DELETE CASCADE) Trace: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Model.php(76): PDOStatement->execute()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\models\OrderItem.php(16): Model->create(Array)
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(180): OrderItem->createItem(Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(94): OrderController->processSellerOrder(Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(347): OrderController->create(Array)
+#5 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): OrderController->createOrderApi()
+#6 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('OrderController...', Array)
+#7 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/orders', 'POST')
+#8 {main}
+[2026-03-10 01:35:56] [ERROR] OrderController::createOrderApi error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dynamic_pricing_db`.`order_items`, CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`) ON DELETE CASCADE) in C:\xampp\htdocs\dynamic\dynamic_pricing\core\Model.php:76
+[2026-03-10 01:35:56] [ERROR] Trace: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Model.php(76): PDOStatement->execute()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\models\OrderItem.php(16): Model->create(Array)
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(180): OrderItem->createItem(Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(94): OrderController->processSellerOrder(Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\OrderController.php(347): OrderController->create(Array)
+#5 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): OrderController->createOrderApi()
+#6 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('OrderController...', Array)
+#7 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/orders', 'POST')
+#8 {main}
+[2026-03-10 01:40:08] [INFO] Order item created and inventory reduced - Product: 2, Quantity: 1, Order: 5
+[2026-03-10 01:40:08] [INFO] Order item created and inventory reduced - Product: 1, Quantity: 1, Order: 5
+[2026-03-10 01:40:08] [INFO] Seller order processed - Order ID: 5, Total: 1199
+[2026-03-10 01:40:08] [INFO] Order item created and inventory reduced - Product: 10, Quantity: 1, Order: 6
+[2026-03-10 01:40:08] [INFO] Seller order processed - Order ID: 6, Total: 16500
+[2026-03-10 01:40:08] [INFO] Stock level requires price check - Product: 1, Stock: 199, Low: 7, High: 100
+[2026-03-10 01:40:08] [INFO] Price limits:
+[2026-03-10 01:40:08] [INFO] - Original price: 851.5
+[2026-03-10 01:40:08] [INFO] - Min price (10% margin): 1100
+[2026-03-10 01:40:08] [INFO] - Max price (20% increase): 1200
+[2026-03-10 01:40:08] [INFO] - Final price after limits: 1100
+[2026-03-10 01:40:08] [INFO] 
+Detailed price calculation:
+[2026-03-10 01:40:08] [INFO] Base cost: 1000
+[2026-03-10 01:40:08] [INFO] Current price: 1100
+[2026-03-10 01:40:08] [INFO] New price (before adjust): 1100
+[2026-03-10 01:40:08] [INFO] Stock level: 199 of 7
+[2026-03-10 01:40:08] [INFO] 
+Update criteria:
+[2026-03-10 01:40:08] [INFO] - Low stock? No
+[2026-03-10 01:40:08] [INFO] - Price increasing? No
+[2026-03-10 01:40:08] [INFO] - Significant change? No
+[2026-03-10 01:40:08] [INFO] - Price change: 0%
+[2026-03-10 01:40:08] [INFO] - Current: 1100, New: 1100
+[2026-03-10 01:40:08] [INFO] Should update? Yes
+[2026-03-10 01:40:08] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 01:40:08] [INFO] 
+Price calculation details:
+[2026-03-10 01:40:08] [INFO] - Current price: 1100
+[2026-03-10 01:40:08] [INFO] - New price: 1100
+[2026-03-10 01:40:08] [INFO] - Change: 0%
+[2026-03-10 01:40:08] [INFO] - Stock level: 199 units
+[2026-03-10 01:40:08] [INFO] - Low threshold: 7 units
+[2026-03-10 01:40:08] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 01:40:08] [INFO] - Update conditions: None
+[2026-03-10 01:40:08] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 01:40:08] [INFO] Starting price update transaction for product 1
+[2026-03-10 01:40:08] [INFO] Current price: 1100, New price: 1100
+[2026-03-10 01:40:08] [INFO] Successfully updated price for product 1: 1100 -> 1100
+[2026-03-10 01:40:08] [INFO] Price successfully updated from 1100 to 1100 (0% change)
+[2026-03-10 01:40:08] [INFO] Stock level requires price check - Product: 10, Stock: 999, Low: 15, High: 500
+[2026-03-10 01:40:08] [INFO] Price limits:
+[2026-03-10 01:40:08] [INFO] - Original price: 12754.5
+[2026-03-10 01:40:08] [INFO] - Min price (10% margin): 16500
+[2026-03-10 01:40:08] [INFO] - Max price (20% increase): 18000
+[2026-03-10 01:40:08] [INFO] - Final price after limits: 16500
+[2026-03-10 01:40:08] [INFO] 
+Detailed price calculation:
+[2026-03-10 01:40:08] [INFO] Base cost: 15000
+[2026-03-10 01:40:08] [INFO] Current price: 16500
+[2026-03-10 01:40:08] [INFO] New price (before adjust): 16500
+[2026-03-10 01:40:08] [INFO] Stock level: 999 of 15
+[2026-03-10 01:40:08] [INFO] 
+Update criteria:
+[2026-03-10 01:40:08] [INFO] - Low stock? No
+[2026-03-10 01:40:08] [INFO] - Price increasing? No
+[2026-03-10 01:40:08] [INFO] - Significant change? No
+[2026-03-10 01:40:08] [INFO] - Price change: 0%
+[2026-03-10 01:40:08] [INFO] - Current: 16500, New: 16500
+[2026-03-10 01:40:08] [INFO] Should update? Yes
+[2026-03-10 01:40:08] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 01:40:08] [INFO] 
+Price calculation details:
+[2026-03-10 01:40:08] [INFO] - Current price: 16500
+[2026-03-10 01:40:08] [INFO] - New price: 16500
+[2026-03-10 01:40:08] [INFO] - Change: 0%
+[2026-03-10 01:40:08] [INFO] - Stock level: 999 units
+[2026-03-10 01:40:08] [INFO] - Low threshold: 15 units
+[2026-03-10 01:40:08] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 01:40:08] [INFO] - Update conditions: None
+[2026-03-10 01:40:08] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 01:40:08] [INFO] Starting price update transaction for product 10
+[2026-03-10 01:40:08] [INFO] Current price: 16500, New price: 16500
+[2026-03-10 01:40:08] [INFO] Successfully updated price for product 10: 16500 -> 16500
+[2026-03-10 01:40:08] [INFO] Price successfully updated from 16500 to 16500 (0% change)
+[2026-03-10 01:40:08] [INFO] Orders created successfully - Order IDs: 5,6
+[2026-03-10 03:08:44] [INFO] Order item created and inventory reduced - Product: 10, Quantity: 2, Order: 7
+[2026-03-10 03:08:44] [INFO] Order item created and inventory reduced - Product: 9, Quantity: 1, Order: 7
+[2026-03-10 03:08:44] [INFO] Seller order processed - Order ID: 7, Total: 34709.29
+[2026-03-10 03:08:44] [INFO] Stock level requires price check - Product: 10, Stock: 997, Low: 15, High: 500
+[2026-03-10 03:08:44] [INFO] Price limits:
+[2026-03-10 03:08:44] [INFO] - Original price: 12763.5
+[2026-03-10 03:08:44] [INFO] - Min price (10% margin): 16500
+[2026-03-10 03:08:44] [INFO] - Max price (20% increase): 18000
+[2026-03-10 03:08:44] [INFO] - Final price after limits: 16500
+[2026-03-10 03:08:44] [INFO] 
+Detailed price calculation:
+[2026-03-10 03:08:44] [INFO] Base cost: 15000
+[2026-03-10 03:08:44] [INFO] Current price: 16500
+[2026-03-10 03:08:44] [INFO] New price (before adjust): 16500
+[2026-03-10 03:08:44] [INFO] Stock level: 997 of 15
+[2026-03-10 03:08:44] [INFO] 
+Update criteria:
+[2026-03-10 03:08:44] [INFO] - Low stock? No
+[2026-03-10 03:08:44] [INFO] - Price increasing? No
+[2026-03-10 03:08:44] [INFO] - Significant change? No
+[2026-03-10 03:08:44] [INFO] - Price change: 0%
+[2026-03-10 03:08:44] [INFO] - Current: 16500, New: 16500
+[2026-03-10 03:08:44] [INFO] Should update? Yes
+[2026-03-10 03:08:44] [INFO] Update reason: Significant price change (0%)
+[2026-03-10 03:08:44] [INFO] 
+Price calculation details:
+[2026-03-10 03:08:44] [INFO] - Current price: 16500
+[2026-03-10 03:08:44] [INFO] - New price: 16500
+[2026-03-10 03:08:44] [INFO] - Change: 0%
+[2026-03-10 03:08:44] [INFO] - Stock level: 997 units
+[2026-03-10 03:08:44] [INFO] - Low threshold: 15 units
+[2026-03-10 03:08:44] [INFO] - Stock status: Normal (High stock)
+[2026-03-10 03:08:44] [INFO] - Update conditions: None
+[2026-03-10 03:08:44] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-10 03:08:44] [INFO] Starting price update transaction for product 10
+[2026-03-10 03:08:44] [INFO] Current price: 16500, New price: 16500
+[2026-03-10 03:08:44] [INFO] Successfully updated price for product 10: 16500 -> 16500
+[2026-03-10 03:08:44] [INFO] Price successfully updated from 16500 to 16500 (0% change)
+[2026-03-10 03:08:44] [INFO] Stock level requires price check - Product: 9, Stock: 0, Low: 20, High: 500
+[2026-03-10 03:08:44] [INFO] Price limits:
+[2026-03-10 03:08:44] [INFO] - Original price: 1800
+[2026-03-10 03:08:44] [INFO] - Min price (10% margin): 1650
+[2026-03-10 03:08:44] [INFO] - Max price (20% increase): 1800
+[2026-03-10 03:08:44] [INFO] - Final price after limits: 1800
+[2026-03-10 03:08:44] [INFO] 
+Detailed price calculation:
+[2026-03-10 03:08:44] [INFO] Base cost: 1500
+[2026-03-10 03:08:44] [INFO] Current price: 1709.29
+[2026-03-10 03:08:44] [INFO] New price (before adjust): 1800
+[2026-03-10 03:08:44] [INFO] Stock level: 0 of 20
+[2026-03-10 03:08:44] [INFO] 
+Update criteria:
+[2026-03-10 03:08:44] [INFO] - Low stock? Yes
+[2026-03-10 03:08:44] [INFO] - Price increasing? Yes
+[2026-03-10 03:08:44] [INFO] - Significant change? Yes
+[2026-03-10 03:08:44] [INFO] - Price change: 5.31%
+[2026-03-10 03:08:44] [INFO] - Current: 1709.29, New: 1800
+[2026-03-10 03:08:44] [INFO] Should update? Yes
+[2026-03-10 03:08:44] [INFO] Update reason: Low stock and price increase
+[2026-03-10 03:08:44] [INFO] 
+Price calculation details:
+[2026-03-10 03:08:44] [INFO] - Current price: 1709.29
+[2026-03-10 03:08:44] [INFO] - New price: 1800
+[2026-03-10 03:08:44] [INFO] - Change: 5.31%
+[2026-03-10 03:08:44] [INFO] - Stock level: 0 units
+[2026-03-10 03:08:44] [INFO] - Low threshold: 20 units
+[2026-03-10 03:08:44] [INFO] - Stock status: LOW
+[2026-03-10 03:08:44] [INFO] - Update conditions: Low stock, Significant price change (5.31%)
+[2026-03-10 03:08:44] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-10 03:08:44] [INFO] Starting price update transaction for product 9
+[2026-03-10 03:08:44] [INFO] Current price: 1709.29, New price: 1800
+[2026-03-10 03:08:44] [INFO] Successfully updated price for product 9: 1709.29 -> 1800
+[2026-03-10 03:08:44] [INFO] Price successfully updated from 1709.29 to 1800 (5.31% change)
+[2026-03-10 03:08:44] [INFO] Orders created successfully - Order IDs: 7
+[2026-03-14 12:15:16] [INFO] Stock level change triggered price check for product 9: Old qty: 10, New qty: 25, Threshold: 20
+[2026-03-14 12:15:16] [INFO] Price limits:
+[2026-03-14 12:15:16] [INFO] - Original price: 1678.865234375
+[2026-03-14 12:15:16] [INFO] - Min price (10% margin): 1515
+[2026-03-14 12:15:16] [INFO] - Max price (20% increase): 1575
+[2026-03-14 12:15:16] [INFO] - Final price after limits: 1575
+[2026-03-14 12:15:16] [INFO] 
+Detailed price calculation:
+[2026-03-14 12:15:16] [INFO] Base cost: 1500
+[2026-03-14 12:15:16] [INFO] Current price: 1800
+[2026-03-14 12:15:16] [INFO] New price (before adjust): 1575
+[2026-03-14 12:15:16] [INFO] Stock level: 25 of 20
+[2026-03-14 12:15:16] [INFO] 
+Update criteria:
+[2026-03-14 12:15:17] [INFO] - Low stock? No
+[2026-03-14 12:15:17] [INFO] - Price increasing? No
+[2026-03-14 12:15:17] [INFO] - Significant change? Yes
+[2026-03-14 12:15:17] [INFO] - Price change: -12.5%
+[2026-03-14 12:15:17] [INFO] - Current: 1800, New: 1575
+[2026-03-14 12:15:17] [INFO] Should update? Yes
+[2026-03-14 12:15:17] [INFO] Update reason: Significant price change (-12.5%)
+[2026-03-14 12:15:17] [INFO] 
+Price calculation details:
+[2026-03-14 12:15:17] [INFO] - Current price: 1800
+[2026-03-14 12:15:17] [INFO] - New price: 1575
+[2026-03-14 12:15:17] [INFO] - Change: -12.5%
+[2026-03-14 12:15:17] [INFO] - Stock level: 25 units
+[2026-03-14 12:15:17] [INFO] - Low threshold: 20 units
+[2026-03-14 12:15:17] [INFO] - Stock status: Normal
+[2026-03-14 12:15:17] [INFO] - Update conditions: Significant price change (-12.5%)
+[2026-03-14 12:15:17] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-14 12:15:17] [INFO] Starting price update transaction for product 9
+[2026-03-14 12:15:17] [INFO] Current price: 1800, New price: 1575
+[2026-03-14 12:15:17] [INFO] Successfully updated price for product 9: 1800 -> 1575
+[2026-03-14 12:15:17] [INFO] Price successfully updated from 1800 to 1575 (-12.5% change)
+[2026-03-14 12:17:31] [INFO] Order item created and inventory reduced - Product: 11, Quantity: 1, Order: 8
+[2026-03-14 12:17:31] [INFO] Seller order processed - Order ID: 8, Total: 700
+[2026-03-14 12:17:31] [INFO] Orders created successfully - Order IDs: 8
+[2026-03-14 12:19:24] [INFO] Stock level change triggered price check for product 11: Old qty: 199, New qty: 24, Threshold: 50
+[2026-03-14 12:19:24] [INFO] Price limits:
+[2026-03-14 12:19:24] [INFO] - Original price: 238.8504
+[2026-03-14 12:19:24] [INFO] - Min price (10% margin): 202
+[2026-03-14 12:19:24] [INFO] - Max price (20% increase): 210
+[2026-03-14 12:19:24] [INFO] - Final price after limits: 210
+[2026-03-14 12:19:24] [INFO] 
+Detailed price calculation:
+[2026-03-14 12:19:24] [INFO] Base cost: 200
+[2026-03-14 12:19:24] [INFO] Current price: 700
+[2026-03-14 12:19:24] [INFO] New price (before adjust): 210
+[2026-03-14 12:19:24] [INFO] Stock level: 24 of 50
+[2026-03-14 12:19:24] [INFO] 
+Update criteria:
+[2026-03-14 12:19:24] [INFO] - Low stock? Yes
+[2026-03-14 12:19:24] [INFO] - Price increasing? No
+[2026-03-14 12:19:24] [INFO] - Significant change? Yes
+[2026-03-14 12:19:24] [INFO] - Price change: -70%
+[2026-03-14 12:19:24] [INFO] - Current: 700, New: 210
+[2026-03-14 12:19:24] [INFO] Should update? Yes
+[2026-03-14 12:19:24] [INFO] Update reason: Significant price change (-70%)
+[2026-03-14 12:19:24] [INFO] 
+Price calculation details:
+[2026-03-14 12:19:24] [INFO] - Current price: 700
+[2026-03-14 12:19:24] [INFO] - New price: 210
+[2026-03-14 12:19:24] [INFO] - Change: -70%
+[2026-03-14 12:19:24] [INFO] - Stock level: 24 units
+[2026-03-14 12:19:24] [INFO] - Low threshold: 50 units
+[2026-03-14 12:19:24] [INFO] - Stock status: LOW
+[2026-03-14 12:19:24] [INFO] - Update conditions: Low stock, Significant price change (-70%)
+[2026-03-14 12:19:24] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-14 12:19:24] [INFO] Starting price update transaction for product 11
+[2026-03-14 12:19:24] [INFO] Current price: 700, New price: 210
+[2026-03-14 12:19:24] [INFO] Successfully updated price for product 11: 700 -> 210
+[2026-03-14 12:19:24] [INFO] Price successfully updated from 700 to 210 (-70% change)
+[2026-03-14 13:18:50] [INFO] Stock level change triggered price check for product 11: Old qty: 42, New qty: 52, Threshold: 50
+[2026-03-14 13:18:51] [INFO] Price limits:
+[2026-03-14 13:18:51] [INFO] - Original price: 235.69888888889
+[2026-03-14 13:18:51] [INFO] - Min price (based on base cost with margin): 202
+[2026-03-14 13:18:51] [INFO] - Max price (based on current price + max increase): 367.5
+[2026-03-14 13:18:51] [INFO] - Final price after limits: 235.69888888889
+[2026-03-14 13:18:51] [INFO] 
+Detailed price calculation:
+[2026-03-14 13:18:51] [INFO] Base cost: 200
+[2026-03-14 13:18:51] [INFO] Current price: 350
+[2026-03-14 13:18:51] [INFO] New price (before adjust): 235.7
+[2026-03-14 13:18:51] [INFO] Stock level: 52 of 50
+[2026-03-14 13:18:51] [INFO] 
+Update criteria:
+[2026-03-14 13:18:51] [INFO] - Low stock? No
+[2026-03-14 13:18:51] [INFO] - Price increasing? No
+[2026-03-14 13:18:51] [INFO] - Significant change? Yes
+[2026-03-14 13:18:51] [INFO] - Price change: -32.66%
+[2026-03-14 13:18:51] [INFO] - Current: 350, New: 235.7
+[2026-03-14 13:18:51] [INFO] Should update? Yes
+[2026-03-14 13:18:51] [INFO] Update reason: Significant price change (-32.66%)
+[2026-03-14 13:18:51] [INFO] 
+Price calculation details:
+[2026-03-14 13:18:51] [INFO] - Current price: 350
+[2026-03-14 13:18:51] [INFO] - New price: 235.7
+[2026-03-14 13:18:51] [INFO] - Change: -32.66%
+[2026-03-14 13:18:51] [INFO] - Stock level: 52 units
+[2026-03-14 13:18:51] [INFO] - Low threshold: 50 units
+[2026-03-14 13:18:51] [INFO] - Stock status: Normal
+[2026-03-14 13:18:51] [INFO] - Update conditions: Significant price change (-32.66%)
+[2026-03-14 13:18:51] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-14 13:18:51] [INFO] Starting price update transaction for product 11
+[2026-03-14 13:18:51] [INFO] Current price: 350, New price: 235.7
+[2026-03-14 13:18:51] [INFO] Successfully updated price for product 11: 350 -> 235.7
+[2026-03-14 13:18:51] [INFO] Price successfully updated from 350 to 235.7 (-32.66% change)
+[2026-03-14 13:20:11] [INFO] Stock level change triggered price check for product 11: Old qty: 62, New qty: 10, Threshold: 50
+[2026-03-14 13:20:11] [INFO] Price limits:
+[2026-03-14 13:20:11] [INFO] - Original price: 241.04
+[2026-03-14 13:20:11] [INFO] - Min price (based on base cost with margin): 202
+[2026-03-14 13:20:11] [INFO] - Max price (based on current price + max increase): 247.485
+[2026-03-14 13:20:11] [INFO] - Final price after limits: 241.04
+[2026-03-14 13:20:11] [INFO] 
+Detailed price calculation:
+[2026-03-14 13:20:11] [INFO] Base cost: 200
+[2026-03-14 13:20:11] [INFO] Current price: 235.7
+[2026-03-14 13:20:11] [INFO] New price (before adjust): 241.04
+[2026-03-14 13:20:11] [INFO] Stock level: 10 of 50
+[2026-03-14 13:20:11] [INFO] 
+Update criteria:
+[2026-03-14 13:20:11] [INFO] - Low stock? Yes
+[2026-03-14 13:20:11] [INFO] - Price increasing? Yes
+[2026-03-14 13:20:11] [INFO] - Significant change? Yes
+[2026-03-14 13:20:11] [INFO] - Price change: 2.27%
+[2026-03-14 13:20:11] [INFO] - Current: 235.7, New: 241.04
+[2026-03-14 13:20:11] [INFO] Should update? Yes
+[2026-03-14 13:20:11] [INFO] Update reason: Low stock and price increase
+[2026-03-14 13:20:11] [INFO] 
+Price calculation details:
+[2026-03-14 13:20:11] [INFO] - Current price: 235.7
+[2026-03-14 13:20:11] [INFO] - New price: 241.04
+[2026-03-14 13:20:11] [INFO] - Change: 2.27%
+[2026-03-14 13:20:11] [INFO] - Stock level: 10 units
+[2026-03-14 13:20:11] [INFO] - Low threshold: 50 units
+[2026-03-14 13:20:11] [INFO] - Stock status: LOW
+[2026-03-14 13:20:11] [INFO] - Update conditions: Low stock, Significant price change (2.27%)
+[2026-03-14 13:20:11] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-14 13:20:11] [INFO] Starting price update transaction for product 11
+[2026-03-14 13:20:11] [INFO] Current price: 235.7, New price: 241.04
+[2026-03-14 13:20:11] [INFO] Successfully updated price for product 11: 235.7 -> 241.04
+[2026-03-14 13:20:11] [INFO] Price successfully updated from 235.7 to 241.04 (2.27% change)
+[2026-03-14 13:20:38] [INFO] Stock level change triggered price check for product 11: Old qty: 10, New qty: 130, Threshold: 50
+[2026-03-14 13:20:38] [INFO] Price limits:
+[2026-03-14 13:20:38] [INFO] - Original price: 233.70555555556
+[2026-03-14 13:20:38] [INFO] - Min price (based on base cost with margin): 202
+[2026-03-14 13:20:38] [INFO] - Max price (based on current price + max increase): 253.092
+[2026-03-14 13:20:38] [INFO] - Final price after limits: 233.70555555556
+[2026-03-14 13:20:38] [INFO] 
+Detailed price calculation:
+[2026-03-14 13:20:38] [INFO] Base cost: 200
+[2026-03-14 13:20:38] [INFO] Current price: 241.04
+[2026-03-14 13:20:38] [INFO] New price (before adjust): 233.71
+[2026-03-14 13:20:38] [INFO] Stock level: 130 of 50
+[2026-03-14 13:20:38] [INFO] 
+Update criteria:
+[2026-03-14 13:20:38] [INFO] - Low stock? No
+[2026-03-14 13:20:38] [INFO] - Price increasing? No
+[2026-03-14 13:20:38] [INFO] - Significant change? Yes
+[2026-03-14 13:20:38] [INFO] - Price change: -3.04%
+[2026-03-14 13:20:38] [INFO] - Current: 241.04, New: 233.71
+[2026-03-14 13:20:38] [INFO] Should update? Yes
+[2026-03-14 13:20:38] [INFO] Update reason: Significant price change (-3.04%)
+[2026-03-14 13:20:38] [INFO] 
+Price calculation details:
+[2026-03-14 13:20:38] [INFO] - Current price: 241.04
+[2026-03-14 13:20:38] [INFO] - New price: 233.71
+[2026-03-14 13:20:38] [INFO] - Change: -3.04%
+[2026-03-14 13:20:38] [INFO] - Stock level: 130 units
+[2026-03-14 13:20:38] [INFO] - Low threshold: 50 units
+[2026-03-14 13:20:38] [INFO] - Stock status: Normal
+[2026-03-14 13:20:38] [INFO] - Update conditions: Significant price change (-3.04%)
+[2026-03-14 13:20:38] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-14 13:20:38] [INFO] Starting price update transaction for product 11
+[2026-03-14 13:20:38] [INFO] Current price: 241.04, New price: 233.71
+[2026-03-14 13:20:38] [INFO] Successfully updated price for product 11: 241.04 -> 233.71
+[2026-03-14 13:20:38] [INFO] Price successfully updated from 241.04 to 233.71 (-3.04% change)
+[2026-03-17 09:05:15] [INFO] Stock level change triggered price check for product 1: Old qty: 100, New qty: 1, Threshold: 5
+[2026-03-17 09:05:16] [INFO] Price limits:
+[2026-03-17 09:05:16] [INFO] - Original price: 1991.2
+[2026-03-17 09:05:16] [INFO] - Min price (based on base cost with margin): 151.5
+[2026-03-17 09:05:16] [INFO] - Max price (based on current price + max increase): 2100
+[2026-03-17 09:05:16] [INFO] - Final price after limits: 1991.2
+[2026-03-17 09:05:16] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:05:16] [INFO] Base cost: 150
+[2026-03-17 09:05:16] [INFO] Current price: 2000
+[2026-03-17 09:05:16] [INFO] New price (before adjust): 1991.2
+[2026-03-17 09:05:16] [INFO] Stock level: 1 of 5
+[2026-03-17 09:05:16] [INFO] 
+Update criteria:
+[2026-03-17 09:05:16] [INFO] - Low stock? Yes
+[2026-03-17 09:05:16] [INFO] - Price increasing? No
+[2026-03-17 09:05:16] [INFO] - Significant change? No
+[2026-03-17 09:05:16] [INFO] - Price change: -0.44%
+[2026-03-17 09:05:16] [INFO] - Current: 2000, New: 1991.2
+[2026-03-17 09:05:16] [INFO] Should update? Yes
+[2026-03-17 09:05:16] [INFO] Update reason: Significant price change (-0.44%)
+[2026-03-17 09:05:16] [INFO] 
+Price calculation details:
+[2026-03-17 09:05:16] [INFO] - Current price: 2000
+[2026-03-17 09:05:16] [INFO] - New price: 1991.2
+[2026-03-17 09:05:16] [INFO] - Change: -0.44%
+[2026-03-17 09:05:16] [INFO] - Stock level: 1 units
+[2026-03-17 09:05:16] [INFO] - Low threshold: 5 units
+[2026-03-17 09:05:16] [INFO] - Stock status: LOW
+[2026-03-17 09:05:16] [INFO] - Update conditions: Low stock
+[2026-03-17 09:05:16] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:05:16] [INFO] Starting price update transaction for product 1
+[2026-03-17 09:05:16] [INFO] Current price: 2000, New price: 1991.2
+[2026-03-17 09:05:16] [INFO] Successfully updated price for product 1: 2000 -> 1991.2
+[2026-03-17 09:05:16] [INFO] Price successfully updated from 2000 to 1991.2 (-0.44% change)
+[2026-03-17 09:13:01] [INFO] Stock level change triggered price check for product 1: Old qty: 1, New qty: 101, Threshold: 5
+[2026-03-17 09:13:01] [INFO] Price limits:
+[2026-03-17 09:13:01] [INFO] - Original price: 1874.2713054545
+[2026-03-17 09:13:01] [INFO] - Min price (based on base cost with margin): 151.5
+[2026-03-17 09:13:01] [INFO] - Max price (based on current price + max increase): 2090.76
+[2026-03-17 09:13:01] [INFO] - Final price after limits: 1874.2713054545
+[2026-03-17 09:13:01] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:13:01] [INFO] Base cost: 150
+[2026-03-17 09:13:01] [INFO] Current price: 1991.2
+[2026-03-17 09:13:01] [INFO] New price (before adjust): 1874.27
+[2026-03-17 09:13:01] [INFO] Stock level: 101 of 5
+[2026-03-17 09:13:01] [INFO] 
+Update criteria:
+[2026-03-17 09:13:01] [INFO] - Low stock? No
+[2026-03-17 09:13:01] [INFO] - Price increasing? No
+[2026-03-17 09:13:01] [INFO] - Significant change? Yes
+[2026-03-17 09:13:01] [INFO] - Price change: -5.87%
+[2026-03-17 09:13:01] [INFO] - Current: 1991.2, New: 1874.27
+[2026-03-17 09:13:01] [INFO] Should update? Yes
+[2026-03-17 09:13:01] [INFO] Update reason: Significant price change (-5.87%)
+[2026-03-17 09:13:01] [INFO] 
+Price calculation details:
+[2026-03-17 09:13:01] [INFO] - Current price: 1991.2
+[2026-03-17 09:13:01] [INFO] - New price: 1874.27
+[2026-03-17 09:13:01] [INFO] - Change: -5.87%
+[2026-03-17 09:13:01] [INFO] - Stock level: 101 units
+[2026-03-17 09:13:01] [INFO] - Low threshold: 5 units
+[2026-03-17 09:13:01] [INFO] - Stock status: Normal
+[2026-03-17 09:13:01] [INFO] - Update conditions: Significant price change (-5.87%)
+[2026-03-17 09:13:01] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-17 09:13:01] [INFO] Starting price update transaction for product 1
+[2026-03-17 09:13:01] [INFO] Current price: 1991.2, New price: 1874.27
+[2026-03-17 09:13:01] [INFO] Successfully updated price for product 1: 1991.2 -> 1874.27
+[2026-03-17 09:13:01] [INFO] Price successfully updated from 1991.2 to 1874.27 (-5.87% change)
+[2026-03-17 09:13:33] [INFO] Stock level change triggered price check for product 1: Old qty: 101, New qty: 2, Threshold: 5
+[2026-03-17 09:13:33] [INFO] Price limits:
+[2026-03-17 09:13:33] [INFO] - Original price: 1735.6864762
+[2026-03-17 09:13:33] [INFO] - Min price (based on base cost with margin): 151.5
+[2026-03-17 09:13:33] [INFO] - Max price (based on current price + max increase): 1967.9835
+[2026-03-17 09:13:33] [INFO] - Final price after limits: 1735.6864762
+[2026-03-17 09:13:33] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:13:33] [INFO] Base cost: 150
+[2026-03-17 09:13:33] [INFO] Current price: 1874.27
+[2026-03-17 09:13:33] [INFO] New price (before adjust): 1735.69
+[2026-03-17 09:13:33] [INFO] Stock level: 2 of 5
+[2026-03-17 09:13:33] [INFO] 
+Update criteria:
+[2026-03-17 09:13:33] [INFO] - Low stock? Yes
+[2026-03-17 09:13:33] [INFO] - Price increasing? No
+[2026-03-17 09:13:33] [INFO] - Significant change? Yes
+[2026-03-17 09:13:33] [INFO] - Price change: -7.39%
+[2026-03-17 09:13:33] [INFO] - Current: 1874.27, New: 1735.69
+[2026-03-17 09:13:33] [INFO] Should update? Yes
+[2026-03-17 09:13:33] [INFO] Update reason: Significant price change (-7.39%)
+[2026-03-17 09:13:33] [INFO] 
+Price calculation details:
+[2026-03-17 09:13:33] [INFO] - Current price: 1874.27
+[2026-03-17 09:13:33] [INFO] - New price: 1735.69
+[2026-03-17 09:13:33] [INFO] - Change: -7.39%
+[2026-03-17 09:13:33] [INFO] - Stock level: 2 units
+[2026-03-17 09:13:33] [INFO] - Low threshold: 5 units
+[2026-03-17 09:13:33] [INFO] - Stock status: LOW
+[2026-03-17 09:13:33] [INFO] - Update conditions: Low stock, Significant price change (-7.39%)
+[2026-03-17 09:13:33] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:13:33] [INFO] Starting price update transaction for product 1
+[2026-03-17 09:13:33] [INFO] Current price: 1874.27, New price: 1735.69
+[2026-03-17 09:13:33] [INFO] Successfully updated price for product 1: 1874.27 -> 1735.69
+[2026-03-17 09:13:33] [INFO] Price successfully updated from 1874.27 to 1735.69 (-7.39% change)
+[2026-03-17 09:17:56] [INFO] Stock level change triggered price check for product 1: Old qty: 2, New qty: 102, Threshold: 5
+[2026-03-17 09:17:56] [INFO] Price limits:
+[2026-03-17 09:17:56] [INFO] - Original price: 1663.9455168333
+[2026-03-17 09:17:56] [INFO] - Min price (based on base cost with margin): 151.5
+[2026-03-17 09:17:56] [INFO] - Max price (based on current price + max increase): 1787.7607
+[2026-03-17 09:17:56] [INFO] - Final price after limits: 1663.9455168333
+[2026-03-17 09:17:56] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:17:56] [INFO] Base cost: 150
+[2026-03-17 09:17:56] [INFO] Current price: 1735.69
+[2026-03-17 09:17:56] [INFO] New price (before adjust): 1663.95
+[2026-03-17 09:17:56] [INFO] Stock level: 102 of 5
+[2026-03-17 09:17:56] [INFO] 
+Update criteria:
+[2026-03-17 09:17:56] [INFO] - Low stock? No
+[2026-03-17 09:17:56] [INFO] - Price increasing? No
+[2026-03-17 09:17:56] [INFO] - Significant change? Yes
+[2026-03-17 09:17:56] [INFO] - Price change: -4.13%
+[2026-03-17 09:17:56] [INFO] - Current: 1735.69, New: 1663.95
+[2026-03-17 09:17:56] [INFO] Should update? Yes
+[2026-03-17 09:17:56] [INFO] Update reason: Significant price change (-4.13%)
+[2026-03-17 09:17:56] [INFO] 
+Price calculation details:
+[2026-03-17 09:17:56] [INFO] - Current price: 1735.69
+[2026-03-17 09:17:56] [INFO] - New price: 1663.95
+[2026-03-17 09:17:56] [INFO] - Change: -4.13%
+[2026-03-17 09:17:56] [INFO] - Stock level: 102 units
+[2026-03-17 09:17:56] [INFO] - Low threshold: 5 units
+[2026-03-17 09:17:56] [INFO] - Stock status: Normal
+[2026-03-17 09:17:56] [INFO] - Update conditions: Significant price change (-4.13%)
+[2026-03-17 09:17:56] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-17 09:17:56] [INFO] Starting price update transaction for product 1
+[2026-03-17 09:17:56] [INFO] Current price: 1735.69, New price: 1663.95
+[2026-03-17 09:17:56] [INFO] Successfully updated price for product 1: 1735.69 -> 1663.95
+[2026-03-17 09:17:56] [INFO] Price successfully updated from 1735.69 to 1663.95 (-4.13% change)
+[2026-03-17 09:18:18] [INFO] Stock level change triggered price check for product 1: Old qty: 102, New qty: 3, Threshold: 5
+[2026-03-17 09:18:18] [INFO] Price limits:
+[2026-03-17 09:18:18] [INFO] - Original price: 1611.102948
+[2026-03-17 09:18:18] [INFO] - Min price (based on base cost with margin): 151.5
+[2026-03-17 09:18:18] [INFO] - Max price (based on current price + max increase): 1713.8685
+[2026-03-17 09:18:18] [INFO] - Final price after limits: 1611.102948
+[2026-03-17 09:18:18] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:18:18] [INFO] Base cost: 150
+[2026-03-17 09:18:18] [INFO] Current price: 1663.95
+[2026-03-17 09:18:18] [INFO] New price (before adjust): 1611.1
+[2026-03-17 09:18:18] [INFO] Stock level: 3 of 5
+[2026-03-17 09:18:18] [INFO] 
+Update criteria:
+[2026-03-17 09:18:18] [INFO] - Low stock? Yes
+[2026-03-17 09:18:18] [INFO] - Price increasing? No
+[2026-03-17 09:18:18] [INFO] - Significant change? Yes
+[2026-03-17 09:18:18] [INFO] - Price change: -3.18%
+[2026-03-17 09:18:18] [INFO] - Current: 1663.95, New: 1611.1
+[2026-03-17 09:18:18] [INFO] Should update? Yes
+[2026-03-17 09:18:18] [INFO] Update reason: Significant price change (-3.18%)
+[2026-03-17 09:18:18] [INFO] 
+Price calculation details:
+[2026-03-17 09:18:18] [INFO] - Current price: 1663.95
+[2026-03-17 09:18:18] [INFO] - New price: 1611.1
+[2026-03-17 09:18:18] [INFO] - Change: -3.18%
+[2026-03-17 09:18:18] [INFO] - Stock level: 3 units
+[2026-03-17 09:18:18] [INFO] - Low threshold: 5 units
+[2026-03-17 09:18:18] [INFO] - Stock status: LOW
+[2026-03-17 09:18:18] [INFO] - Update conditions: Low stock, Significant price change (-3.18%)
+[2026-03-17 09:18:18] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:18:18] [INFO] Starting price update transaction for product 1
+[2026-03-17 09:18:18] [INFO] Current price: 1663.95, New price: 1611.1
+[2026-03-17 09:18:18] [INFO] Successfully updated price for product 1: 1663.95 -> 1611.1
+[2026-03-17 09:18:18] [INFO] Price successfully updated from 1663.95 to 1611.1 (-3.18% change)
+[2026-03-17 09:22:25] [INFO] Stock level change triggered price check for product 2: Old qty: 6, New qty: 3, Threshold: 5
+[2026-03-17 09:22:25] [INFO] Price limits:
+[2026-03-17 09:22:25] [INFO] - Original price: 484.12
+[2026-03-17 09:22:25] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:22:25] [INFO] - Max price (based on current price + max increase): 515
+[2026-03-17 09:22:25] [INFO] - Final price after limits: 484.12
+[2026-03-17 09:22:25] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:22:25] [INFO] Base cost: 250
+[2026-03-17 09:22:25] [INFO] Current price: 500
+[2026-03-17 09:22:25] [INFO] New price (before adjust): 484.12
+[2026-03-17 09:22:25] [INFO] Stock level: 3 of 5
+[2026-03-17 09:22:25] [INFO] 
+Update criteria:
+[2026-03-17 09:22:25] [INFO] - Low stock? Yes
+[2026-03-17 09:22:25] [INFO] - Price increasing? No
+[2026-03-17 09:22:25] [INFO] - Significant change? Yes
+[2026-03-17 09:22:25] [INFO] - Price change: -3.18%
+[2026-03-17 09:22:25] [INFO] - Current: 500, New: 484.12
+[2026-03-17 09:22:25] [INFO] Should update? Yes
+[2026-03-17 09:22:25] [INFO] Update reason: Significant price change (-3.18%)
+[2026-03-17 09:22:25] [INFO] 
+Price calculation details:
+[2026-03-17 09:22:25] [INFO] - Current price: 500
+[2026-03-17 09:22:25] [INFO] - New price: 484.12
+[2026-03-17 09:22:25] [INFO] - Change: -3.18%
+[2026-03-17 09:22:25] [INFO] - Stock level: 3 units
+[2026-03-17 09:22:25] [INFO] - Low threshold: 5 units
+[2026-03-17 09:22:25] [INFO] - Stock status: LOW
+[2026-03-17 09:22:25] [INFO] - Update conditions: Low stock, Significant price change (-3.18%)
+[2026-03-17 09:22:25] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:22:25] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:22:25] [INFO] Current price: 500, New price: 484.12
+[2026-03-17 09:22:25] [INFO] Successfully updated price for product 2: 500 -> 484.12
+[2026-03-17 09:22:25] [INFO] Price successfully updated from 500 to 484.12 (-3.18% change)
+[2026-03-17 09:24:52] [INFO] Stock level change triggered price check for product 2: Old qty: 3, New qty: 103, Threshold: 5
+[2026-03-17 09:24:52] [INFO] Price limits:
+[2026-03-17 09:24:52] [INFO] - Original price: 452.9688340404
+[2026-03-17 09:24:52] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:24:52] [INFO] - Max price (based on current price + max increase): 498.6436
+[2026-03-17 09:24:52] [INFO] - Final price after limits: 452.9688340404
+[2026-03-17 09:24:52] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:24:52] [INFO] Base cost: 250
+[2026-03-17 09:24:52] [INFO] Current price: 484.12
+[2026-03-17 09:24:52] [INFO] New price (before adjust): 452.97
+[2026-03-17 09:24:52] [INFO] Stock level: 103 of 5
+[2026-03-17 09:24:52] [INFO] 
+Update criteria:
+[2026-03-17 09:24:52] [INFO] - Low stock? No
+[2026-03-17 09:24:52] [INFO] - Price increasing? No
+[2026-03-17 09:24:52] [INFO] - Significant change? Yes
+[2026-03-17 09:24:52] [INFO] - Price change: -6.43%
+[2026-03-17 09:24:52] [INFO] - Current: 484.12, New: 452.97
+[2026-03-17 09:24:52] [INFO] Should update? Yes
+[2026-03-17 09:24:52] [INFO] Update reason: Significant price change (-6.43%)
+[2026-03-17 09:24:52] [INFO] 
+Price calculation details:
+[2026-03-17 09:24:52] [INFO] - Current price: 484.12
+[2026-03-17 09:24:52] [INFO] - New price: 452.97
+[2026-03-17 09:24:52] [INFO] - Change: -6.43%
+[2026-03-17 09:24:52] [INFO] - Stock level: 103 units
+[2026-03-17 09:24:52] [INFO] - Low threshold: 5 units
+[2026-03-17 09:24:52] [INFO] - Stock status: Normal
+[2026-03-17 09:24:52] [INFO] - Update conditions: Significant price change (-6.43%)
+[2026-03-17 09:24:52] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-17 09:24:52] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:24:52] [INFO] Current price: 484.12, New price: 452.97
+[2026-03-17 09:24:52] [INFO] Successfully updated price for product 2: 484.12 -> 452.97
+[2026-03-17 09:24:52] [INFO] Price successfully updated from 484.12 to 452.97 (-6.43% change)
+[2026-03-17 09:25:25] [INFO] Stock level change triggered price check for product 2: Old qty: 103, New qty: 3, Threshold: 5
+[2026-03-17 09:25:25] [INFO] Price limits:
+[2026-03-17 09:25:25] [INFO] - Original price: 416.551212
+[2026-03-17 09:25:25] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:25:25] [INFO] - Max price (based on current price + max increase): 466.5591
+[2026-03-17 09:25:25] [INFO] - Final price after limits: 416.551212
+[2026-03-17 09:25:25] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:25:25] [INFO] Base cost: 250
+[2026-03-17 09:25:25] [INFO] Current price: 452.97
+[2026-03-17 09:25:25] [INFO] New price (before adjust): 416.55
+[2026-03-17 09:25:25] [INFO] Stock level: 3 of 5
+[2026-03-17 09:25:25] [INFO] 
+Update criteria:
+[2026-03-17 09:25:25] [INFO] - Low stock? Yes
+[2026-03-17 09:25:25] [INFO] - Price increasing? No
+[2026-03-17 09:25:25] [INFO] - Significant change? Yes
+[2026-03-17 09:25:25] [INFO] - Price change: -8.04%
+[2026-03-17 09:25:25] [INFO] - Current: 452.97, New: 416.55
+[2026-03-17 09:25:25] [INFO] Should update? Yes
+[2026-03-17 09:25:25] [INFO] Update reason: Significant price change (-8.04%)
+[2026-03-17 09:25:25] [INFO] 
+Price calculation details:
+[2026-03-17 09:25:25] [INFO] - Current price: 452.97
+[2026-03-17 09:25:25] [INFO] - New price: 416.55
+[2026-03-17 09:25:25] [INFO] - Change: -8.04%
+[2026-03-17 09:25:25] [INFO] - Stock level: 3 units
+[2026-03-17 09:25:25] [INFO] - Low threshold: 5 units
+[2026-03-17 09:25:25] [INFO] - Stock status: LOW
+[2026-03-17 09:25:25] [INFO] - Update conditions: Low stock, Significant price change (-8.04%)
+[2026-03-17 09:25:25] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:25:25] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:25:25] [INFO] Current price: 452.97, New price: 416.55
+[2026-03-17 09:25:25] [INFO] Successfully updated price for product 2: 452.97 -> 416.55
+[2026-03-17 09:25:25] [INFO] Price successfully updated from 452.97 to 416.55 (-8.04% change)
+[2026-03-17 09:27:08] [INFO] Stock level change triggered price check for product 2: Old qty: 3, New qty: 103, Threshold: 5
+[2026-03-17 09:27:08] [INFO] After inventory adjustment: 416.55 -> 422.84032575758 (adjustment: 0.01510101010101)
+[2026-03-17 09:27:08] [INFO] After time adjustment: 422.84032575758 -> 422.84032575758 (adjustment: 0)
+[2026-03-17 09:27:08] [INFO] After demand adjustment: 422.84032575758 -> 401.6983094697 (adjustment: -0.05)
+[2026-03-17 09:27:08] [INFO] Price limits:
+[2026-03-17 09:27:08] [INFO] - Original price: 401.6983094697
+[2026-03-17 09:27:08] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:27:08] [INFO] - Max price (based on current price + max increase): 437.3775
+[2026-03-17 09:27:08] [INFO] - Final price after limits: 401.6983094697
+[2026-03-17 09:27:08] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:27:08] [INFO] Base cost: 250
+[2026-03-17 09:27:08] [INFO] Current price: 416.55
+[2026-03-17 09:27:08] [INFO] New price (before adjust): 401.7
+[2026-03-17 09:27:08] [INFO] Stock level: 103 of 5
+[2026-03-17 09:27:08] [INFO] 
+Update criteria:
+[2026-03-17 09:27:08] [INFO] - Low stock? No
+[2026-03-17 09:27:08] [INFO] - Price increasing? No
+[2026-03-17 09:27:08] [INFO] - Significant change? Yes
+[2026-03-17 09:27:08] [INFO] - Price change: -3.56%
+[2026-03-17 09:27:08] [INFO] - Current: 416.55, New: 401.7
+[2026-03-17 09:27:08] [INFO] Should update? Yes
+[2026-03-17 09:27:08] [INFO] Update reason: Significant price change (-3.56%)
+[2026-03-17 09:27:08] [INFO] 
+Price calculation details:
+[2026-03-17 09:27:08] [INFO] - Current price: 416.55
+[2026-03-17 09:27:08] [INFO] - New price: 401.7
+[2026-03-17 09:27:08] [INFO] - Change: -3.56%
+[2026-03-17 09:27:08] [INFO] - Stock level: 103 units
+[2026-03-17 09:27:08] [INFO] - Low threshold: 5 units
+[2026-03-17 09:27:08] [INFO] - Stock status: Normal
+[2026-03-17 09:27:08] [INFO] - Update conditions: Significant price change (-3.56%)
+[2026-03-17 09:27:08] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-17 09:27:08] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:27:08] [INFO] Current price: 416.55, New price: 401.7
+[2026-03-17 09:27:08] [INFO] Successfully updated price for product 2: 416.55 -> 401.7
+[2026-03-17 09:27:08] [INFO] Price successfully updated from 416.55 to 401.7 (-3.56% change)
+[2026-03-17 09:27:29] [INFO] Stock level change triggered price check for product 2: Old qty: 103, New qty: 3, Threshold: 5
+[2026-03-17 09:27:29] [INFO] After inventory adjustment: 401.7 -> 414.5544 (adjustment: 0.032)
+[2026-03-17 09:27:29] [INFO] After time adjustment: 414.5544 -> 414.5544 (adjustment: 0)
+[2026-03-17 09:27:29] [INFO] After demand adjustment: 414.5544 -> 393.82668 (adjustment: -0.05)
+[2026-03-17 09:27:29] [INFO] Price limits:
+[2026-03-17 09:27:29] [INFO] - Original price: 393.82668
+[2026-03-17 09:27:29] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:27:29] [INFO] - Max price (based on current price + max increase): 421.785
+[2026-03-17 09:27:29] [INFO] - Final price after limits: 393.82668
+[2026-03-17 09:27:29] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:27:29] [INFO] Base cost: 250
+[2026-03-17 09:27:29] [INFO] Current price: 401.7
+[2026-03-17 09:27:29] [INFO] New price (before adjust): 393.83
+[2026-03-17 09:27:29] [INFO] Stock level: 3 of 5
+[2026-03-17 09:27:29] [INFO] 
+Update criteria:
+[2026-03-17 09:27:29] [INFO] - Low stock? Yes
+[2026-03-17 09:27:29] [INFO] - Price increasing? No
+[2026-03-17 09:27:29] [INFO] - Significant change? Yes
+[2026-03-17 09:27:29] [INFO] - Price change: -1.96%
+[2026-03-17 09:27:29] [INFO] - Current: 401.7, New: 393.83
+[2026-03-17 09:27:29] [INFO] Should update? Yes
+[2026-03-17 09:27:29] [INFO] Update reason: Significant price change (-1.96%)
+[2026-03-17 09:27:29] [INFO] 
+Price calculation details:
+[2026-03-17 09:27:29] [INFO] - Current price: 401.7
+[2026-03-17 09:27:29] [INFO] - New price: 393.83
+[2026-03-17 09:27:29] [INFO] - Change: -1.96%
+[2026-03-17 09:27:29] [INFO] - Stock level: 3 units
+[2026-03-17 09:27:29] [INFO] - Low threshold: 5 units
+[2026-03-17 09:27:29] [INFO] - Stock status: LOW
+[2026-03-17 09:27:29] [INFO] - Update conditions: Low stock, Significant price change (-1.96%)
+[2026-03-17 09:27:29] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:27:29] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:27:29] [INFO] Current price: 401.7, New price: 393.83
+[2026-03-17 09:27:29] [INFO] Successfully updated price for product 2: 401.7 -> 393.83
+[2026-03-17 09:27:29] [INFO] Price successfully updated from 401.7 to 393.83 (-1.96% change)
+[2026-03-17 09:31:39] [INFO] Stock level change triggered price check for product 2: Old qty: 3, New qty: 103, Threshold: 5
+[2026-03-17 09:31:39] [INFO] After inventory adjustment: 393.83 -> 399.77723080808 (adjustment: 0.01510101010101)
+[2026-03-17 09:31:39] [INFO] After time adjustment: 399.77723080808 -> 399.77723080808 (adjustment: 0)
+[2026-03-17 09:31:39] [INFO] After demand adjustment: 399.77723080808 -> 399.77723080808 (adjustment: 0)
+[2026-03-17 09:31:39] [INFO] Price limits:
+[2026-03-17 09:31:39] [INFO] - Original price: 399.77723080808
+[2026-03-17 09:31:39] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:31:39] [INFO] - Max price (based on current price + max increase): 413.5215
+[2026-03-17 09:31:39] [INFO] - Final price after limits: 399.77723080808
+[2026-03-17 09:31:39] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:31:39] [INFO] Base cost: 250
+[2026-03-17 09:31:39] [INFO] Current price: 393.83
+[2026-03-17 09:31:39] [INFO] New price (before adjust): 399.78
+[2026-03-17 09:31:39] [INFO] Stock level: 103 of 5
+[2026-03-17 09:31:39] [INFO] 
+Update criteria:
+[2026-03-17 09:31:39] [INFO] - Low stock? No
+[2026-03-17 09:31:39] [INFO] - Price increasing? Yes
+[2026-03-17 09:31:39] [INFO] - Significant change? Yes
+[2026-03-17 09:31:39] [INFO] - Price change: 1.51%
+[2026-03-17 09:31:39] [INFO] - Current: 393.83, New: 399.78
+[2026-03-17 09:31:39] [INFO] Should update? Yes
+[2026-03-17 09:31:39] [INFO] Update reason: Significant price change (1.51%)
+[2026-03-17 09:31:39] [INFO] 
+Price calculation details:
+[2026-03-17 09:31:39] [INFO] - Current price: 393.83
+[2026-03-17 09:31:39] [INFO] - New price: 399.78
+[2026-03-17 09:31:39] [INFO] - Change: 1.51%
+[2026-03-17 09:31:39] [INFO] - Stock level: 103 units
+[2026-03-17 09:31:39] [INFO] - Low threshold: 5 units
+[2026-03-17 09:31:39] [INFO] - Stock status: Normal
+[2026-03-17 09:31:39] [INFO] - Update conditions: Significant price change (1.51%)
+[2026-03-17 09:31:39] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-17 09:31:39] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:31:39] [INFO] Current price: 393.83, New price: 399.78
+[2026-03-17 09:31:39] [INFO] Successfully updated price for product 2: 393.83 -> 399.78
+[2026-03-17 09:31:39] [INFO] Price successfully updated from 393.83 to 399.78 (1.51% change)
+[2026-03-17 09:32:03] [INFO] Stock level change triggered price check for product 2: Old qty: 103, New qty: 3, Threshold: 5
+[2026-03-17 09:32:03] [INFO] After inventory adjustment: 399.78 -> 412.57296 (adjustment: 0.032)
+[2026-03-17 09:32:03] [INFO] After time adjustment: 412.57296 -> 412.57296 (adjustment: 0)
+[2026-03-17 09:32:03] [INFO] After demand adjustment: 412.57296 -> 412.57296 (adjustment: 0)
+[2026-03-17 09:32:03] [INFO] Price limits:
+[2026-03-17 09:32:03] [INFO] - Original price: 412.57296
+[2026-03-17 09:32:03] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:32:03] [INFO] - Max price (based on current price + max increase): 419.769
+[2026-03-17 09:32:03] [INFO] - Final price after limits: 412.57296
+[2026-03-17 09:32:03] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:32:03] [INFO] Base cost: 250
+[2026-03-17 09:32:03] [INFO] Current price: 399.78
+[2026-03-17 09:32:03] [INFO] New price (before adjust): 412.57
+[2026-03-17 09:32:03] [INFO] Stock level: 3 of 5
+[2026-03-17 09:32:03] [INFO] 
+Update criteria:
+[2026-03-17 09:32:03] [INFO] - Low stock? Yes
+[2026-03-17 09:32:03] [INFO] - Price increasing? Yes
+[2026-03-17 09:32:03] [INFO] - Significant change? Yes
+[2026-03-17 09:32:03] [INFO] - Price change: 3.2%
+[2026-03-17 09:32:03] [INFO] - Current: 399.78, New: 412.57
+[2026-03-17 09:32:03] [INFO] Should update? Yes
+[2026-03-17 09:32:03] [INFO] Update reason: Low stock and price increase
+[2026-03-17 09:32:03] [INFO] 
+Price calculation details:
+[2026-03-17 09:32:03] [INFO] - Current price: 399.78
+[2026-03-17 09:32:03] [INFO] - New price: 412.57
+[2026-03-17 09:32:03] [INFO] - Change: 3.2%
+[2026-03-17 09:32:03] [INFO] - Stock level: 3 units
+[2026-03-17 09:32:03] [INFO] - Low threshold: 5 units
+[2026-03-17 09:32:03] [INFO] - Stock status: LOW
+[2026-03-17 09:32:03] [INFO] - Update conditions: Low stock, Significant price change (3.2%)
+[2026-03-17 09:32:03] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:32:03] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:32:03] [INFO] Current price: 399.78, New price: 412.57
+[2026-03-17 09:32:03] [INFO] Successfully updated price for product 2: 399.78 -> 412.57
+[2026-03-17 09:32:03] [INFO] Price successfully updated from 399.78 to 412.57 (3.2% change)
+[2026-03-17 09:32:31] [INFO] Stock level change triggered price check for product 2: Old qty: 3, New qty: 203, Threshold: 5
+[2026-03-17 09:32:31] [INFO] After inventory adjustment: 412.57 -> 414.63285 (adjustment: 0.005)
+[2026-03-17 09:32:31] [INFO] After time adjustment: 414.63285 -> 414.63285 (adjustment: 0)
+[2026-03-17 09:32:31] [INFO] After demand adjustment: 414.63285 -> 414.63285 (adjustment: 0)
+[2026-03-17 09:32:31] [INFO] Price limits:
+[2026-03-17 09:32:31] [INFO] - Original price: 414.63285
+[2026-03-17 09:32:31] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:32:31] [INFO] - Max price (based on current price + max increase): 433.1985
+[2026-03-17 09:32:31] [INFO] - Final price after limits: 414.63285
+[2026-03-17 09:32:31] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:32:31] [INFO] Base cost: 250
+[2026-03-17 09:32:31] [INFO] Current price: 412.57
+[2026-03-17 09:32:31] [INFO] New price (before adjust): 414.63
+[2026-03-17 09:32:31] [INFO] Stock level: 203 of 5
+[2026-03-17 09:32:31] [INFO] 
+Update criteria:
+[2026-03-17 09:32:31] [INFO] - Low stock? No
+[2026-03-17 09:32:31] [INFO] - Price increasing? Yes
+[2026-03-17 09:32:31] [INFO] - Significant change? Yes
+[2026-03-17 09:32:31] [INFO] - Price change: 0.5%
+[2026-03-17 09:32:31] [INFO] - Current: 412.57, New: 414.63
+[2026-03-17 09:32:31] [INFO] Should update? Yes
+[2026-03-17 09:32:31] [INFO] Update reason: Significant price change (0.5%)
+[2026-03-17 09:32:31] [INFO] 
+Price calculation details:
+[2026-03-17 09:32:31] [INFO] - Current price: 412.57
+[2026-03-17 09:32:31] [INFO] - New price: 414.63
+[2026-03-17 09:32:31] [INFO] - Change: 0.5%
+[2026-03-17 09:32:31] [INFO] - Stock level: 203 units
+[2026-03-17 09:32:31] [INFO] - Low threshold: 5 units
+[2026-03-17 09:32:31] [INFO] - Stock status: Normal
+[2026-03-17 09:32:31] [INFO] - Update conditions: Significant price change (0.5%)
+[2026-03-17 09:32:31] [INFO] Updating price - SIGNIFICANT CHANGE: Regular price adjustment
+[2026-03-17 09:32:31] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:32:31] [INFO] Current price: 412.57, New price: 414.63
+[2026-03-17 09:32:31] [INFO] Successfully updated price for product 2: 412.57 -> 414.63
+[2026-03-17 09:32:31] [INFO] Price successfully updated from 412.57 to 414.63 (0.5% change)
+[2026-03-17 09:32:58] [INFO] Stock level change triggered price check for product 2: Old qty: 203, New qty: 2, Threshold: 5
+[2026-03-17 09:32:58] [INFO] After inventory adjustment: 414.63 -> 432.04446 (adjustment: 0.042)
+[2026-03-17 09:32:58] [INFO] After time adjustment: 432.04446 -> 432.04446 (adjustment: 0)
+[2026-03-17 09:32:58] [INFO] After demand adjustment: 432.04446 -> 432.04446 (adjustment: 0)
+[2026-03-17 09:32:58] [INFO] Price limits:
+[2026-03-17 09:32:58] [INFO] - Original price: 432.04446
+[2026-03-17 09:32:58] [INFO] - Min price (based on base cost with margin): 252.5
+[2026-03-17 09:32:58] [INFO] - Max price (based on current price + max increase): 435.3615
+[2026-03-17 09:32:58] [INFO] - Final price after limits: 432.04446
+[2026-03-17 09:32:58] [INFO] 
+Detailed price calculation:
+[2026-03-17 09:32:58] [INFO] Base cost: 250
+[2026-03-17 09:32:58] [INFO] Current price: 414.63
+[2026-03-17 09:32:58] [INFO] New price (before adjust): 432.04
+[2026-03-17 09:32:58] [INFO] Stock level: 2 of 5
+[2026-03-17 09:32:58] [INFO] 
+Update criteria:
+[2026-03-17 09:32:58] [INFO] - Low stock? Yes
+[2026-03-17 09:32:58] [INFO] - Price increasing? Yes
+[2026-03-17 09:32:58] [INFO] - Significant change? Yes
+[2026-03-17 09:32:58] [INFO] - Price change: 4.2%
+[2026-03-17 09:32:58] [INFO] - Current: 414.63, New: 432.04
+[2026-03-17 09:32:58] [INFO] Should update? Yes
+[2026-03-17 09:32:58] [INFO] Update reason: Low stock and price increase
+[2026-03-17 09:32:58] [INFO] 
+Price calculation details:
+[2026-03-17 09:32:58] [INFO] - Current price: 414.63
+[2026-03-17 09:32:58] [INFO] - New price: 432.04
+[2026-03-17 09:32:58] [INFO] - Change: 4.2%
+[2026-03-17 09:32:58] [INFO] - Stock level: 2 units
+[2026-03-17 09:32:58] [INFO] - Low threshold: 5 units
+[2026-03-17 09:32:58] [INFO] - Stock status: LOW
+[2026-03-17 09:32:58] [INFO] - Update conditions: Low stock, Significant price change (4.2%)
+[2026-03-17 09:32:58] [INFO] Updating price - LOW STOCK: Forcing price increase
+[2026-03-17 09:32:58] [INFO] Starting price update transaction for product 2
+[2026-03-17 09:32:58] [INFO] Current price: 414.63, New price: 432.04
+[2026-03-17 09:32:58] [INFO] Successfully updated price for product 2: 414.63 -> 432.04
+[2026-03-17 09:32:58] [INFO] Price successfully updated from 414.63 to 432.04 (4.2% change)

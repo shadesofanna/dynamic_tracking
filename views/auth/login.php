@@ -4,14 +4,7 @@ if (!defined('APP_NAME')) {
     require_once __DIR__ . '/../../config/config.php';
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - <?php echo APP_NAME; ?></title>
-    <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/main.css">
-    <style>
+<style>
         body {
             display: flex;
             align-items: center;
@@ -295,8 +288,6 @@ if (!defined('APP_NAME')) {
             }
         }
     </style>
-</head>
-<body>
     <div class="auth-container">
         <div class="auth-logo">
             <div class="auth-logo-icon">
@@ -390,5 +381,3 @@ if (!defined('APP_NAME')) {
             </div>
         </form>
     </div>
-</body>
-</html>

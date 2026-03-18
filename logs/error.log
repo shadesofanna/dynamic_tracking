@@ -1,0 +1,2578 @@
+[2025-12-15 10:31:35] Router Exception: Database connection failed in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 29
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(150): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/', 'GET')
+#4 {main}
+[2026-03-09 17:01:54] Router Exception: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\dynamic\dynamic_pricing\models\Product.php on line 162
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\models\Product.php(162): PDOStatement->execute()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(404): Product->getProductsWithInventory(13)
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(175): SellerController->products()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/seller/product...', 'GET')
+#5 {main}
+[2026-03-09 17:01:58] Router Exception: Database connection failed in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 29
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Model.php(13): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(24): Model->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(150): SellerController->__construct()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/seller/product...', 'GET')
+#5 {main}
+[2026-03-09 17:02:07] Router Exception: Database connection failed in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 29
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(150): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/', 'GET')
+#4 {main}
+[2026-03-10 12:57:12] Router Exception: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\dynamic\dynamic_pricing\models\Product.php on line 166
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\models\Product.php(166): PDOStatement->execute()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(670): Product->getProductsWithInventory(13)
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): SellerController->inventory()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(73): Router->dispatch('/seller/invento...', 'GET')
+#5 {main}
+[10-Mar-2026 14:35:12 Africa/Lagos] PHP Fatal error:  Constant expression contains invalid operations in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 5
+[10-Mar-2026 14:36:18 Africa/Lagos] PHP Fatal error:  Constant expression contains invalid operations in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 5
+[10-Mar-2026 14:40:06 Africa/Lagos] Model::update - Table: inventory, ID: 10, Data: Array
+(
+    [quantity_available] => 897
+    [last_restocked] => 2026-03-10 14:40:06
+)
+
+[10-Mar-2026 14:40:06 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[10-Mar-2026 14:40:06 Africa/Lagos] Model::update - Execute result: TRUE
+[10-Mar-2026 14:40:06 Africa/Lagos] Model::update - Rows affected: 1
+[10-Mar-2026 14:40:56 Africa/Lagos] Product Form Data: No product data
+[14-Mar-2026 10:30:43 Africa/Lagos] Router: No matching route found for GET /dynamic/dynamic_pricing/public/login
+[14-Mar-2026 10:30:49 Africa/Lagos] Router: No matching route found for GET /dynamic/dynamic_pricing/public
+[14-Mar-2026 10:31:00 Africa/Lagos] Router: No matching route found for GET /dynamic/dynamic_pricing/public
+[14-Mar-2026 10:31:22 Africa/Lagos] Router: No matching route found for GET /dynamic/dynamic_pricing/public/seller/products
+[14-Mar-2026 10:49:12 Africa/Lagos] Router: Method 'showForgotPassword' not found in controller 'AuthController'
+[14-Mar-2026 12:14:07 Africa/Lagos] [2026-03-14 12:14:07] Starting storeProduct method. Request Method: POST
+[14-Mar-2026 12:14:07 Africa/Lagos] Sanitized POST data: Array
+(
+    [product_name] => Cello tApe Green
+    [sku] => BS123-156
+    [product_description] => private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;
+    [price] => 350
+    [cost] => 200
+    [stock_quantity] => 200
+    [min_stock_quantity] => 50
+    [is_active] => 1
+)
+
+[14-Mar-2026 12:14:07 Africa/Lagos] Validation passed successfully
+[14-Mar-2026 12:14:07 Africa/Lagos] Starting image upload...
+[14-Mar-2026 12:14:07 Africa/Lagos] File info: Array
+(
+    [name] => WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+    [full_path] => WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+    [type] => image/jpeg
+    [tmp_name] => C:\xampp\tmp\php6A28.tmp
+    [error] => 0
+    [size] => 90327
+)
+
+[14-Mar-2026 12:14:07 Africa/Lagos] Upload directory: C:\xampp\htdocs\dynamic\dynamic_pricing\controllers/../public/assets/images/products/
+[14-Mar-2026 12:14:07 Africa/Lagos] Target path for upload: C:\xampp\htdocs\dynamic\dynamic_pricing\controllers/../public/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+[14-Mar-2026 12:14:07 Africa/Lagos] File uploaded successfully to: C:\xampp\htdocs\dynamic\dynamic_pricing\controllers/../public/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+[14-Mar-2026 12:14:07 Africa/Lagos] Image upload attempted. Result: '69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg', uploadDir: C:\xampp\htdocs\dynamic\dynamic_pricing\controllers/../public/assets/images/products/
+[14-Mar-2026 12:14:07 Africa/Lagos] Insert data for product create: Array
+(
+    [product_name] => Cello tApe Green
+    [sku] => BS123-156
+    [product_description] => private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;
+    [current_price] => 350
+    [base_cost] => 200
+    [category] => general
+    [cost_currency] => NGN
+    [price_currency] => NGN
+    [is_active] => 1
+    [seller_id] => 13
+    [image_url] => /assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+    [last_price_update] => 2026-03-14 12:14:07
+    [created_at] => 2026-03-14 12:14:07
+    [updated_at] => 2026-03-14 12:14:07
+)
+
+[14-Mar-2026 12:14:07 Africa/Lagos] Product create returned: '11'
+[14-Mar-2026 12:14:07 Africa/Lagos] Creating inventory record: Array
+(
+    [product_id] => 11
+    [quantity_available] => 200
+    [quantity_reserved] => 0
+    [reorder_point] => 10
+    [low_stock_threshold] => 50
+    [high_stock_threshold] => 500
+    [created_at] => 2026-03-14 12:14:07
+    [updated_at] => 2026-03-14 12:14:07
+)
+
+[14-Mar-2026 12:14:07 Africa/Lagos] Inventory create returned: '11'
+[14-Mar-2026 12:15:15 Africa/Lagos] Model::update - Table: inventory, ID: 9, Data: Array
+(
+    [quantity_available] => 25
+    [last_restocked] => 2026-03-14 12:15:15
+)
+
+[14-Mar-2026 12:15:16 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 12:15:16 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 12:15:16 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 12:15:16 Africa/Lagos] findWithInventory called with ID: '9'
+[14-Mar-2026 12:15:16 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 9,
+  'seller_id' => 13,
+  'product_name' => 'Bluetooth speaker JBL',
+  'product_description' => 'Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.',
+  'category' => 'general',
+  'sku' => 'JBL-1234',
+  'base_cost' => '1500.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1800.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69aeef679b00b_WhatsApp Image 2026-03-06 at 5.37.45 PM.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-10 03:08:44',
+  'created_at' => '2026-03-09 17:03:51',
+  'updated_at' => '2026-03-10 03:08:44',
+  'quantity_available' => 25,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 20,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:15:17 Africa/Lagos] findWithInventory called with ID: '9'
+[14-Mar-2026 12:15:17 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 9,
+  'seller_id' => 13,
+  'product_name' => 'Bluetooth speaker JBL',
+  'product_description' => 'Spring&#039;s cache abstraction applies cache-aside to methods, reducing executions by storing and reusing results. When a method is invoked, the abstraction checks if it&#039;s been called with the same arguments before. If so, it returns the cached result. If not, it invokes the method, caches the result, and returns it.',
+  'category' => 'general',
+  'sku' => 'JBL-1234',
+  'base_cost' => '1500.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1800.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69aeef679b00b_WhatsApp Image 2026-03-06 at 5.37.45 PM.jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-10 03:08:44',
+  'created_at' => '2026-03-09 17:03:51',
+  'updated_at' => '2026-03-10 03:08:44',
+  'quantity_available' => 25,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 20,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:16:02 Africa/Lagos] Model::update - Table: products, ID: 11, Data: Array
+(
+    [current_price] => 700
+    [last_price_update] => 2026-03-14 12:16:02
+)
+
+[14-Mar-2026 12:16:02 Africa/Lagos] Model::update - Query: UPDATE products SET current_price = :current_price,last_price_update = :last_price_update WHERE product_id = :id
+[14-Mar-2026 12:16:02 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 12:16:02 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 12:16:37 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 12:16:37 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '700.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:16:02',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:16:02',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:17:09 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 12:17:09 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '700.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:16:02',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:16:02',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:17:14 Africa/Lagos] findWithInventory called with ID: 11
+[14-Mar-2026 12:17:14 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '700.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:16:02',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:16:02',
+  'quantity_available' => 200,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:17:30 Africa/Lagos] OrderController::createOrderApi called
+[14-Mar-2026 12:17:30 Africa/Lagos] Checking authentication...
+[14-Mar-2026 12:17:30 Africa/Lagos] Reading POST data...
+[14-Mar-2026 12:17:30 Africa/Lagos] Input received: {"items":[{"product_id":11,"quantity":1,"price":700}],"shipping_address":null,"notes":""}
+[14-Mar-2026 12:17:30 Africa/Lagos] Creating order...
+[14-Mar-2026 12:17:30 Africa/Lagos] processSellerOrder called for seller: 13
+[14-Mar-2026 12:17:30 Africa/Lagos] Order created with ID: '8'
+[14-Mar-2026 12:17:30 Africa/Lagos] Processing item - Product ID: 11, Quantity: 1, Order ID: 8
+[14-Mar-2026 12:17:30 Africa/Lagos] Creating order item - Order ID: 8, Product ID: 11, Price: 700
+[14-Mar-2026 12:17:31 Africa/Lagos] Order item created with ID: '10'
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 199
+    [last_restocked] => 2026-03-14 12:17:31
+)
+
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Table: orders, ID: 8, Data: Array
+(
+    [total_amount] => 700
+)
+
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Query: UPDATE orders SET total_amount = :total_amount WHERE order_id = :id
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 12:17:31 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 12:17:31 Africa/Lagos] findWithInventory called with ID: 11
+[14-Mar-2026 12:17:31 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '700.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:16:02',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:16:02',
+  'quantity_available' => 199,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:17:31 Africa/Lagos] Order created successfully: 8
+[14-Mar-2026 12:17:58 Africa/Lagos] viewOrder - START - Order ID: 8
+[14-Mar-2026 12:17:58 Africa/Lagos] viewOrder - Order from find(): Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => pending
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:17:31
+)
+
+[14-Mar-2026 12:17:58 Africa/Lagos] viewOrder - Total seller orders: 3
+[14-Mar-2026 12:17:58 Africa/Lagos] viewOrder - Found matching order: Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => pending
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:17:31
+    [buyer_name] => Bark Emmanuel
+    [order_total] => 700.00
+    [customer_name] => Bark Emmanuel
+    [status] => pending
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [order_item_id] => 10
+                    [order_id] => 8
+                    [product_id] => 11
+                    [quantity] => 1
+                    [unit_price] => 700.00
+                    [subtotal] => 700.00
+                    [created_at] => 2026-03-14 12:17:30
+                    [product_name] => Cello tApe Green
+                    [sku] => BS123-156
+                    [image_url] => /assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                    [price] => 700.00
+                    [product_image] => 69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                )
+
+        )
+
+)
+
+[14-Mar-2026 12:17:58 Africa/Lagos] viewOrder - FINAL order data: Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => pending
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:17:31
+    [buyer_name] => Bark Emmanuel
+    [order_total] => 700.00
+    [customer_name] => Bark Emmanuel
+    [status] => pending
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [order_item_id] => 10
+                    [order_id] => 8
+                    [product_id] => 11
+                    [quantity] => 1
+                    [unit_price] => 700.00
+                    [subtotal] => 700.00
+                    [created_at] => 2026-03-14 12:17:30
+                    [product_name] => Cello tApe Green
+                    [sku] => BS123-156
+                    [image_url] => /assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                    [price] => 700.00
+                    [product_image] => 69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                )
+
+        )
+
+)
+
+[14-Mar-2026 12:17:58 Africa/Lagos] viewOrder - Buyer: Bark Emmanuel
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - START - Order ID: 8
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - REQUEST METHOD: POST
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - POST DATA: Array
+(
+    [status] => shipped
+)
+
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - Status from POST: shipped
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - Order found: Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => pending
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:17:31
+)
+
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - Seller orders count: 3
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - Updating order with data: Array
+(
+    [order_status] => shipped
+)
+
+[14-Mar-2026 12:18:09 Africa/Lagos] Model::update - Table: orders, ID: 8, Data: Array
+(
+    [order_status] => shipped
+)
+
+[14-Mar-2026 12:18:09 Africa/Lagos] Model::update - Query: UPDATE orders SET order_status = :order_status WHERE order_id = :id
+[14-Mar-2026 12:18:09 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 12:18:09 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - Update result: 1
+[14-Mar-2026 12:18:09 Africa/Lagos] updateOrderStatus - SUCCESS: Redirecting to /seller/order/8
+[14-Mar-2026 12:18:09 Africa/Lagos] viewOrder - START - Order ID: 8
+[14-Mar-2026 12:18:09 Africa/Lagos] viewOrder - Order from find(): Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => shipped
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:18:09
+)
+
+[14-Mar-2026 12:18:09 Africa/Lagos] viewOrder - Total seller orders: 3
+[14-Mar-2026 12:18:09 Africa/Lagos] viewOrder - Found matching order: Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => shipped
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:18:09
+    [buyer_name] => Bark Emmanuel
+    [order_total] => 700.00
+    [customer_name] => Bark Emmanuel
+    [status] => shipped
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [order_item_id] => 10
+                    [order_id] => 8
+                    [product_id] => 11
+                    [quantity] => 1
+                    [unit_price] => 700.00
+                    [subtotal] => 700.00
+                    [created_at] => 2026-03-14 12:17:30
+                    [product_name] => Cello tApe Green
+                    [sku] => BS123-156
+                    [image_url] => /assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                    [price] => 700.00
+                    [product_image] => 69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                )
+
+        )
+
+)
+
+[14-Mar-2026 12:18:09 Africa/Lagos] viewOrder - FINAL order data: Array
+(
+    [order_id] => 8
+    [order_number] => ORD-3CAE5E27
+    [buyer_id] => 19
+    [seller_id] => 13
+    [total_amount] => 700.00
+    [order_status] => shipped
+    [payment_status] => pending
+    [payment_method] => 
+    [shipping_address] => 
+    [cancellation_reason] => 
+    [paid_at] => 
+    [cancelled_at] => 
+    [created_at] => 2026-03-14 12:17:30
+    [updated_at] => 2026-03-14 12:18:09
+    [buyer_name] => Bark Emmanuel
+    [order_total] => 700.00
+    [customer_name] => Bark Emmanuel
+    [status] => shipped
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [order_item_id] => 10
+                    [order_id] => 8
+                    [product_id] => 11
+                    [quantity] => 1
+                    [unit_price] => 700.00
+                    [subtotal] => 700.00
+                    [created_at] => 2026-03-14 12:17:30
+                    [product_name] => Cello tApe Green
+                    [sku] => BS123-156
+                    [image_url] => /assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                    [price] => 700.00
+                    [product_image] => 69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg
+                )
+
+        )
+
+)
+
+[14-Mar-2026 12:18:10 Africa/Lagos] viewOrder - Buyer: Bark Emmanuel
+[14-Mar-2026 12:19:24 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 24
+    [last_restocked] => 2026-03-14 12:19:24
+)
+
+[14-Mar-2026 12:19:24 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 12:19:24 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 12:19:24 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 12:19:24 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 12:19:24 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '700.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:16:02',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:16:02',
+  'quantity_available' => 24,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:19:24 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 12:19:24 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '700.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:16:02',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:16:02',
+  'quantity_available' => 24,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 12:20:10 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 12:20:10 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '210.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 12:19:24',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 12:19:24',
+  'quantity_available' => 24,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:18:17 Africa/Lagos] Model::update - Table: products, ID: 11, Data: Array
+(
+    [current_price] => 350
+    [last_price_update] => 2026-03-14 13:18:17
+)
+
+[14-Mar-2026 13:18:17 Africa/Lagos] Model::update - Query: UPDATE products SET current_price = :current_price,last_price_update = :last_price_update WHERE product_id = :id
+[14-Mar-2026 13:18:17 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 13:18:17 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 13:18:42 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 42
+    [last_restocked] => 2026-03-14 13:18:42
+)
+
+[14-Mar-2026 13:18:42 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 13:18:42 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 13:18:42 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 13:18:50 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 52
+    [last_restocked] => 2026-03-14 13:18:50
+)
+
+[14-Mar-2026 13:18:50 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 13:18:50 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 13:18:50 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 13:18:51 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:18:51 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '350.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:17',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:17',
+  'quantity_available' => 52,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:18:51 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:18:51 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '350.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:17',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:17',
+  'quantity_available' => 52,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:19:01 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:19:01 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '235.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:51',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:51',
+  'quantity_available' => 52,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:19:44 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 62
+    [last_restocked] => 2026-03-14 13:19:44
+)
+
+[14-Mar-2026 13:19:44 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 13:19:45 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 13:19:45 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 13:19:48 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:19:48 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '235.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:51',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:51',
+  'quantity_available' => 62,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:19:55 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:19:55 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '235.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:51',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:51',
+  'quantity_available' => 62,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:20:11 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 10
+    [last_restocked] => 2026-03-14 13:20:11
+)
+
+[14-Mar-2026 13:20:11 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 13:20:11 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 13:20:11 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 13:20:11 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:20:11 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '235.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:51',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:51',
+  'quantity_available' => 10,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:20:11 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:20:11 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '235.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:18:51',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:18:51',
+  'quantity_available' => 10,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:20:18 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:20:18 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '241.04',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:20:11',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:20:11',
+  'quantity_available' => 10,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:20:38 Africa/Lagos] Model::update - Table: inventory, ID: 11, Data: Array
+(
+    [quantity_available] => 130
+    [last_restocked] => 2026-03-14 13:20:38
+)
+
+[14-Mar-2026 13:20:38 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[14-Mar-2026 13:20:38 Africa/Lagos] Model::update - Execute result: TRUE
+[14-Mar-2026 13:20:38 Africa/Lagos] Model::update - Rows affected: 1
+[14-Mar-2026 13:20:38 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:20:38 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '241.04',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:20:11',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:20:11',
+  'quantity_available' => 130,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[14-Mar-2026 13:20:38 Africa/Lagos] findWithInventory called with ID: '11'
+[14-Mar-2026 13:20:38 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 11,
+  'seller_id' => 13,
+  'product_name' => 'Cello tApe Green',
+  'product_description' => 'private String productName;
+    private BigDecimal productPrice;
+    private String productDescription;
+    private int productStock;',
+  'category' => 'general',
+  'sku' => 'BS123-156',
+  'base_cost' => '200.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '241.04',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/69b542ffc01e0_WhatsApp Image 2026-03-08 at 5.37.28 PM (2).jpeg',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-14 13:20:11',
+  'created_at' => '2026-03-14 12:14:07',
+  'updated_at' => '2026-03-14 13:20:11',
+  'quantity_available' => 130,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 50,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Clerk Isreal',
+)
+[16-Mar-2026 19:47:59 Africa/Lagos] Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Mar-2026 19:47:59 Africa/Lagos] Router: Error instantiating controller 'HomeController': Database connection failed
+[16-Mar-2026 19:47:59 Africa/Lagos] Router: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(151): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/', 'GET')
+#4 {main}
+[16-Mar-2026 19:47:59 Africa/Lagos] Router Error: Database connection failed
+[16-Mar-2026 19:47:59 Africa/Lagos] Stack trace: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(151): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/', 'GET')
+#4 {main}
+[2026-03-16 19:47:59] Router Exception: Database connection failed in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 37
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(151): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/', 'GET')
+#4 {main}
+[16-Mar-2026 19:48:05 Africa/Lagos] Connection error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[16-Mar-2026 19:48:05 Africa/Lagos] Router: Error instantiating controller 'HomeController': Database connection failed
+[16-Mar-2026 19:48:05 Africa/Lagos] Router: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(151): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/', 'GET')
+#4 {main}
+[16-Mar-2026 19:48:05 Africa/Lagos] Router Error: Database connection failed
+[16-Mar-2026 19:48:05 Africa/Lagos] Stack trace: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(151): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/', 'GET')
+#4 {main}
+[2026-03-16 19:48:05] Router Exception: Database connection failed in C:\xampp\htdocs\dynamic\dynamic_pricing\config\database.php on line 37
+Stack: #0 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Controller.php(10): Database->getConnection()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(151): Controller->__construct()
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('HomeController@...', Array)
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/', 'GET')
+#4 {main}
+[16-Mar-2026 19:58:27 Africa/Lagos] [2026-03-16 19:58:27] Starting registration for user type: seller
+[16-Mar-2026 20:17:49 Africa/Lagos] PHP Fatal error:  Uncaught Error: Undefined constant "USER_TYPE_SELLER" in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php:437
+Stack trace:
+#0 C:\xampp\htdocs\dynamic\dynamic_pricing\views\seller\dashboard.php(14): AuthController::requireSeller()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(61): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): SellerController->dashboard()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/seller/dashboa...', 'GET')
+#5 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php on line 437
+[16-Mar-2026 20:18:29 Africa/Lagos] PHP Fatal error:  Uncaught Error: Undefined constant "USER_TYPE_SELLER" in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php:437
+Stack trace:
+#0 C:\xampp\htdocs\dynamic\dynamic_pricing\views\seller\dashboard.php(13): AuthController::requireSeller()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(61): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): SellerController->dashboard()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/seller/dashboa...', 'GET')
+#5 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php on line 437
+[16-Mar-2026 20:19:00 Africa/Lagos] PHP Fatal error:  Uncaught Error: Undefined constant "USER_TYPE_SELLER" in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php:437
+Stack trace:
+#0 C:\xampp\htdocs\dynamic\dynamic_pricing\views\seller\dashboard.php(13): AuthController::requireSeller()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(61): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): SellerController->dashboard()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/seller/dashboa...', 'GET')
+#5 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php on line 437
+[16-Mar-2026 20:19:08 Africa/Lagos] PHP Fatal error:  Uncaught Error: Undefined constant "USER_TYPE_SELLER" in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php:437
+Stack trace:
+#0 C:\xampp\htdocs\dynamic\dynamic_pricing\views\seller\dashboard.php(13): AuthController::requireSeller()
+#1 C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\SellerController.php(61): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(181): SellerController->dashboard()
+#3 C:\xampp\htdocs\dynamic\dynamic_pricing\core\Router.php(84): Router->callHandler('SellerControlle...', Array)
+#4 C:\xampp\htdocs\dynamic\dynamic_pricing\public\index.php(77): Router->dispatch('/seller/dashboa...', 'GET')
+#5 {main}
+  thrown in C:\xampp\htdocs\dynamic\dynamic_pricing\controllers\AuthController.php on line 437
+[16-Mar-2026 20:19:55 Africa/Lagos] [2026-03-16 20:19:55] Starting storeProduct method. Request Method: POST
+[16-Mar-2026 20:19:55 Africa/Lagos] Sanitized POST data: Array
+(
+    [product_name] => Cello tApe
+    [sku] => BRD
+    [product_description] => d
+    [price] => 1
+    [cost] => 0.5
+    [stock_quantity] => 100
+    [min_stock_quantity] => 5
+    [is_active] => 1
+)
+
+[16-Mar-2026 20:19:55 Africa/Lagos] Validation failed: Product_description must be at least 10 characters
+[16-Mar-2026 20:20:19 Africa/Lagos] [2026-03-16 20:20:19] Starting storeProduct method. Request Method: POST
+[16-Mar-2026 20:20:19 Africa/Lagos] Sanitized POST data: Array
+(
+    [product_name] => Cello tApe
+    [sku] => BRD
+    [product_description] => require_once __DIR__ . &#039;/../../config/config.php&#039;;
+require_once __DIR__ . &#039;/../../config/database.php&#039;;
+require_once __DIR__ . &#039;/../../core/Session.php&#039;;
+require_once __DIR__ . &#039;/../../controllers/AuthController.php&#039;;
+require_once __DIR__ . &#039;/../../models/Product.php&#039;;
+require_once __DIR__ . &#039;/../../models/Order.php&#039;;
+
+AuthController::requireSeller();
+
+$userId = Session::getUserId();
+
+// Get seller ID
+$db = (new Database())-&gt;getConnection();
+$stmt = $db-&gt;prepare(&quot;SELECT seller_id, business_name FROM seller_profiles WHERE user_id = :user_id&quot;);
+$stmt-&gt;execute([&#039;:user_id&#039; =&gt; $userId]);
+$seller = $stmt-&gt;fetch();
+$sellerId = $seller[&#039;seller_id&#039;];
+
+// Get dashboard stats
+$productModel = new Product();
+$orderModel = new Order();
+
+$totalProducts = $productModel-&gt;count([&#039;seller_id&#039; =&gt; $sellerId, &#039;is_active&#039; =&gt; 1]);
+$lowStockProducts = $productModel-&gt;getLowStockProducts($sellerId);
+$lowStockCount = count($lowStockProducts);
+
+// Get revenue stats
+$revenueStats = $orderModel-&gt;getRevenueStats($sellerId);
+$totalRevenue = $revenueStats[&#039;total_revenue&#039;] ?? 0;
+$totalOrders = $revenueStats[&#039;total_orders&#039;] ?? 0;
+
+// Get recent orders
+$recentOrders = $orderModel-&gt;getOrdersBySeller($sellerId);
+$recentOrders = array_slice($recentOrders, 0, 5);
+    [price] => 1
+    [cost] => 0.5
+    [stock_quantity] => 100
+    [min_stock_quantity] => 5
+    [is_active] => 1
+)
+
+[16-Mar-2026 20:20:19 Africa/Lagos] Duplicate SKU detected: BRD
+[16-Mar-2026 20:20:46 Africa/Lagos] [2026-03-16 20:20:46] Starting storeProduct method. Request Method: POST
+[16-Mar-2026 20:20:46 Africa/Lagos] Sanitized POST data: Array
+(
+    [product_name] => Bluetooth speaker
+    [sku] => WTR-2131
+    [product_description] => require_once __DIR__ . &#039;/../../config/config.php&#039;;
+require_once __DIR__ . &#039;/../../config/database.php&#039;;
+require_once __DIR__ . &#039;/../../core/Session.php&#039;;
+require_once __DIR__ . &#039;/../../controllers/AuthController.php&#039;;
+require_once __DIR__ . &#039;/../../models/Product.php&#039;;
+require_once __DIR__ . &#039;/../../models/Order.php&#039;;
+
+AuthController::requireSeller();
+
+$userId = Session::getUserId();
+
+// Get seller ID
+$db = (new Database())-&gt;getConnection();
+$stmt = $db-&gt;prepare(&quot;SELECT seller_id, business_name FROM seller_profiles WHERE user_id = :user_id&quot;);
+$stmt-&gt;execute([&#039;:user_id&#039; =&gt; $userId]);
+$seller = $stmt-&gt;fetch();
+$sellerId = $seller[&#039;seller_id&#039;];
+
+// Get dashboard stats
+$productModel = new Product();
+$orderModel = new Order();
+
+$totalProducts = $productModel-&gt;count([&#039;seller_id&#039; =&gt; $sellerId, &#039;is_active&#039; =&gt; 1]);
+$lowStockProducts = $productModel-&gt;getLowStockProducts($sellerId);
+$lowStockCount = count($lowStockProducts);
+
+// Get revenue stats
+$revenueStats = $orderModel-&gt;getRevenueStats($sellerId);
+$totalRevenue = $revenueStats[&#039;total_revenue&#039;] ?? 0;
+$totalOrders = $revenueStats[&#039;total_orders&#039;] ?? 0;
+
+// Get recent orders
+$recentOrders = $orderModel-&gt;getOrdersBySeller($sellerId);
+$recentOrders = array_slice($recentOrders, 0, 5);
+    [price] => 45
+    [cost] => 2
+    [stock_quantity] => 100
+    [min_stock_quantity] => 5
+    [is_active] => 1
+)
+
+[16-Mar-2026 20:20:46 Africa/Lagos] Validation passed successfully
+[16-Mar-2026 20:20:46 Africa/Lagos] Insert data for product create: Array
+(
+    [product_name] => Bluetooth speaker
+    [sku] => WTR-2131
+    [product_description] => require_once __DIR__ . &#039;/../../config/config.php&#039;;
+require_once __DIR__ . &#039;/../../config/database.php&#039;;
+require_once __DIR__ . &#039;/../../core/Session.php&#039;;
+require_once __DIR__ . &#039;/../../controllers/AuthController.php&#039;;
+require_once __DIR__ . &#039;/../../models/Product.php&#039;;
+require_once __DIR__ . &#039;/../../models/Order.php&#039;;
+
+AuthController::requireSeller();
+
+$userId = Session::getUserId();
+
+// Get seller ID
+$db = (new Database())-&gt;getConnection();
+$stmt = $db-&gt;prepare(&quot;SELECT seller_id, business_name FROM seller_profiles WHERE user_id = :user_id&quot;);
+$stmt-&gt;execute([&#039;:user_id&#039; =&gt; $userId]);
+$seller = $stmt-&gt;fetch();
+$sellerId = $seller[&#039;seller_id&#039;];
+
+// Get dashboard stats
+$productModel = new Product();
+$orderModel = new Order();
+
+$totalProducts = $productModel-&gt;count([&#039;seller_id&#039; =&gt; $sellerId, &#039;is_active&#039; =&gt; 1]);
+$lowStockProducts = $productModel-&gt;getLowStockProducts($sellerId);
+$lowStockCount = count($lowStockProducts);
+
+// Get revenue stats
+$revenueStats = $orderModel-&gt;getRevenueStats($sellerId);
+$totalRevenue = $revenueStats[&#039;total_revenue&#039;] ?? 0;
+$totalOrders = $revenueStats[&#039;total_orders&#039;] ?? 0;
+
+// Get recent orders
+$recentOrders = $orderModel-&gt;getOrdersBySeller($sellerId);
+$recentOrders = array_slice($recentOrders, 0, 5);
+    [current_price] => 45
+    [base_cost] => 2
+    [category] => general
+    [cost_currency] => NGN
+    [price_currency] => NGN
+    [is_active] => 1
+    [seller_id] => 14
+    [image_url] => /assets/images/products/
+    [last_price_update] => 2026-03-16 20:20:46
+    [created_at] => 2026-03-16 20:20:46
+    [updated_at] => 2026-03-16 20:20:46
+)
+
+[16-Mar-2026 20:20:46 Africa/Lagos] Product create returned: '12'
+[16-Mar-2026 20:20:46 Africa/Lagos] Creating inventory record: Array
+(
+    [product_id] => 12
+    [quantity_available] => 100
+    [quantity_reserved] => 0
+    [reorder_point] => 10
+    [low_stock_threshold] => 5
+    [high_stock_threshold] => 500
+    [created_at] => 2026-03-16 20:20:46
+    [updated_at] => 2026-03-16 20:20:46
+)
+
+[16-Mar-2026 20:20:46 Africa/Lagos] Inventory create returned: '12'
+[16-Mar-2026 20:27:50 Africa/Lagos] [2026-03-16 20:27:50] Starting registration for user type: seller
+[16-Mar-2026 20:37:32 Africa/Lagos] [2026-03-16 20:37:32] Starting registration for user type: seller
+[16-Mar-2026 20:41:19 Africa/Lagos] [2026-03-16 20:41:19] Starting registration for user type: buyer
+[16-Mar-2026 20:43:22 Africa/Lagos] [2026-03-16 20:43:22] Starting registration for user type: buyer
+[17-Mar-2026 09:03:44 Africa/Lagos] [2026-03-17 09:03:44] Starting registration for user type: seller
+[17-Mar-2026 09:04:37 Africa/Lagos] [2026-03-17 09:04:37] Starting storeProduct method. Request Method: POST
+[17-Mar-2026 09:04:37 Africa/Lagos] Sanitized POST data: Array
+(
+    [product_name] => Bluetooth speaker
+    [sku] => BS123
+    [product_description] => GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.
+    [price] => 2000
+    [cost] => 150
+    [stock_quantity] => 100
+    [min_stock_quantity] => 5
+    [is_active] => 1
+)
+
+[17-Mar-2026 09:04:37 Africa/Lagos] Validation passed successfully
+[17-Mar-2026 09:04:37 Africa/Lagos] Insert data for product create: Array
+(
+    [product_name] => Bluetooth speaker
+    [sku] => BS123
+    [product_description] => GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.
+    [current_price] => 2000
+    [base_cost] => 150
+    [category] => general
+    [cost_currency] => NGN
+    [price_currency] => NGN
+    [is_active] => 1
+    [seller_id] => 1
+    [image_url] => /assets/images/products/
+    [last_price_update] => 2026-03-17 09:04:37
+    [created_at] => 2026-03-17 09:04:37
+    [updated_at] => 2026-03-17 09:04:37
+)
+
+[17-Mar-2026 09:04:37 Africa/Lagos] Product create returned: '1'
+[17-Mar-2026 09:04:37 Africa/Lagos] Creating inventory record: Array
+(
+    [product_id] => 1
+    [quantity_available] => 100
+    [quantity_reserved] => 0
+    [reorder_point] => 10
+    [low_stock_threshold] => 5
+    [high_stock_threshold] => 500
+    [created_at] => 2026-03-17 09:04:37
+    [updated_at] => 2026-03-17 09:04:37
+)
+
+[17-Mar-2026 09:04:37 Africa/Lagos] Inventory create returned: '1'
+[17-Mar-2026 09:05:15 Africa/Lagos] Model::update - Table: inventory, ID: 1, Data: Array
+(
+    [quantity_available] => 1
+    [last_restocked] => 2026-03-17 09:05:15
+)
+
+[17-Mar-2026 09:05:15 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:05:15 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:05:15 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:05:16 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:05:16 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '2000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:04:37',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:04:37',
+  'quantity_available' => 1,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:05:16 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:05:16 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '2000.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:04:37',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:04:37',
+  'quantity_available' => 1,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:05:32 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:05:32 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1991.20',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:05:16',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:05:16',
+  'quantity_available' => 1,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:12:34 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:12:34 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1991.20',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:05:16',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:05:16',
+  'quantity_available' => 1,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:13:01 Africa/Lagos] Model::update - Table: inventory, ID: 1, Data: Array
+(
+    [quantity_available] => 101
+    [last_restocked] => 2026-03-17 09:13:01
+)
+
+[17-Mar-2026 09:13:01 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:13:01 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:13:01 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:13:01 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:13:01 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1991.20',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:05:16',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:05:16',
+  'quantity_available' => 101,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:13:01 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:13:01 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1991.20',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:05:16',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:05:16',
+  'quantity_available' => 101,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:13:06 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:13:06 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1874.27',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:01',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:01',
+  'quantity_available' => 101,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:13:33 Africa/Lagos] Model::update - Table: inventory, ID: 1, Data: Array
+(
+    [quantity_available] => 2
+    [last_restocked] => 2026-03-17 09:13:33
+)
+
+[17-Mar-2026 09:13:33 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:13:33 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:13:33 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:13:33 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:13:33 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1874.27',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:01',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:01',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:13:33 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:13:33 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1874.27',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:01',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:01',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:13:37 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:13:37 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1735.69',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:33',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:33',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:14:34 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:14:34 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1735.69',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:33',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:33',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:17:56 Africa/Lagos] Model::update - Table: inventory, ID: 1, Data: Array
+(
+    [quantity_available] => 102
+    [last_restocked] => 2026-03-17 09:17:56
+)
+
+[17-Mar-2026 09:17:56 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:17:56 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:17:56 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:17:56 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:17:56 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1735.69',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:33',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:33',
+  'quantity_available' => 102,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:17:56 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:17:56 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1735.69',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:13:33',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:13:33',
+  'quantity_available' => 102,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:18:01 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:18:01 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1663.95',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:17:56',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:17:56',
+  'quantity_available' => 102,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:18:17 Africa/Lagos] Model::update - Table: inventory, ID: 1, Data: Array
+(
+    [quantity_available] => 3
+    [last_restocked] => 2026-03-17 09:18:17
+)
+
+[17-Mar-2026 09:18:17 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:18:17 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:18:17 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:18:18 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:18:18 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1663.95',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:17:56',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:17:56',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:18:18 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:18:18 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1663.95',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:17:56',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:17:56',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:18:21 Africa/Lagos] findWithInventory called with ID: '1'
+[17-Mar-2026 09:18:21 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 1,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'GitHub - StephenTeay/Spring-USSD-app: A robust, Spring Boot-based USSD application designed for high-concurrency banking transactions. This project provides a seamless interface for account management, deposits, and withdrawals using a stateless architecture.',
+  'category' => 'general',
+  'sku' => 'BS123',
+  'base_cost' => '150.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '1611.10',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:18:18',
+  'created_at' => '2026-03-17 09:04:37',
+  'updated_at' => '2026-03-17 09:18:18',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:19:57 Africa/Lagos] [2026-03-17 09:19:57] Starting storeProduct method. Request Method: POST
+[17-Mar-2026 09:19:57 Africa/Lagos] Sanitized POST data: Array
+(
+    [product_name] => Bluetooth speaker
+    [sku] => WTR-213
+    [product_description] => Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%
+    [price] => 500
+    [cost] => 250
+    [stock_quantity] => 100
+    [min_stock_quantity] => 5
+    [is_active] => 1
+)
+
+[17-Mar-2026 09:19:57 Africa/Lagos] Validation passed successfully
+[17-Mar-2026 09:19:57 Africa/Lagos] Insert data for product create: Array
+(
+    [product_name] => Bluetooth speaker
+    [sku] => WTR-213
+    [product_description] => Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%
+    [current_price] => 500
+    [base_cost] => 250
+    [category] => general
+    [cost_currency] => NGN
+    [price_currency] => NGN
+    [is_active] => 1
+    [seller_id] => 1
+    [image_url] => /assets/images/products/
+    [last_price_update] => 2026-03-17 09:19:57
+    [created_at] => 2026-03-17 09:19:57
+    [updated_at] => 2026-03-17 09:19:57
+)
+
+[17-Mar-2026 09:19:57 Africa/Lagos] Product create returned: '2'
+[17-Mar-2026 09:19:57 Africa/Lagos] Creating inventory record: Array
+(
+    [product_id] => 2
+    [quantity_available] => 100
+    [quantity_reserved] => 0
+    [reorder_point] => 10
+    [low_stock_threshold] => 5
+    [high_stock_threshold] => 500
+    [created_at] => 2026-03-17 09:19:57
+    [updated_at] => 2026-03-17 09:19:57
+)
+
+[17-Mar-2026 09:19:57 Africa/Lagos] Inventory create returned: '2'
+[17-Mar-2026 09:21:14 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 199
+    [last_restocked] => 2026-03-17 09:21:14
+)
+
+[17-Mar-2026 09:21:14 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:21:14 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:21:14 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:21:33 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 6
+    [last_restocked] => 2026-03-17 09:21:33
+)
+
+[17-Mar-2026 09:21:33 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:21:33 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:21:33 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:21:59 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:21:59 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '500.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:19:57',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:19:57',
+  'quantity_available' => 6,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:22:25 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 3
+    [last_restocked] => 2026-03-17 09:22:25
+)
+
+[17-Mar-2026 09:22:25 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:22:25 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:22:25 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:22:25 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:22:25 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '500.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:19:57',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:19:57',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:22:25 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:22:25 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '500.00',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:19:57',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:19:57',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:22:29 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:22:29 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '484.12',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:22:25',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:22:25',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:24:52 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 103
+    [last_restocked] => 2026-03-17 09:24:52
+)
+
+[17-Mar-2026 09:24:52 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:24:52 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:24:52 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:24:52 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:24:52 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '484.12',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:22:25',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:22:25',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:24:52 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:24:52 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '484.12',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:22:25',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:22:25',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:24:58 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:24:58 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '452.97',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:24:52',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:24:52',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:25:25 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 3
+    [last_restocked] => 2026-03-17 09:25:25
+)
+
+[17-Mar-2026 09:25:25 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:25:25 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:25:25 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:25:25 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:25:25 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '452.97',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:24:52',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:24:52',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:25:25 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:25:25 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '452.97',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:24:52',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:24:52',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:25:29 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:25:29 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '416.55',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:25:25',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:25:25',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:27:08 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 103
+    [last_restocked] => 2026-03-17 09:27:08
+)
+
+[17-Mar-2026 09:27:08 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:27:08 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:27:08 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:27:08 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:27:08 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '416.55',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:25:25',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:25:25',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:27:08 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:27:08 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '416.55',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:25:25',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:25:25',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:27:12 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:27:12 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '401.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:08',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:08',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:27:29 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 3
+    [last_restocked] => 2026-03-17 09:27:29
+)
+
+[17-Mar-2026 09:27:29 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:27:29 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:27:29 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:27:29 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:27:29 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '401.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:08',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:08',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:27:29 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:27:29 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '401.70',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:08',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:08',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:27:33 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:27:33 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '393.83',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:29',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:29',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:31:30 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:31:30 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '393.83',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:29',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:29',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:31:39 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 103
+    [last_restocked] => 2026-03-17 09:31:39
+)
+
+[17-Mar-2026 09:31:39 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:31:39 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:31:39 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:31:39 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:31:39 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '393.83',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:29',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:29',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:31:39 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:31:39 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '393.83',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:27:29',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:27:29',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:31:44 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:31:44 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '399.78',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:31:39',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:31:39',
+  'quantity_available' => 103,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:03 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 3
+    [last_restocked] => 2026-03-17 09:32:03
+)
+
+[17-Mar-2026 09:32:03 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:32:03 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:32:03 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:32:03 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:03 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '399.78',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:31:39',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:31:39',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:03 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:03 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '399.78',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:31:39',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:31:39',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:07 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:07 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '412.57',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:03',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:03',
+  'quantity_available' => 3,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:31 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 203
+    [last_restocked] => 2026-03-17 09:32:31
+)
+
+[17-Mar-2026 09:32:31 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:32:31 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:32:31 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:32:31 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:31 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '412.57',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:03',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:03',
+  'quantity_available' => 203,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:31 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:31 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '412.57',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:03',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:03',
+  'quantity_available' => 203,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:34 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:34 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '414.63',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:31',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:31',
+  'quantity_available' => 203,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:58 Africa/Lagos] Model::update - Table: inventory, ID: 2, Data: Array
+(
+    [quantity_available] => 2
+    [last_restocked] => 2026-03-17 09:32:58
+)
+
+[17-Mar-2026 09:32:58 Africa/Lagos] Model::update - Query: UPDATE inventory SET quantity_available = :quantity_available,last_restocked = :last_restocked WHERE inventory_id = :id
+[17-Mar-2026 09:32:58 Africa/Lagos] Model::update - Execute result: TRUE
+[17-Mar-2026 09:32:58 Africa/Lagos] Model::update - Rows affected: 1
+[17-Mar-2026 09:32:58 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:58 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '414.63',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:31',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:31',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:32:58 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:32:58 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '414.63',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:31',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:31',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)
+[17-Mar-2026 09:33:03 Africa/Lagos] findWithInventory called with ID: '2'
+[17-Mar-2026 09:33:03 Africa/Lagos] findWithInventory result: array (
+  'product_id' => 2,
+  'seller_id' => 1,
+  'product_name' => 'Bluetooth speaker',
+  'product_description' => 'Mar 17, 2026 09:05	₦2,000.00	₦1,991.20	-0.44%	Low stock adjustment (Stock: 1 of 5 units) - Price decreased by 0.4%',
+  'category' => 'general',
+  'sku' => 'WTR-213',
+  'base_cost' => '250.00',
+  'cost_currency' => 'NGN',
+  'current_price' => '432.04',
+  'price_currency' => 'NGN',
+  'image_url' => '/assets/images/products/',
+  'is_active' => 1,
+  'last_price_update' => '2026-03-17 09:32:58',
+  'created_at' => '2026-03-17 09:19:57',
+  'updated_at' => '2026-03-17 09:32:58',
+  'quantity_available' => 2,
+  'quantity_reserved' => 0,
+  'low_stock_threshold' => 5,
+  'high_stock_threshold' => 500,
+  'reorder_point' => 10,
+  'business_name' => 'Ayomide Stephen Taiwo',
+)

@@ -18,9 +18,10 @@ define('ROOT_PATH', dirname(__DIR__));
 define('PUBLIC_PATH', ROOT_PATH . '/public');
 define('UPLOAD_DIR', PUBLIC_PATH . '/assets/images/uploads/');
 
-// Base paths
-define('BASE_PATH', '/dynamic/dynamic_pricing/public'); // For routing/filesystem
-define('APP_BASE', '/dynamic/dynamic_pricing/public'); // For URLs and assets
+// Base paths - Use environment variable for flexibility across environments
+$basePath = getenv('BASE_PATH') ?: '/dynamic/dynamic_pricing/public'; // Default to local dev path
+define('BASE_PATH', $basePath); // For routing/filesystem
+define('APP_BASE', $basePath); // For URLs and assets
 
 // URLs
 // Compute BASE_URL dynamically so the app works when placed in a subdirectory.
